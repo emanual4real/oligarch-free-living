@@ -20,6 +20,7 @@
     "module": "ES2022",
     "baseUrl": ".",
     "paths": {
+      "@environment": ["./src/environments"],
       "@components": ["./src/app/components"],
       "@services": ["./src/app/services"],
       "@types": ["./src/app/types"]

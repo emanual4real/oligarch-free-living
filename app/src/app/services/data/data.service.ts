@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { OligarchData } from '@types';
-
+import { environment } from '@environment';
 @Injectable({
   providedIn: 'root',
 })
@@ -10,7 +10,7 @@ export class DataService {
 
   getDataByOligarch() {
     return this.httpClient.get<OligarchData[]>(
-      'http://localhost:4200/oligarch.json'
+      `${environment.apiUrl}/oligarch.json`
     );
-  }
+  } /////local
 }
