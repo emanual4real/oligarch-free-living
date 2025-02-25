@@ -8,3 +8,8 @@ export interface OligarchData {
   oligarchRating: number;
   sources: string[];
 }
+
+export interface Project2025 {
+  name: string;
+  source: string;
+}

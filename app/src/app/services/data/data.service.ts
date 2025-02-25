@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { OligarchData } from '@types';
+import { OligarchData, Project2025 } from '@types';
 import { environment } from '@environment';
 @Injectable({
   providedIn: 'root',
@@ -12,5 +12,10 @@ export class DataService {
     return this.httpClient.get<OligarchData[]>(
       `${environment.apiUrl}/oligarch.json`
     );
-  } /////local
+  }
+  getProject2025Data() {
+    return this.httpClient.get<Project2025[]>(
+      `${environment.apiUrl}/project2025.json`
+    );
+  }
 }

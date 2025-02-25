@@ -36,5 +36,10 @@ export class MenuComponent {
       icon: 'pi pi-flag',
       route: 'politicians',
     },
+    {
+      label: 'Project 2025',
+      icon: 'pi pi-globe',
+      route: 'project2025',
+    },
   ];
 }
