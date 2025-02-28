@@ -13,3 +13,12 @@ export interface Project2025 {
   name: string;
   source: string;
 }
+
+export interface Products {
+  id: string;
+  productName: string;
+  productType: string;
+  company: string;
+  alternatives: string[];
+  sources: string[];
+}

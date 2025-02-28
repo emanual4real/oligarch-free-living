@@ -1,1 +1,49 @@
-<p>Coming soon</p>
+<div class="card">
+  <p-table
+    [value]="(data$ | async) ?? []"
+    dataKey="id"
+    [tableStyle]="{ 'min-width': '60rem' }"
+    [expandedRowKeys]="expandedRows"
+    (onRowExpand)="onRowExpand($event)"
+    (onRowCollapse)="onRowCollapse($event)"
+  >
+    <ng-template #header>
+      <tr>
+        <th pSortableColumn="productName">
+          Product Name <p-sortIcon field="productName" />
+        </th>
+        <th pSortableColumn="productType">
+          Product Type <p-sortIcon field="productType" />
+        </th>
+        <th pSortableColumn="company">
+          Company <p-sortIcon field="company" />
+        </th>
+        <th>Alternatives</th>
+        <th>Sources</th>
+      </tr>
+    </ng-template>
+    <ng-template #body let-data>
+      <tr>
+        <td>{{ data.productName }}</td>
+        <td>{{ data.productType }}</td>
+        <td>{{ data.company }}</td>
+        <td>
+          <ul>
+            @for (alt of data.alternatives; track $index) {
+            <li>{{ alt }}</li>
+            }
+          </ul>
+        </td>
+        <td>
+          <ul>
+            @for (source of data.sources; track $index) {
+            <li>
+              <a [href]="source">{{ source }}</a>
+            </li>
+            }
+          </ul>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
