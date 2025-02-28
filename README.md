@@ -16,3 +16,8 @@ https://www.fastcompany.com/91001266/the-worst-union-busters-of-2023
 https://www.foxbusiness.com/politics/trump-inaugural-companies-top-donations
 
 https://www.opensecrets.org/2024-presidential-race/donald-trump/contributors?id=N00023864&src=b
+
+## TODO
+
+list out bayer products somehow, too many
+https://www.bayer.com/en/products/products-from-A-to-Z
