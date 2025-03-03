@@ -25,4 +25,8 @@ export class DataService {
       `${environment.apiUrl}/products.json`
     );
   }
+
+  getFromApi() {
+    return this.httpClient.get(`http://localhost:3000`);
+  }
 }
