@@ -3,7 +3,9 @@
 {
   "name": "Node.js & TypeScript",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  // "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
@@ -29,17 +31,13 @@
         }
       },
       "extensions": [
-        "ms-dotnettools.vscode-dotnet-runtime",
-        "ms-dotnettools.csharp",
-        "ms-dotnettools.csdevkit",
-        "ms-dotnettools.vscodeintellicode-csharp",
         "wayou.vscode-todo-highlight",
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "johnpapa.Angular2",
         "Angular.ng-template",
-        "nrwl.angular-console"
+        "cweijan.vscode-mysql-client2"
       ]
     }
   }

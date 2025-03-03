@@ -1,0 +1,29 @@
+# Use root/example as user/password credentials
+version: "3.1"
+
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm
+    volumes:
+      - ../..:/workspaces:cached
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+    # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
+    network_mode: service:db
+
+  db:
+    image: mysql
+    restart: always
+    volumes:
+      - type: bind
+        source: ../db
+        target: /data/db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: my_db
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_USER: manny
+      MYSQL_PASSWORD: password
+    # (this is just an example, not intended to be a production configuration)

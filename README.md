@@ -21,3 +21,11 @@ https://www.opensecrets.org/2024-presidential-race/donald-trump/contributors?id=
 
 list out bayer products somehow, too many
 https://www.bayer.com/en/products/products-from-A-to-Z
+
+Access mysql
+
+- get docker ip address
+  - docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_id
+- had to download cli client
+  - mysql --host=172.21.0.2 --user=root --password=example
+- different vs code extension seems to work
