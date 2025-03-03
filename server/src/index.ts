@@ -4,7 +4,7 @@ import cors, { CorsOptions } from "cors";
 // Create a new express application instance
 const app = express();
 const corsOptions: CorsOptions = {
-  origin: ["http://localhost:4200", "http://172.17.0.2:4200"],
+  origin: process.env.CLIENT || "http://localhost:4200",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
 };
 

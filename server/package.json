@@ -2,10 +2,12 @@
   "name": "server",
   "version": "0.0.0",
   "private": true,
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "tsx --env-file=.env --watch  src/index.ts",
-    "build": "tsc"
+    "clean": "tsc --build --clean",
+    "pre-build": "tsc --build",
+    "build": "./build.sh"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -17,5 +19,9 @@
     "@types/node": "^22.13.8",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
-  }
+  },
+  "bundledDependencies": [
+    "cors",
+    "express"
+  ]
 }
