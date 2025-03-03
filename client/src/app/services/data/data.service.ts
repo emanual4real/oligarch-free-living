@@ -27,6 +27,6 @@ export class DataService {
   }
 
   getFromApi() {
-    return this.httpClient.get(`http://localhost:3000`);
+    return this.httpClient.get(`https://oligarchfreeliving.com/server`);
   }
 }
