@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 export const productSchema = new mongoose.Schema({
   productName: {
@@ -8,7 +8,7 @@ export const productSchema = new mongoose.Schema({
     unique: true,
   },
   productType: String,
-  company: String,
+  // company: { type: Schema.Types.ObjectId, ref: "Company", required: false },
   alternatives: [String],
   sources: [String],
 });
@@ -20,7 +20,7 @@ export const companySchema = new mongoose.Schema({
     index: true,
     unique: true,
   },
-  products: [productSchema],
+  products: [{ type: Schema.Types.ObjectId, ref: "Product", required: false }],
 });
 
 export const oligarchSchema = new mongoose.Schema({
@@ -30,8 +30,12 @@ export const oligarchSchema = new mongoose.Schema({
     index: true,
     unique: true,
   },
-  companies: [String],
   oligarchRating: Number,
   description: String,
   sources: [String],
 });
+
+// export const companyOwnerSchema = new mongoose.Schema({
+//   oligarch: { type: mongoose.Types.ObjectId, ref: "Oligarch" },
+//   company: { type: mongoose.Types.ObjectId, ref: "Company" },
+// });
