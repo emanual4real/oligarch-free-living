@@ -1,0 +1,612 @@
+[
+  {
+    "id": 1,
+    "productName": "Facebook",
+    "productType": "Social Media",
+    "company": "Meta",
+    "alternatives": [
+      "Mastodon",
+      "Diaspora",
+      "Vero",
+      "Minds",
+      "WT.Social",
+      "MeWe",
+      "Ello"
+    ],
+    "sources": ["https://smartblogger.com/facebook-alternatives/"]
+  },
+  {
+    "id": 2,
+    "productName": "Instagram",
+    "productType": "Social Media",
+    "company": "Meta",
+    "alternatives": [
+      "BeReal",
+      "Flickr",
+      "Tumblr",
+      "Grainery",
+      "Glass",
+      "vsco",
+      "500px"
+    ],
+    "sources": ["https://petapixel.com/best-instagram-alternatives/"]
+  },
+  {
+    "id": 3,
+    "productName": "Whatsapp",
+    "productType": "Messaging app",
+    "company": "Meta",
+    "alternatives": ["Signal", "Apple iMessage", "Threema", "Wire", "Viber"],
+    "sources": ["https://www.tomsguide.com/news/best-whatsapp-alternatives"]
+  },
+  {
+    "id": 4,
+    "productName": "Messenger",
+    "productType": "Messaging app",
+    "company": "Meta",
+    "alternatives": [
+      "Signal",
+      "Snapchat",
+      "Discord",
+      "Viber",
+      "Marco Polo",
+      "GroupMe"
+    ],
+    "sources": [
+      "https://www.slashgear.com/1569247/best-messenger-app-alternatives-2024/"
+    ]
+  },
+  {
+    "id": 5,
+    "productName": "Threads",
+    "productType": "Social Media",
+    "company": "Meta",
+    "alternatives": [
+      "Mastodon",
+      "Diaspora",
+      "Bluesky",
+      "Minds",
+      "Pleroma",
+      "Friendica"
+    ],
+    "sources": ["https://alternativeto.net/software/threads-from-instagram/"]
+  },
+  {
+    "id": 6,
+    "productName": "Amazon.com",
+    "productType": "Online Shopping",
+    "company": "Amazon",
+    "alternatives": [
+      "REI",
+      "Thrive Market",
+      "Hive",
+      "Grove Collaborative",
+      "Huckberry",
+      "Public Goods",
+      "World Market",
+      "Chewy",
+      "Uncommon Goods"
+    ],
+    "sources": [
+      "https://www.rollingstone.com/product-recommendations/lifestyle/best-amazon-alternatives-1136987/"
+    ]
+  },
+  {
+    "id": 7,
+    "productName": "Whole Foods",
+    "productType": "Grocery",
+    "company": "Amazon",
+    "alternatives": [
+      "Sprouts Farmers Market",
+      "Trader Joe's",
+      "Raleys",
+      "Publix",
+      "The Fresh Market",
+      "Natural Grocers",
+      "Earth Fare"
+    ],
+    "sources": [
+      "https://bstrategyhub.com/whole-foods-competitors-alternatives/"
+    ]
+  },
+  {
+    "id": 7,
+    "productName": "Washington Post",
+    "productType": "News",
+    "company": "Amazon",
+    "alternatives": [
+      "AP News",
+      "Reuters",
+      "C-Span",
+      "NPR",
+      "The Guardian",
+      "BBC News"
+    ],
+    "sources": [
+      "https://www.techworm.net/2021/12/unbiased-news-sources.html",
+      "https://alternativeto.net/software/washington-post/?feature=news-reader"
+    ]
+  },
+  {
+    "id": 8,
+    "productName": "AWS",
+    "productType": "Cloud",
+    "company": "Amazon",
+    "alternatives": [
+      "Digital Ocean",
+      "Kamatera",
+      "Vultr",
+      "Linode",
+      "Kinsta Cloud Hosting",
+      "VMWare Cloud",
+      "Alibaba Cloud",
+      "Microsoft Azure",
+      "Oracle Cloud"
+    ],
+    "sources": ["https://www.cloudzero.com/blog/aws-alternatives/"]
+  },
+  {
+    "id": 9,
+    "productName": "CyberTruck",
+    "productType": "Electric Cars",
+    "company": "Tesla",
+    "alternatives": [
+      "BYD Seal",
+      "Volkswagon ID.7",
+      "Hyundai Ioniq 5",
+      "Hyundai Ioniq 5 N",
+      "Renault Scenic E-Tech",
+      "BMW i5",
+      "Porsche Taycan",
+      "Kia EV9",
+      "Polestar 3",
+      "MG Cyberster"
+    ],
+    "sources": [
+      "https://www.independent.co.uk/cars/electric-vehicles/best-tesla-alternative-electric-cars-b2641165.html"
+    ]
+  },
+  {
+    "id": 10,
+    "productName": "X",
+    "productType": "Social Media",
+    "company": "X",
+    "alternatives": [
+      "Mastodon",
+      "Bluesky",
+      "Discord",
+      "Tumblr",
+      "Reddit",
+      "Counter Social",
+      "Hive"
+    ],
+    "sources": ["https://smartblogger.com/twitter-alternatives/"]
+  },
+  {
+    "id": 11,
+    "productName": "Starlink",
+    "productType": "Internet",
+    "company": "Starlink",
+    "alternatives": [
+      "HughesNet",
+      "Viasat",
+      "OneWeb",
+      "Telesat",
+      "Kuiper Systems"
+    ],
+    "sources": ["https://starlinkinsider.com/starlink-competitors/"]
+  },
+  {
+    "id": 12,
+    "productName": "ABC",
+    "productType": "TV",
+    "company": "Disney",
+    "alternatives": [
+      "Sling TV",
+      "DirecTV",
+      "Philo",
+      "fuboTV",
+      "NBC",
+      "CW",
+      "PBS",
+      "Plex",
+      "Pluto TV",
+      "AcornTV"
+    ],
+    "sources": [
+      "https://www.lifewire.com/cable-tv-alternatives-save-money-4138322"
+    ]
+  },
+  {
+    "id": 13,
+    "productName": "Similac",
+    "productType": "Baby Formula",
+    "company": "Abbot Laboratories",
+    "alternatives": ["Enfamil", "ByHeart", "bobbie", "Aussie Bubs"],
+    "sources": ["https://www.babylist.com/hello-baby/best-baby-formula"]
+  },
+  {
+    "id": 14,
+    "productName": "PediaSure",
+    "productType": "Nutritional Supplement",
+    "company": "Abbot Laboratories",
+    "alternatives": ["Smoothies", "Real Food"],
+    "sources": [
+      "https://www.100daysofrealfood.com/natural-alternative-pediasure/"
+    ]
+  },
+  {
+    "id": 15,
+    "productName": "PediaLyte",
+    "productType": "Hydration Supplement",
+    "company": "Abbot Laboratories",
+    "alternatives": [
+      "KinderLyte",
+      "Liquid I.V.",
+      "Creative Roots Coconut Water",
+      "Bitsy's Swish",
+      "Berri Lyte"
+    ],
+    "sources": [
+      "https://www.sheknows.com/health-and-wellness/articles/2780018/best-low-sugar-pedialyte-alternatives/"
+    ]
+  },
+  {
+    "id": 16,
+    "productName": "EleCare",
+    "productType": "Baby Formula",
+    "company": "Abbot Laboratories",
+    "alternatives": [
+      "Hipp Ha Pre",
+      "Hipp Ha Stage 1",
+      "Hipp Ha Stage 2",
+      "Bobbie Organic Gental Infant Formula"
+    ],
+    "sources": ["https://pickyeaterblog.com/best-hypoallergenic-baby-formulas/"]
+  },
+  {
+    "id": 17,
+    "productName": "BinaxNOW",
+    "productType": "Covid Test",
+    "company": "Abbot Laboratories",
+    "alternatives": [
+      "Ellume",
+      "DxTerity",
+      "Labcorp Pixel and Quest Diagnostics",
+      "Cue"
+    ],
+    "sources": ["https://www.popsci.com/story/health/covid-19-at-home-tests/"]
+  },
+  {
+    "id": 18,
+    "productName": "Ensure",
+    "productType": "Nutritional Supplement",
+    "company": "Abbot Laboratories",
+    "alternatives": ["Kiito", "Huel", "Soylent", "Orgain", "Owyn"],
+    "sources": ["https://ensure.knoji.com/alternatives/"]
+  },
+  {
+    "id": 19,
+    "productName": "Freestyle Libre",
+    "productType": "Glucose Monitor",
+    "company": "Abbot Laboratories",
+    "alternatives": [
+      "The Contour Next One",
+      "Nutrisense CGM",
+      "Signos CGM",
+      "Levels Health CGM"
+    ],
+    "sources": [
+      "https://www.healthline.com/health/diabetes/best-glucose-monitors"
+    ]
+  },
+  {
+    "id": 20,
+    "productName": "Glucerna",
+    "productType": "Glucose Nutrition",
+    "company": "Abbot Laboratories",
+    "alternatives": ["Hims", "Weight Watchers", "Mounjarno", "PlushCare"],
+    "sources": ["https://glucerna.knoji.com/alternatives/"]
+  },
+  {
+    "id": 21,
+    "productName": "Acuvue",
+    "productType": "Contact Lenses",
+    "company": "Acuvue",
+    "alternatives": [
+      "Biofinity toric",
+      "AIR OPTIX",
+      "SofLens Toric",
+      "ULTRA for Astigmatism",
+      "Proclear toric"
+    ],
+    "sources": [
+      "https://www.lens.com/eyestyle/featured/5-best-alternatives-to-acuvue-oasys-for-astigmatism/"
+    ]
+  },
+  {
+    "id": 22,
+    "productName": "Afrin",
+    "productType": "Nasal Spray",
+    "company": "Afrin",
+    "alternatives": ["Flonase", "Nasonex", "Rhinocort"],
+    "sources": ["https://www.goodrx.com/conditions/allergies/nasal-spray"]
+  },
+  {
+    "id": 23,
+    "productName": "AirBnB",
+    "productType": "Vacation Rental",
+    "company": "AirBnB",
+    "alternatives": ["Vrbo", "Booking.com", "Vacasa", "Hipcamp"],
+    "sources": [
+      "https://www.nerdwallet.com/article/travel/alternatives-to-airbnb"
+    ]
+  },
+  {
+    "id": 24,
+    "productName": "Aleve",
+    "productType": "Vacation Rental",
+    "company": "Aleve",
+    "alternatives": ["Tramadol", "Ibuprofen"],
+    "sources": ["https://www.drugs.com/compare/aleve"]
+  },
+  {
+    "id": 25,
+    "productName": "Alka-Seltzer",
+    "productType": "Anti-acid",
+    "company": "Bayer",
+    "alternatives": ["Omeprazole", "Famotidine"],
+    "sources": ["https://www.drugs.com/compare/alka-seltzer-original"]
+  },
+  {
+    "id": 26,
+    "productName": "Prime Video",
+    "productType": "TV",
+    "company": "Amazon",
+    "alternatives": ["Stremio", "Pluto TV", "Tubi", "Apple TV +"],
+    "sources": ["https://alternativeto.net/software/amazon-video/"]
+  },
+  {
+    "id": 27,
+    "productName": "AT&T",
+    "productType": "Cellular Service",
+    "company": "AT&T",
+    "alternatives": ["Boost Mobile"],
+    "sources": ["https://www.boostmobile.com/our-network"],
+    "disclaimer": "I used to work for them and I own some stock, but as far as I know there are no other providers with towers."
+  },
+  {
+    "id": 28,
+    "productName": "Verizon",
+    "productType": "Cellular Service",
+    "company": "Verizon",
+    "alternatives": ["Boost Mobile"],
+    "sources": ["https://www.boostmobile.com/our-network"],
+    "disclaimer": "I used to work for them and I own some stock, but as far as I know there are no other providers with towers."
+  },
+  {
+    "id": 29,
+    "productName": "T-Mobile",
+    "productType": "Cellular Service",
+    "company": "T-Mobile",
+    "alternatives": ["Boost Mobile"],
+    "sources": ["https://www.boostmobile.com/our-network"],
+    "disclaimer": "I used to work for them and I own some stock, but as far as I know there are no other providers with towers."
+  },
+  {
+    "id": 30,
+    "productName": "Aveeno",
+    "productType": "Beauty Products",
+    "company": "Aveeno",
+    "alternatives": [
+      "SUPERDRUG’S OWN BRAND OAT & COCONUT RANGE",
+      "Dream Cream by Lush"
+    ],
+    "sources": [
+      "https://www.veganbeautygirl.co.uk/aveeno-isnt-cruelty-free-but-these-alternatives-are/"
+    ]
+  },
+  {
+    "id": 31,
+    "productName": "Bandaid",
+    "productType": "Medical Products",
+    "company": "Bandaid",
+    "alternatives": [
+      "PATCH Bamboo Bandages ",
+      "All Terrain Bandages",
+      "First Honey Honey Mānuka Bandages",
+      "Eco-Bandages",
+      "FEBU Bamboo Bandages"
+    ],
+    "sources": ["https://www.theskinnyconfidential.com/non-toxic-bandaids/"]
+  },
+  {
+    "id": 32,
+    "productName": "Bank of America",
+    "productType": "Banking",
+    "company": "Bank of America",
+    "alternatives": ["Your local credit union"],
+    "sources": []
+  },
+  {
+    "id": 33,
+    "productName": "Barclays",
+    "productType": "Banking",
+    "company": "Barclays",
+    "alternatives": ["Your local credit union"],
+    "sources": []
+  },
+  {
+    "id": 34,
+    "productName": "Vuse",
+    "productType": "Tobacco Products",
+    "company": "British American Tobacco (BAT)",
+    "alternatives": [
+      "Juul",
+      "Vaporesso Pod System Kit",
+      "Smok Novo 3",
+      "Geekvape Aegis Boost"
+    ],
+    "sources": ["https://www.vapedeal.com/blogs/learn/vuse-alternative"]
+  },
+  {
+    "id": 35,
+    "productName": "Velo",
+    "productType": "Tobacco Products",
+    "company": "British American Tobacco (BAT)",
+    "alternatives": ["Killa", "Cuba White Line", "Iceberg Medium", "Ice"],
+    "sources": ["https://snusboys.co.uk/best-velo-alternatives/"]
+  },
+  {
+    "id": 36,
+    "productName": "glo",
+    "productType": "Tobacco Products",
+    "company": "British American Tobacco (BAT)",
+    "alternatives": [
+      "ZLab ZJoins",
+      "IQOS ILUMA PRIME",
+      "IQOS ILUMA",
+      "NEAFS TEO"
+    ],
+    "sources": [
+      "https://vaping360.com/best-quit-vaping-non-vape-alternatives/heated-tobacco-products/"
+    ]
+  },
+  {
+    "id": 37,
+    "productName": "Camel",
+    "productType": "Tobacco Products",
+    "company": "Camel",
+    "alternatives": [],
+    "sources": []
+  },
+  {
+    "id": 38,
+    "productName": "Lucky Strike",
+    "productType": "Tobacco Products",
+    "company": "Lucky Strike",
+    "alternatives": [],
+    "sources": []
+  },
+  {
+    "id": 39,
+    "productName": "Natural American Spirit",
+    "productType": "Tobacco Products",
+    "company": "Natural American Spirit",
+    "alternatives": [],
+    "sources": []
+  },
+  {
+    "id": 40,
+    "productName": "Newport",
+    "productType": "Tobacco Products",
+    "company": "Newport",
+    "alternatives": [],
+    "sources": []
+  },
+  {
+    "id": 41,
+    "productName": "Pall Mall",
+    "productType": "Tobacco Products",
+    "company": "Pall Mall",
+    "alternatives": [],
+    "sources": []
+  },
+  {
+    "id": 42,
+    "productName": "Capri Sun",
+    "productType": "Juice Drink",
+    "company": "Capri Sun",
+    "alternatives": [
+      "Uncle Matt's Organic Lemonade Juice Box",
+      "Honest Kids Appley Ever After",
+      "Apple & Eve Organic Quenchers Razzberry Apple Splash",
+      "R.W. Knudsen Sensible Sippers Organic Fruit Punch",
+      "Vita Coco Kids Paradise Punch",
+      "Juicy Juice Splashers Organic Fruit Punch"
+    ],
+    "sources": [
+      "https://www.thedailymeal.com/1398086/healthiest-juice-boxes-for-kids/"
+    ]
+  },
+  {
+    "id": 43,
+    "productName": "CBS",
+    "productType": "TV",
+    "company": "CBS",
+    "alternatives": [
+      "Sling TV",
+      "DirecTV",
+      "Philo",
+      "fuboTV",
+      "NBC",
+      "CW",
+      "PBS",
+      "Plex",
+      "Pluto TV",
+      "AcornTV"
+    ],
+    "sources": [
+      "https://www.lifewire.com/cable-tv-alternatives-save-money-4138322"
+    ]
+  },
+  {
+    "id": 44,
+    "productName": "Paramount+",
+    "productType": "TV",
+    "company": "CBS",
+    "alternatives": [
+      "Sling TV",
+      "DirecTV",
+      "Philo",
+      "fuboTV",
+      "NBC",
+      "CW",
+      "PBS",
+      "Plex",
+      "Pluto TV",
+      "AcornTV"
+    ],
+    "sources": [
+      "https://www.lifewire.com/cable-tv-alternatives-save-money-4138322"
+    ]
+  },
+  {
+    "id": 45,
+    "productName": "Chevron",
+    "productType": "Petroleum Products",
+    "company": "Chevron",
+    "alternatives": [
+      "Conoco Phillips",
+      "EOG Resources",
+      "Occidental Petroleum",
+      "Phillips 66",
+      "Valero Energy",
+      "Halliburton",
+      "Anadarko Petroleum",
+      "Marathon Petroleum"
+    ],
+    "sources": [
+      "https://www.procurementresource.com/blog/gasoline-producers-in-the-usa"
+    ]
+  },
+  {
+    "id": 46,
+    "productName": "Exxon Mobil",
+    "productType": "Petroleum Products",
+    "company": "Exxon Mobil",
+    "alternatives": [
+      "Conoco Phillips",
+      "EOG Resources",
+      "Occidental Petroleum",
+      "Phillips 66",
+      "Valero Energy",
+      "Halliburton",
+      "Anadarko Petroleum",
+      "Marathon Petroleum"
+    ],
+    "sources": [
+      "https://www.procurementresource.com/blog/gasoline-producers-in-the-usa"
+    ]
+  }
+]
