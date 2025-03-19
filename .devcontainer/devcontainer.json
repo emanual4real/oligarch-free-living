@@ -1,9 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-  "name": "Node.js & TypeScript",
-  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  // "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "name": "Node.js & Mongo DB",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
@@ -11,14 +9,17 @@
   // "features": {},
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [4200],
+  "forwardPorts": [4200, 3000, 27017],
   "customizations": {
     "vscode": {
       "settings": {
         "files.autoSave": "onFocusChange",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-          "source.fixAll": "explicit"
+          "source.fixAll": "explicit",
+          "source.organizeImports": "always",
+          "source.addMissingImports": "always",
+          "source.removeUnusedImports": "always"
         },
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "[javascript]": {
@@ -37,7 +38,8 @@
         "dbaeumer.vscode-eslint",
         "johnpapa.Angular2",
         "Angular.ng-template",
-        "cweijan.vscode-mysql-client2"
+        "mongodb.mongodb-vscode",
+        "Postman.postman-for-vscode"
       ]
     }
   }
