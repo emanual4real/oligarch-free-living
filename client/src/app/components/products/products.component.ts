@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { TableModule } from 'primeng/table';
-import { Tag } from 'primeng/tag';
-import { Rating } from 'primeng/rating';
 import { CommonModule } from '@angular/common';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { TableRowCollapseEvent, TableRowExpandEvent } from 'primeng/table';
+import { Component } from '@angular/core';
 import { DataService } from '@services';
-import { OligarchData } from '@types';
+import { ButtonModule } from 'primeng/button';
+import {
+  TableModule,
+  TableRowCollapseEvent,
+  TableRowExpandEvent,
+} from 'primeng/table';
+import { ToastModule } from 'primeng/toast';
 import { map, take } from 'rxjs';
 
 @Component({
@@ -17,7 +17,7 @@ import { map, take } from 'rxjs';
   styleUrl: './products.component.css',
 })
 export class ProductsComponent {
-  data$ = this.dataService.getDataByProducts();
+  data$ = this.dataService.getProducts();
   expandedRows$ = this.data$.pipe(
     map((data) => data.map((row) => row.sources))
   );
@@ -30,7 +30,7 @@ export class ProductsComponent {
       .pipe(
         map((data) =>
           data.reduce(
-            (acc: { [key: string]: boolean }, p) => (acc[p.id] = true) && acc,
+            (acc: { [key: string]: boolean }, p) => (acc[p._id] = true) && acc,
             {}
           )
         ),

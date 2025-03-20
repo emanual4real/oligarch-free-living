@@ -26,7 +26,7 @@
       <tr>
         <td>{{ data.productName }}</td>
         <td>{{ data.productType }}</td>
-        <td>{{ data.company }}</td>
+        <td>{{ data.company.companyName }}</td>
         <td>
           <ul>
             @for (alt of data.alternatives; track $index) {

@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { TableModule } from 'primeng/table';
-import { Tag } from 'primeng/tag';
-import { Rating } from 'primeng/rating';
 import { CommonModule } from '@angular/common';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { TableRowCollapseEvent, TableRowExpandEvent } from 'primeng/table';
+import { Component } from '@angular/core';
 import { DataService } from '@services';
-import { OligarchData } from '@types';
+import { ButtonModule } from 'primeng/button';
+import {
+  TableModule,
+  TableRowCollapseEvent,
+  TableRowExpandEvent,
+} from 'primeng/table';
+import { ToastModule } from 'primeng/toast';
 import { map } from 'rxjs';
 
 @Component({
@@ -17,7 +17,7 @@ import { map } from 'rxjs';
   styleUrl: './table.component.css',
 })
 export class TableComponent {
-  data$ = this.dataService.getDataByOligarch();
+  data$ = this.dataService.getOligarchs();
   expandedRows$ = this.data$.pipe(
     map((data) => data.map((row) => row.sources))
   );
