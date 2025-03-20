@@ -8,7 +8,7 @@ export const productSchema = new mongoose.Schema({
     unique: true,
   },
   productType: String,
-  // company: { type: Schema.Types.ObjectId, ref: "Company", required: false },
+  company: { type: Schema.Types.ObjectId, ref: "Company", required: false },
   alternatives: [String],
   sources: [String],
 });
@@ -33,9 +33,5 @@ export const oligarchSchema = new mongoose.Schema({
   oligarchRating: Number,
   description: String,
   sources: [String],
+  companies: [{ type: Schema.Types.ObjectId, ref: "Company", required: false }],
 });
-
-// export const companyOwnerSchema = new mongoose.Schema({
-//   oligarch: { type: mongoose.Types.ObjectId, ref: "Oligarch" },
-//   company: { type: mongoose.Types.ObjectId, ref: "Company" },
-// });

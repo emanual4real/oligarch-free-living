@@ -1,3 +1,4 @@
+import oligarchJson from "./data/oligarch.json";
 import productJson from "./data/products.json";
 import { Company, Oligarch, Product } from "./db/models";
 
@@ -13,31 +14,28 @@ const deleteAllProducts = async () => {
   await Product.deleteMany({}).exec();
 };
 
-const createCompaniesFromJson = async () => {
-  const companySet = new Set<string>();
-  productJson.forEach((row) => {
-    companySet.add(row.company);
-  });
-  const companyList = Array.from(companySet).map((row) => ({
-    companyName: row,
+const createOligarchsFromJson = async () => {
+  const seedData = oligarchJson.map((row) => ({
+    name: row.name,
+    companies: row.companies,
+    oligarchRating: row.oligarchRating,
+    description: row.description,
+    sources: row.sources,
   }));
 
-  await Company.insertMany(companyList);
+  for (let i = 0; i < seedData.length; i++) {
+    const row = seedData[i];
+
+    const companies = await Company.find({ companyName: row.companies }).exec();
+    const companyIds = companies.map((row) => row._id);
+    await Oligarch.create({
+      ...row,
+      companies: companyIds,
+    });
+  }
 };
 
-// const createOligarchsFromJson = async () => {
-//   const seedData = oligarchJson.map((row) => ({
-//     name: row.name,
-//     companies: row.companies,
-//     oligarchRating: row.oligarchRating,
-//     description: row.description,
-//     sources: row.sources,
-//   }));
-
-//   await oligarch.create(seedData);
-// };
-
-const createProductsFromJson = async () => {
+const createProductsAndCompaniesFromJson = async () => {
   const seedData = productJson.map((row) => ({
     productName: row.productName,
     productType: row.productType,
@@ -62,7 +60,6 @@ const createProductsFromJson = async () => {
       company = await Company.findOneAndUpdate(
         { _id: company._id },
         { products: [...company.products, product._id] }
-        // {upsert: true}
       ).exec();
     } else {
       company = await Company.insertOne({
@@ -73,56 +70,7 @@ const createProductsFromJson = async () => {
     if (company) {
       await Product.updateOne({ _id: product._id }, { company: company._id });
     }
-
-    // console.log("product", product);
-    // console.log("company", company);
-
-    // if (company) {
-    //   try {
-    //     await Company.updateOne(
-    //       { _id: company._id },
-    //       { products: [...company.products, product._id] }
-    //     );
-    //   } catch (err) {
-    //     console.log("update error", err);
-    //   }
-    // } else {
-    // try {
-    // await Company.insertOne({
-    // companyName: row.company,
-    // products: [product],
-    // });
-    // } catch (err) {
-    // console.log("insert error", err);
-    // }
-    // }
   }
-
-  // seedData.forEach((row) => {
-  //   (async () => {
-  //     const product = await Product.insertOne(row);
-  //     console.log("companyName", row.company);
-  //     let company = await Company.findOne({ companyName: row.company }).exec();
-  //     console.log("company find", company);
-  //     if (company) {
-  //       // update
-  //       await Company.updateOne(
-  //         { _id: company._id },
-  //         { products: [...company.products, product._id] }
-  //       );
-  //       console.log("company update");
-  //     } else {
-  //       await Company.insertOne({
-  //         companyName: row.company,
-  //         products: [product._id],
-  //       });
-  //       console.log("company create");
-  //     }
-  //   })();
-  // });
-
-  // const company = await Company.insertOne({ companyName: seedData[0].company });
-  // await Product.insertOne({ ...seedData[0], company: company._id });
 };
 
 export const seedDatabase = async () => {
@@ -130,7 +78,6 @@ export const seedDatabase = async () => {
   await deleteAllCompanies();
   await deleteAllProducts();
 
-  // await createCompaniesFromJson();
-  // await createOligarchsFromJson();
-  await createProductsFromJson();
+  await createProductsAndCompaniesFromJson();
+  await createOligarchsFromJson();
 };
