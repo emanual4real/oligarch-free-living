@@ -29,6 +29,7 @@ connectDatabase();
 
 if (config.seed) {
   (async () => {
+    console.log("seeding database");
     await seedDatabase();
   })();
 }

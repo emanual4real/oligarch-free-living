@@ -1,10 +1,10 @@
 import express, { Request, Response } from "express";
+import { Oligarch } from "../db/models";
 export const oligarchRouter = express.Router();
 
 oligarchRouter.get("/", async (req: Request, res: Response) => {
-  // const oligarch = mongoose.model("Oligarch", oligarchSchema);
-  // const oligarchs = await oligarch.find().exec();
-  // res.status(200).json(oligarchs);
+  const oligarchs = await Oligarch.find().populate("companies").exec();
+  res.status(200).json(oligarchs);
 });
 
 oligarchRouter.post("/", (req: Request, res: Response) => {
