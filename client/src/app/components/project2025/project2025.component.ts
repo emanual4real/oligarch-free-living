@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { TableModule } from 'primeng/table';
 import { CommonModule } from '@angular/common';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
+import { Component } from '@angular/core';
 import { DataService } from '@services';
+import { ButtonModule } from 'primeng/button';
+import { TableModule } from 'primeng/table';
+import { ToastModule } from 'primeng/toast';
 
 @Component({
   selector: 'app-project2025',

@@ -6,8 +6,6 @@
     dataKey="id"
     [tableStyle]="{ 'min-width': '60rem' }"
     [expandedRowKeys]="expandedRows"
-    (onRowExpand)="onRowExpand($event)"
-    (onRowCollapse)="onRowCollapse($event)"
   >
     <ng-template #caption>
       <div class="flex flex-wrap justify-end gap-2">
@@ -53,7 +51,7 @@
         <td>
           <ul>
             @for (company of data.companies; track $index) {
-            <li>{{ company.companyName }}</li>
+              <li>{{ company.companyName }}</li>
             }
           </ul>
         </td>
@@ -67,9 +65,9 @@
           <div class="p-4">
             <ul>
               @for (source of product.sources; track $index) {
-              <li>
-                <a [href]="source" target="_blank">{{ source }}</a>
-              </li>
+                <li>
+                  <a [href]="source" target="_blank">{{ source }}</a>
+                </li>
               }
             </ul>
           </div>

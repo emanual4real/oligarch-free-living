@@ -19,7 +19,7 @@ import { map, take } from 'rxjs';
 export class ProductsComponent {
   data$ = this.dataService.getProducts();
   expandedRows$ = this.data$.pipe(
-    map((data) => data.map((row) => row.sources))
+    map((data) => data.map((row) => row.sources)),
   );
   expandedRows = {};
 
@@ -30,11 +30,13 @@ export class ProductsComponent {
       .pipe(
         map((data) =>
           data.reduce(
+            // TODO: remove disabled linting
+            // eslint-disable-next-line @typescript-eslint/consistent-indexed-object-style, no-constant-binary-expression
             (acc: { [key: string]: boolean }, p) => (acc[p._id] = true) && acc,
-            {}
-          )
+            {},
+          ),
         ),
-        take(1)
+        take(1),
       )
       .subscribe((data) => {
         this.expandedRows = data;
@@ -45,7 +47,13 @@ export class ProductsComponent {
     this.expandedRows = {};
   }
 
-  onRowExpand(event: TableRowExpandEvent) {}
+  onRowExpand(event: TableRowExpandEvent) {
+    // TODO: remove this or remove parameter
+    console.log('event', event);
+  }
 
-  onRowCollapse(event: TableRowCollapseEvent) {}
+  onRowCollapse(event: TableRowCollapseEvent) {
+    // TODO: remove this or remove parameter
+    console.log('event', event);
+  }
 }
