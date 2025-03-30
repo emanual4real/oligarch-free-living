@@ -5,4 +5,3 @@ export * from './home';
 export * from './oligarchs';
 export * from './politicians';
 export * from './products';
-export * from './table';

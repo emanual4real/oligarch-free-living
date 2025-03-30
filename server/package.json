@@ -8,7 +8,8 @@
     "start:prod": "tsx --env-file=.env.prod --watch  src/index.ts",
     "clean": "tsc --build --clean",
     "pre-build": "tsc --build",
-    "build": "./build.sh",
+    "build": "tsc --build",
+    "lint": "eslint",
     "seed-database": "tsx seed-data.ts"
   },
   "dependencies": {
@@ -18,11 +19,15 @@
     "mongoose": "^8.12.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.23.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.0.0",
     "@types/node": "^22.13.8",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0"
   },
   "bundledDependencies": [
     "cors",

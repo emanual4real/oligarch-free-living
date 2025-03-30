@@ -2,11 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { DataService } from '@services';
 import { ButtonModule } from 'primeng/button';
-import {
-  TableModule,
-  TableRowCollapseEvent,
-  TableRowExpandEvent,
-} from 'primeng/table';
+import { TableModule, TableRowCollapseEvent, TableRowExpandEvent } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
 import { map, take } from 'rxjs';
 
@@ -18,9 +14,7 @@ import { map, take } from 'rxjs';
 })
 export class ProductsComponent {
   data$ = this.dataService.getProducts();
-  expandedRows$ = this.data$.pipe(
-    map((data) => data.map((row) => row.sources))
-  );
+  expandedRows$ = this.data$.pipe(map((data) => data.map((row) => row.sources)));
   expandedRows = {};
 
   constructor(private dataService: DataService) {}
@@ -30,6 +24,8 @@ export class ProductsComponent {
       .pipe(
         map((data) =>
           data.reduce(
+            // TODO: remove disabled linting
+
             (acc: { [key: string]: boolean }, p) => (acc[p._id] = true) && acc,
             {}
           )
@@ -45,7 +41,13 @@ export class ProductsComponent {
     this.expandedRows = {};
   }
 
-  onRowExpand(event: TableRowExpandEvent) {}
+  onRowExpand(event: TableRowExpandEvent) {
+    // TODO: remove this or remove parameter
+    console.log('event', event);
+  }
 
-  onRowCollapse(event: TableRowCollapseEvent) {}
+  onRowCollapse(event: TableRowCollapseEvent) {
+    // TODO: remove this or remove parameter
+    console.log('event', event);
+  }
 }

@@ -22,8 +22,6 @@ export class DataService {
 
   // TODO: move to mongoDb
   getProject2025Data() {
-    return this.httpClient.get<Project2025[]>(
-      `${environment.apiUrl}/project2025.json`
-    );
+    return this.httpClient.get<Project2025[]>(`${environment.apiUrl}/project2025.json`);
   }
 }

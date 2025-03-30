@@ -2,11 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { DataService } from '@services';
 import { ButtonModule } from 'primeng/button';
-import {
-  TableModule,
-  TableRowCollapseEvent,
-  TableRowExpandEvent,
-} from 'primeng/table';
+import { TableModule } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
 import { map, take } from 'rxjs';
 
@@ -18,9 +14,7 @@ import { map, take } from 'rxjs';
 })
 export class OligarchTableComponent {
   data$ = this.dataService.getOligarchs();
-  expandedRows$ = this.data$.pipe(
-    map((data) => data.map((row) => row.sources))
-  );
+  expandedRows$ = this.data$.pipe(map((data) => data.map((row) => row.sources)));
   expandedRows = {};
 
   constructor(private dataService: DataService) {}
@@ -30,7 +24,9 @@ export class OligarchTableComponent {
       .pipe(
         map((data) =>
           data.reduce(
-            (acc: { [key: string]: boolean }, p) => (acc[p._id] = true) && acc,
+            // TODO: remove disable linting
+
+            (acc: Record<string, boolean>, p) => (acc[p._id] = true) && acc,
             {}
           )
         ),
@@ -44,8 +40,4 @@ export class OligarchTableComponent {
   collapseAll() {
     this.expandedRows = {};
   }
-
-  onRowExpand(event: TableRowExpandEvent) {}
-
-  onRowCollapse(event: TableRowCollapseEvent) {}
 }

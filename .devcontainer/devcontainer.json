@@ -16,7 +16,7 @@
         "files.autoSave": "onFocusChange",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-          "source.fixAll": "explicit",
+          // "source.fixAll": "explicit",
           "source.organizeImports": "always",
           "source.addMissingImports": "always",
           "source.removeUnusedImports": "always"
@@ -39,7 +39,9 @@
         "johnpapa.Angular2",
         "Angular.ng-template",
         "mongodb.mongodb-vscode",
-        "Postman.postman-for-vscode"
+        "Postman.postman-for-vscode",
+        "firsttris.vscode-jest-runner",
+        "github.vscode-github-actions"
       ]
     }
   }
