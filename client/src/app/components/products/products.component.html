@@ -9,15 +9,9 @@
   >
     <ng-template #header>
       <tr>
-        <th pSortableColumn="productName">
-          Product Name <p-sortIcon field="productName" />
-        </th>
-        <th pSortableColumn="productType">
-          Product Type <p-sortIcon field="productType" />
-        </th>
-        <th pSortableColumn="company">
-          Company <p-sortIcon field="company" />
-        </th>
+        <th pSortableColumn="productName">Product Name <p-sortIcon field="productName" /></th>
+        <th pSortableColumn="productType">Product Type <p-sortIcon field="productType" /></th>
+        <th pSortableColumn="company">Company <p-sortIcon field="company" /></th>
         <th>Alternatives</th>
         <th>Sources</th>
       </tr>
@@ -30,16 +24,16 @@
         <td>
           <ul>
             @for (alt of data.alternatives; track $index) {
-            <li>{{ alt }}</li>
+              <li>{{ alt }}</li>
             }
           </ul>
         </td>
         <td>
           <ul>
             @for (source of data.sources; track $index) {
-            <li>
-              <a [href]="source">{{ source }}</a>
-            </li>
+              <li>
+                <a [href]="source">{{ source }}</a>
+              </li>
             }
           </ul>
         </td>

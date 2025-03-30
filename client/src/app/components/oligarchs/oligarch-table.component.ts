@@ -14,9 +14,7 @@ import { map, take } from 'rxjs';
 })
 export class OligarchTableComponent {
   data$ = this.dataService.getOligarchs();
-  expandedRows$ = this.data$.pipe(
-    map((data) => data.map((row) => row.sources)),
-  );
+  expandedRows$ = this.data$.pipe(map((data) => data.map((row) => row.sources)));
   expandedRows = {};
 
   constructor(private dataService: DataService) {}
@@ -27,12 +25,12 @@ export class OligarchTableComponent {
         map((data) =>
           data.reduce(
             // TODO: remove disable linting
-            // eslint-disable-next-line no-constant-binary-expression
+
             (acc: Record<string, boolean>, p) => (acc[p._id] = true) && acc,
-            {},
-          ),
+            {}
+          )
         ),
-        take(1),
+        take(1)
       )
       .subscribe((data) => {
         this.expandedRows = data;

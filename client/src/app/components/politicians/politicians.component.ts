@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-politicians',
   imports: [],
   templateUrl: './politicians.component.html',
-  styleUrl: './politicians.component.css'
+  styleUrl: './politicians.component.css',
 })
-export class PoliticiansComponent {
-
-}
+export class PoliticiansComponent {}

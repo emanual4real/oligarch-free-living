@@ -1,9 +1,5 @@
 <div class="card">
-  <p-table
-    [value]="(data$ | async) ?? []"
-    dataKey="id"
-    [tableStyle]="{ 'min-width': '60rem' }"
-  >
+  <p-table [value]="(data$ | async) ?? []" dataKey="id" [tableStyle]="{ 'min-width': '60rem' }">
     <ng-template #header>
       <tr>
         <th pSortableColumn="name">Name <p-sortIcon field="name" /></th>

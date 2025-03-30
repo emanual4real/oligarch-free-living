@@ -9,18 +9,8 @@
   >
     <ng-template #caption>
       <div class="flex flex-wrap justify-end gap-2">
-        <p-button
-          label="Expand All"
-          icon="pi pi-plus"
-          text
-          (onClick)="expandAll()"
-        />
-        <p-button
-          label="Collapse All"
-          icon="pi pi-minus"
-          text
-          (onClick)="collapseAll()"
-        />
+        <p-button label="Expand All" icon="pi pi-plus" text (onClick)="expandAll()" />
+        <p-button label="Collapse All" icon="pi pi-minus" text (onClick)="collapseAll()" />
       </div>
     </ng-template>
     <ng-template #header>
@@ -28,9 +18,7 @@
         <th style="width: 5rem"></th>
         <th pSortableColumn="name">Name <p-sortIcon field="name" /></th>
         <th>Companies</th>
-        <th pSortableColumn="oligarchRating">
-          Oligarch Rating<p-sortIcon field="oligarchRating" />
-        </th>
+        <th pSortableColumn="oligarchRating">Oligarch Rating<p-sortIcon field="oligarchRating" /></th>
         <th>Description</th>
       </tr>
     </ng-template>

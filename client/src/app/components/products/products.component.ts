@@ -2,11 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { DataService } from '@services';
 import { ButtonModule } from 'primeng/button';
-import {
-  TableModule,
-  TableRowCollapseEvent,
-  TableRowExpandEvent,
-} from 'primeng/table';
+import { TableModule, TableRowCollapseEvent, TableRowExpandEvent } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
 import { map, take } from 'rxjs';
 
@@ -18,9 +14,7 @@ import { map, take } from 'rxjs';
 })
 export class ProductsComponent {
   data$ = this.dataService.getProducts();
-  expandedRows$ = this.data$.pipe(
-    map((data) => data.map((row) => row.sources)),
-  );
+  expandedRows$ = this.data$.pipe(map((data) => data.map((row) => row.sources)));
   expandedRows = {};
 
   constructor(private dataService: DataService) {}
@@ -31,12 +25,12 @@ export class ProductsComponent {
         map((data) =>
           data.reduce(
             // TODO: remove disabled linting
-            // eslint-disable-next-line @typescript-eslint/consistent-indexed-object-style, no-constant-binary-expression
+
             (acc: { [key: string]: boolean }, p) => (acc[p._id] = true) && acc,
-            {},
-          ),
+            {}
+          )
         ),
-        take(1),
+        take(1)
       )
       .subscribe((data) => {
         this.expandedRows = data;

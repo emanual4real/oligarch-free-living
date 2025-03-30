@@ -26,12 +26,7 @@ describe('MenuComponent', () => {
 
     await TestBed.configureTestingModule({
       imports: [MenuComponent],
-      providers: [
-        CommonModule,
-        Menubar,
-        RouterLink,
-        { provide: ActivatedRoute, useValue: {} },
-      ],
+      providers: [CommonModule, Menubar, RouterLink, { provide: ActivatedRoute, useValue: {} }],
     }).compileComponents();
 
     fixture = TestBed.createComponent(MenuComponent);
