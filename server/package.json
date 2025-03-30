@@ -5,6 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "tsx --env-file=.env --watch  src/index.ts",
+    "start:prod": "tsx --env-file=.env.prod --watch  src/index.ts",
     "clean": "tsc --build --clean",
     "pre-build": "tsc --build",
     "build": "./build.sh",
@@ -13,6 +14,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "helmet": "^8.1.0",
     "mongoose": "^8.12.1"
   },
   "devDependencies": {

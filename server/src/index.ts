@@ -1,5 +1,6 @@
 import cors, { CorsOptions } from "cors";
 import express, { Request, Response } from "express";
+import helmet from "helmet";
 import mongoose from "mongoose";
 import { config } from "./config";
 import { companyRouter, oligarchRouter, productRouter } from "./routes";
@@ -8,12 +9,10 @@ import { seedDatabase } from "./seed-database";
 // mongoose connection
 async function connectDatabase() {
   try {
-    // await mongoose.connect("mongodb://user:password@127.0.0.1:27017/test");
-    const host = config.mongoHost;
-    const user = config.mongoUser;
-    const pw = config.mongoPw;
-    const db = config.mongoDb;
-    await mongoose.connect(`mongodb://${user}:${pw}@${host}/${db}`);
+    const mongoUrl = config.mongoUrl;
+    if (mongoUrl) {
+      await mongoose.connect(mongoUrl);
+    }
   } catch (err) {
     console.log("err", err);
   }
@@ -40,6 +39,7 @@ const corsOptions: CorsOptions = {
 };
 
 app.use(cors(corsOptions));
+app.use(helmet());
 
 // Set the network port
 const port = config.port || 3000;
