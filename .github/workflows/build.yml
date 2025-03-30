@@ -14,11 +14,30 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22.14"
-      - run: echo Installing node dependencies
+      - run: echo "Installing node dependencies"
       - run: npm ci
-      - run: echo Running automated tests
+      - run: echo "Running automated tests 🧪"
       - run: npm run test
-      - run: echo Running lint rules
+      - run: echo "Running lint rules 🧹"
       - run: npm run lint
-      - run: echo Making production build
+      - run: echo "Making production build 🏗️"
       - run: npm run build:production --if-present
+  build-server:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./server
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.14"
+      - name: Installing node dependencies
+        run: npm ci
+      - name: "Running automated tests 🧪"
+        run: npm run test
+      - name: "Running lint rules 🧹"
+        run: npm run lint
+      - name: "Making production build 🏗️"
+        run: npm run build --if-present
