@@ -39,7 +39,8 @@
         "johnpapa.Angular2",
         "Angular.ng-template",
         "mongodb.mongodb-vscode",
-        "Postman.postman-for-vscode"
+        "Postman.postman-for-vscode",
+        "firsttris.vscode-jest-runner"
       ]
     }
   }

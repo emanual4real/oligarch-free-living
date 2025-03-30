@@ -1,5 +1,7 @@
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { DataService } from '@services';
 import { OligarchTableComponent } from './oligarch-table.component';
 
 describe('OligarchTableComponent', () => {
@@ -8,9 +10,9 @@ describe('OligarchTableComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [OligarchTableComponent]
-    })
-    .compileComponents();
+      imports: [OligarchTableComponent],
+      providers: [provideHttpClient(), provideHttpClientTesting(), DataService],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(OligarchTableComponent);
     component = fixture.componentInstance;

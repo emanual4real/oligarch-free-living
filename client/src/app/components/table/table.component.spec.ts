@@ -1,5 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
+import { DataService } from '@services';
 import { TableComponent } from './table.component';
 
 describe('TableComponent', () => {
@@ -8,9 +11,9 @@ describe('TableComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TableComponent]
-    })
-    .compileComponents();
+      imports: [TableComponent],
+      providers: [provideHttpClient(), provideHttpClientTesting(), DataService],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(TableComponent);
     component = fixture.componentInstance;
