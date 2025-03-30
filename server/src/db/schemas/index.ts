@@ -10,6 +10,7 @@ export const productSchema = new mongoose.Schema({
   productType: String,
   company: { type: Schema.Types.ObjectId, ref: "Company", required: false },
   alternatives: [String],
+  isOligarchFree: { type: Schema.Types.Boolean, default: false },
   sources: [String],
 });
 
@@ -21,6 +22,7 @@ export const companySchema = new mongoose.Schema({
     unique: true,
   },
   products: [{ type: Schema.Types.ObjectId, ref: "Product", required: false }],
+  isOligarchFree: { type: Schema.Types.Boolean, default: false },
 });
 
 export const oligarchSchema = new mongoose.Schema({
