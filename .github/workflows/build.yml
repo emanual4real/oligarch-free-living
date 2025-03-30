@@ -22,6 +22,11 @@ jobs:
         run: npm run lint
       - name: Making production build 🏗️
         run: npm run build:production --if-present
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          path: |
+            dist
   build-server:
     runs-on: ubuntu-latest
     defaults:
