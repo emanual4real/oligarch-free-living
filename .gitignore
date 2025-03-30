@@ -1,2 +1,7 @@
 .ssh
+.token
 /db
+DO_NOT_SAVE.txt
+droplet.sh
+ecosystem.config.js
+nginx.conf
