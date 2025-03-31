@@ -10,6 +10,7 @@
     "pre-build": "tsc --build",
     "build": "tsc --build",
     "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "seed-database": "tsx seed-data.ts"
   },
   "dependencies": {
