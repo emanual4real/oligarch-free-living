@@ -1,6 +1,7 @@
 import oligarchJson from "./data/oligarch.json";
 import productJson from "./data/products.json";
-import { Company, Oligarch, Product } from "./db/models";
+import project2025Json from "./data/project2025.json";
+import { Company, Oligarch, Product, Project2025 } from "./db/models";
 
 const deleteAllOligarchs = async () => {
   await Oligarch.deleteMany({}).exec();
@@ -12,6 +13,19 @@ const deleteAllCompanies = async () => {
 
 const deleteAllProducts = async () => {
   await Product.deleteMany({}).exec();
+};
+
+const deleteAllProject2025 = async () => {
+  await Project2025.deleteMany({}).exec();
+};
+
+const createProject2025FromJson = async () => {
+  const seedData = project2025Json.map((row) => ({
+    name: row.name,
+    sources: [row.source],
+  }));
+
+  await Project2025.insertMany(seedData);
 };
 
 const createOligarchsFromJson = async () => {
@@ -77,7 +91,11 @@ export const seedDatabase = async () => {
   await deleteAllOligarchs();
   await deleteAllCompanies();
   await deleteAllProducts();
+  await deleteAllProject2025();
 
   await createProductsAndCompaniesFromJson();
   await createOligarchsFromJson();
+  await createProject2025FromJson();
+
+  console.log("Seeding database complete");
 };

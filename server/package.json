@@ -10,8 +10,7 @@
     "pre-build": "tsc --build",
     "build": "tsc --build",
     "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "seed-database": "tsx seed-data.ts"
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "cors": "^2.8.5",

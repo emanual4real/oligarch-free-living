@@ -37,3 +37,13 @@ export const oligarchSchema = new mongoose.Schema({
   sources: [String],
   companies: [{ type: Schema.Types.ObjectId, ref: "Company", required: false }],
 });
+
+export const project2025Schema = new mongoose.Schema({
+  name: {
+    type: String,
+    require: true,
+    index: true,
+    unique: true,
+  },
+  sources: [String],
+});

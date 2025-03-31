@@ -3,7 +3,12 @@ import express, { Request, Response } from "express";
 import helmet from "helmet";
 import mongoose from "mongoose";
 import { config } from "./config";
-import { companyRouter, oligarchRouter, productRouter } from "./routes";
+import {
+  companyRouter,
+  oligarchRouter,
+  productRouter,
+  project2025Router,
+} from "./routes";
 import { seedDatabase } from "./seed-database";
 
 // mongoose connection
@@ -51,6 +56,7 @@ app.get("/", (req: Request, res: Response) => {
 app.use("/oligarchs", oligarchRouter);
 app.use("/companies", companyRouter);
 app.use("/products", productRouter);
+app.use("/project2025", project2025Router);
 
 // Start the Express server
 app.listen(port, () => {
