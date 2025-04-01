@@ -10,6 +10,7 @@ import {
   project2025Router,
 } from "./routes";
 import { seedDatabase } from "./seed-database";
+import { searchRouter } from "./routes/search.routes";
 
 // mongoose connection
 async function connectDatabase() {
@@ -57,6 +58,7 @@ app.use("/oligarchs", oligarchRouter);
 app.use("/companies", companyRouter);
 app.use("/products", productRouter);
 app.use("/project2025", project2025Router);
+app.use("/search", searchRouter);
 
 // Start the Express server
 app.listen(port, () => {

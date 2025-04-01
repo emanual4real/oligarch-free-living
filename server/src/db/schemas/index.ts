@@ -1,6 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 
 export const productSchema = new mongoose.Schema({
+  type: { type: Schema.Types.String, default: "product" },
   productName: {
     type: String,
     require: true,
@@ -15,6 +16,7 @@ export const productSchema = new mongoose.Schema({
 });
 
 export const companySchema = new mongoose.Schema({
+  type: { type: Schema.Types.String, default: "company" },
   companyName: {
     type: String,
     require: true,
@@ -26,6 +28,7 @@ export const companySchema = new mongoose.Schema({
 });
 
 export const oligarchSchema = new mongoose.Schema({
+  type: { type: Schema.Types.String, default: "oligarch" },
   name: {
     type: String,
     require: true,
@@ -39,6 +42,7 @@ export const oligarchSchema = new mongoose.Schema({
 });
 
 export const project2025Schema = new mongoose.Schema({
+  type: { type: Schema.Types.String, default: "project2025" },
   name: {
     type: String,
     require: true,

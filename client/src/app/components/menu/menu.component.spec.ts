@@ -1,7 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CommonModule } from '@angular/common';
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { ActivatedRoute, RouterLink } from '@angular/router';
+import { DataService } from '@services';
 import { Menubar } from 'primeng/menubar';
 import { MenuComponent } from './menu.component';
 
@@ -26,7 +29,15 @@ describe('MenuComponent', () => {
 
     await TestBed.configureTestingModule({
       imports: [MenuComponent],
-      providers: [CommonModule, Menubar, RouterLink, { provide: ActivatedRoute, useValue: {} }],
+      providers: [
+        CommonModule,
+        Menubar,
+        RouterLink,
+        provideHttpClient(),
+        provideHttpClientTesting(),
+        DataService,
+        { provide: ActivatedRoute, useValue: {} },
+      ],
     }).compileComponents();
 
     fixture = TestBed.createComponent(MenuComponent);

@@ -2,13 +2,14 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '@environment';
 import { Company, Oligarch, Product, Project2025 } from '@types';
-import { map, Observable, of, switchMap, tap } from 'rxjs';
+import { forkJoin, map, Observable, of, switchMap, take, tap } from 'rxjs';
 
 interface DataCache {
   oligarchs: Oligarch[];
   products: Product[];
   companies: Company[];
   project2025: Project2025[];
+  search: (Oligarch | Product | Company | Project2025)[];
 }
 
 type DataCacheKey = keyof DataCache;
@@ -22,21 +23,20 @@ export class DataService {
     products: [],
     companies: [],
     project2025: [],
+    search: [],
   };
 
   constructor(private httpClient: HttpClient) {}
 
-  private getCache(key: DataCacheKey) {
-    return of(this.cache).pipe(map((data) => data[key]));
-  }
-
-  private cacheOrFetchData<T>(key: DataCacheKey) {
-    return this.getCache(key).pipe(
+  private cacheOrFetchData<T>(key: DataCacheKey, override = false, query?: string) {
+    const queryParams = query ? `?${query}` : '';
+    return of(this.cache).pipe(
+      map((data) => data[key]),
       switchMap((data) => {
-        if (data.length > 0) {
+        if (data.length > 0 && !override) {
           return of(data) as Observable<T[]>;
         }
-        return this.httpClient.get<T[]>(`${environment.apiUrl}/${key}`).pipe(
+        return this.httpClient.get<T[]>(`${environment.apiUrl}/${key}${queryParams}`).pipe(
           tap((data) => {
             this.cache[key] = data as any;
           })
@@ -59,5 +59,16 @@ export class DataService {
 
   getProject2025Data() {
     return this.cacheOrFetchData<Project2025>('project2025');
+  }
+
+  search(text: string) {
+    const queryParam = `text=${text}`;
+    return this.cacheOrFetchData<Oligarch | Product | Company | Project2025>('search', true, queryParam);
+  }
+
+  fetchAll() {
+    return forkJoin([this.getOligarchs(), this.getProducts(), this.getCompanies(), this.getProject2025Data()]).pipe(
+      take(1)
+    );
   }
 }

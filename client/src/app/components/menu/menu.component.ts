@@ -3,9 +3,10 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MenuItem } from 'primeng/api';
 import { Menubar } from 'primeng/menubar';
+import { SearchComponent } from '../search';
 @Component({
   selector: 'app-menu',
-  imports: [CommonModule, Menubar, RouterLink],
+  imports: [CommonModule, Menubar, RouterLink, SearchComponent],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css',
 })
