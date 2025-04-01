@@ -54,6 +54,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: ["build-server", "build-client"]
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: "Download all artifacts"
         uses: actions/download-artifact@v4
