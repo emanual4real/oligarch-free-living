@@ -51,9 +51,9 @@ jobs:
         with:
           name: server
           path: server/dist
-  deploy:
+  deploy-client:
     runs-on: ubuntu-latest
-    needs: ["build-server", "build-client"]
+    needs: build-client
     if: github.ref == 'refs/heads/main'
     steps:
       - name: "Download all artifacts"
@@ -69,4 +69,23 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
+          EXCLUDE: "/dist/, /node_modules/"
+  deploy-server:
+    runs-on: ubuntu-latest
+    needs: build-server
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: "Download all artifacts"
+        uses: actions/download-artifact@v4
+      - name: Display structure of downloaded files
+        run: ls -R
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@main
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          ARGS: "-rlgoDzvc -i --delete"
+          SOURCE: "server/"
+          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_USER }}
+          TARGET: /home/server
           EXCLUDE: "/dist/, /node_modules/"
