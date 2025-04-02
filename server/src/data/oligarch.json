@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Mark Zuckerberg",
     "companies": [
       "Meta",
@@ -15,7 +14,6 @@
     "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
   },
   {
-    "id": 2,
     "name": "Jeff Bezos",
     "companies": ["Amazon", "Whole Foods", "The Washington Post", "AWS"],
     "oligarchRating": 10,
@@ -23,7 +21,6 @@
     "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
   },
   {
-    "id": 3,
     "name": "Elon Musk",
     "companies": [
       "Telsa",
@@ -31,10 +28,170 @@
       "Starlink",
       "SpaceX",
       "The Boring Company",
-      "Neuralink"
+      "Neuralink",
+      "xAI"
     ],
     "oligarchRating": 10,
     "description": "Musk is a malignant, metastasizing tumor on democracy. What do we do with cancer? Whatever it takes. Cut it out, irradiate it and and blast it with chemo. We consumers are the aggressive treatment for Musk, and we have to deprive him of the very things he craves: power and money. That means we should punish any brand or company that partners with the South African Nazi.\nIf you have a Tesla, get rid of it. If you own Tesla stock, sell it. If you’re a Starlink customer and have an alternative, use it. If you are in a position to decide on vendors for your employer or business, don’t award business to Tesla, Starlink, SpaceX, X, The Boring Company or Neuralink.\nDelete your X account. I know many people have kept their accounts to stay up to date on what the Nazi contingent is doing. You need to recognize that Musk is monetizing your attention and his clout in the White House. Business Insider claims advertisers, once concerned with the hate espoused on the platform, are returning to the platform. According to Ad Age, Comcast, IBM, Disney, Warner Bros. Discovery, and Lionsgate Entertainment have resumed advertising on President Elon’s hate forum.\nInteresting note: earlier this month, X settled with Trump for $10 million over Twitter banning his account following the January 6th Capitol insurrection. If that seems like a straight-up bribe, that’s because it is.\nIf citizens want to know what DOGE is doing, they have to have an X account. This is a massive conflict of interest and one that is serving Apartheid Clyde well. When Musk purchased then-Twitter, he paid $44 billion for the platform. Most on Wall Street agree he over-paid for the asset. He also took on $13 billion in debt when he bought the platform. Why? Because billionaires don’t want to spend their own money when they can so easily spend someone else’s. In this case, Morgan Stanley, Bank of America, Barclays, Mitsubishi and others lent Musk the money.\nUntil very recently, that debt was known as the worst buyout for banks since the 2008 financial crisis because the acquisition was WAY overvalued. Given Musk’s new role as President of the United States and him using X as the only official communication channel for the federal government, X’s debt is now worth par — meaning the company isn’t worth less than he paid for it.\nFunny how rigging the system works, huh?",
     "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Peter Thiel",
+    "companies": [
+      "Palantir",
+      "PayPal",
+      "OpenAI",
+      "Stripe",
+      "Anduril Industries",
+      "Rumble"
+    ],
+    "oligarchRating": 10,
+    "description": "Thiel appeared to be advocating smashing the Fed, relying on crypto, and ginning up nationalism. And that’s not a surprise. His biographer Max Chafkin recently observed, “There’s always been a lot of libertarianism in Silicon Valley, but there are aspects of Thiel’s politics that aren’t libertarian at all; they’re closer to authoritarianism. It’s super-nationalistic, it’s a longing for a sort of more powerful chief executive, or, you know, a dictator, in other words.”",
+    "sources": [
+      "https://www.webopedia.com/technology/peter-thiel-companies",
+      "https://www.rollingstone.com/politics/politics-features/owned-book-peter-thiel-trump-tech-silicon-valley-1235276868/"
+    ]
+  },
+  {
+    "name": "Charles & David Koch",
+    "companies": [
+      "Koch Industries",
+      "Flint Hills Resources",
+      "Georgia-Pacific",
+      "Guardian Industries",
+      "Infor",
+      "Invista",
+      "KBX Logistics",
+      "Koch Ag & Energy Solutions",
+      "Koch Disruptive Technologies",
+      "Koch Engineered Solutions",
+      "Koch Investment Companies",
+      "Koch Minerals and Trading",
+      "Molex"
+    ],
+    "oligarchRating": 10,
+    "description": "The Koch's secretive right-wing fundraising network is cutting out the middlemen and stepping up their attack with more directed and aggressive messaging. The shadowy middlemen have been deemed an unnecessary inefficiency and the Kochs are practically doing the job themselves. Why bother even hiding the money anymore? And why even call it 'dark' money anymore? The money's there and it's being spent however the Kochs want.",
+    "sources": [
+      "https://www.rollingstone.com/politics/politics-news/inside-the-koch-brothers-toxic-empire-164403",
+      "https://www.forbes.com/sites/danielfisher/2012/12/05/inside-the-koch-empire-how-the-brothers-plan-to-reshape-america",
+      "https://www.mic.com/articles/88073/here-s-how-dangerous-the-koch-brothers-really-are-by-the-numbers",
+      "https://www.kochinc.com/companies"
+    ]
+  },
+  {
+    "name": "Vince & Linda McMahon",
+    "companies": ["Alpha Entertainment"],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": []
+  },
+  {
+    "name": "Doug Burgum",
+    "companies": [],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": [
+      "https://apnews.com/article/donald-trumps-cabinet-wealth-billionaires-0d5147df74c7f0a851df296aeab2e164"
+    ]
+  },
+  {
+    "name": "Scott Bessent",
+    "companies": [],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": [
+      "https://apnews.com/article/donald-trumps-cabinet-wealth-billionaires-0d5147df74c7f0a851df296aeab2e164"
+    ]
+  },
+  {
+    "name": "Howard Lutnick",
+    "companies": [],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": [
+      "https://apnews.com/article/donald-trumps-cabinet-wealth-billionaires-0d5147df74c7f0a851df296aeab2e164"
+    ]
+  },
+  {
+    "name": "Kelly Loeffler",
+    "companies": ["Atlanta Dream: WNBA"],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": [
+      "https://apnews.com/article/donald-trumps-cabinet-wealth-billionaires-0d5147df74c7f0a851df296aeab2e164",
+      "https://apnews.com/article/kelly-loeffler-georgia-senate-elections-7297622933c169ae093327e8b0e1ee75"
+    ]
+  },
+  {
+    "name": "Jared Isaacman",
+    "companies": [],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": [
+      "https://apnews.com/article/donald-trumps-cabinet-wealth-billionaires-0d5147df74c7f0a851df296aeab2e164"
+    ]
+  },
+  {
+    "name": "Larry Ellison",
+    "companies": [
+      "Oracle",
+      "Sun Microsystems",
+      "NetSuite",
+      "Hyperion Solutions",
+      "Siebel Systems",
+      "PeopleSoft",
+      "Cerner",
+      "Tesla",
+      "Theranos",
+      "X",
+      "Sensei Ag"
+    ],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": [
+      "https://www.independent.co.uk/news/world/americas/us-politics/larry-ellison-trump-2020-call-b2084757.html",
+      "https://nypost.com/2025/01/22/business/larry-ellisons-backing-of-trumps-500b-ai-project-could-help-save-paramount-merger-sources",
+      "https://www.thomasnet.com/insights/larry-ellison-companies/"
+    ]
+  },
+  {
+    "name": "Warren Buffett",
+    "companies": [],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.levernews.com/american-oligarchy/",
+      "https://buffett.online/en/portfolio/"
+    ]
+  },
+  {
+    "name": "Larry Page",
+    "companies": ["Google", "Alphabet"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.forbes.com/forbes-400",
+      "https://abc.xyz/investor/board-and-governance/"
+    ]
+  },
+  {
+    "name": "Sergey Brin",
+    "companies": ["Google", "Alphabet"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.forbes.com/forbes-400",
+      "https://abc.xyz/investor/board-and-governance/"
+    ]
+  },
+  {
+    "name": "Sundar Pichai",
+    "companies": ["Google", "Alphabet"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.forbes.com/forbes-400",
+      "https://abc.xyz/investor/board-and-governance/"
+    ]
   }
 ]

@@ -591,7 +591,6 @@
     ]
   },
   {
-    "id": 46,
     "productName": "Exxon Mobil",
     "productType": "Petroleum Products",
     "company": "Exxon Mobil",
@@ -608,5 +607,47 @@
     "sources": [
       "https://www.procurementresource.com/blog/gasoline-producers-in-the-usa"
     ]
+  },
+  {
+    "productName": "AngelSoft",
+    "productType": "Bath Tissue",
+    "company": "Georgia-Pacific",
+    "alternatives": [],
+    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+  },
+  {
+    "productName": "Quilted Northern",
+    "productType": "Bath Tissue",
+    "company": "Georgia-Pacific",
+    "alternatives": [],
+    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+  },
+  {
+    "productName": "Brawny",
+    "productType": "Paper Towels",
+    "company": "Georgia-Pacific",
+    "alternatives": [],
+    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+  },
+  {
+    "productName": "Sparkle",
+    "productType": "Paper Towels",
+    "company": "Georgia-Pacific",
+    "alternatives": [],
+    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+  },
+  {
+    "productName": "Dixie",
+    "productType": "Livingware",
+    "company": "Georgia-Pacific",
+    "alternatives": [],
+    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+  },
+  {
+    "productName": "Vanity Fair",
+    "productType": "Livingware",
+    "company": "Georgia-Pacific",
+    "alternatives": [],
+    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
   }
 ]
