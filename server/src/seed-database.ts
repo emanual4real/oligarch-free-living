@@ -39,8 +39,23 @@ const createOligarchsFromJson = async () => {
 
   for (let i = 0; i < seedData.length; i++) {
     const row = seedData[i];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const companies: any[] = [];
 
-    const companies = await Company.find({ companyName: row.companies }).exec();
+    // find or create all companies
+    for (let j = 0; j < row.companies.length; j++) {
+      await Company.findOneAndUpdate(
+        { companyName: row.companies[j] },
+        { companyName: row.companies[j] },
+        { upsert: true }
+      ).exec();
+      const company = await Company.findOne({
+        companyName: row.companies[j],
+      }).exec();
+
+      companies.push(company);
+    }
+
     const companyIds = companies.map((row) => row._id);
     await Oligarch.create({
       ...row,
