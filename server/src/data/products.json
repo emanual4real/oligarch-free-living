@@ -36,7 +36,7 @@
     "productName": "Whatsapp",
     "productType": "Messaging app",
     "company": "Meta",
-    "alternatives": ["Signal", "Apple iMessage", "Threema", "Wire", "Viber"],
+    "alternatives": ["Signal", "Threema", "Wire", "Viber"],
     "sources": ["https://www.tomsguide.com/news/best-whatsapp-alternatives"]
   },
   {
@@ -363,7 +363,7 @@
     "productName": "Prime Video",
     "productType": "TV",
     "company": "Amazon",
-    "alternatives": ["Stremio", "Pluto TV", "Tubi", "Apple TV +"],
+    "alternatives": ["Stremio", "Pluto TV", "Tubi"],
     "sources": ["https://alternativeto.net/software/amazon-video/"]
   },
   {
@@ -649,5 +649,99 @@
     "company": "Georgia-Pacific",
     "alternatives": [],
     "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+  },
+  {
+    "productName": "Google Search",
+    "productType": "Search Engine",
+    "company": "Google",
+    "alternatives": ["Duck Duck Go", "Brave", "AOL Search"],
+    "sources": [
+      "https://www.pcmag.com/picks/go-beyond-google-best-alternative-search-engines"
+    ]
+  },
+  {
+    "productName": "Google Chrome",
+    "productType": "Internet Browser",
+    "company": "Google",
+    "alternatives": ["Mozilla", "Brave", "Arc", "Colibri"],
+    "sources": ["https://www.pcmag.com/picks/best-alternative-web-browsers"]
+  },
+  {
+    "productName": "Gemini",
+    "productType": "Artifical Intelligence",
+    "company": "Google",
+    "alternatives": ["ChatGPT", "Claude", "Perplexity AI"],
+    "sources": ["https://aistoryland.com/best-gemini-ai-alternatives"]
+  },
+  {
+    "productName": "Android",
+    "productType": "Phone OS",
+    "company": "Google",
+    "alternatives": ["iOS", "GrapheneOS", "KaiOS", "Sailfish OS"],
+    "sources": ["https://beebom.com/android-alternative/"]
+  },
+  {
+    "productName": "Gmail",
+    "productType": "Email",
+    "company": "Google",
+    "alternatives": [
+      "Proton Mail",
+      "Hushmail",
+      "Mail.com",
+      "iCloud Mail",
+      "Tutamail"
+    ],
+    "sources": ["https://www.lifewire.com/best-gmail-alternatives-4844382"]
+  },
+  {
+    "productName": "Google Calendar",
+    "productType": "Calendar",
+    "company": "Google",
+    "alternatives": ["ClickUp", "Zoho", "Teamup", "TimeBlocks", "Basecamp"],
+    "sources": ["https://clickup.com/blog/google-calendar-alternatives"]
+  },
+  {
+    "productName": "Google Docs",
+    "productType": "Rich Text Format Editor",
+    "company": "Google",
+    "alternatives": ["ClickUp", "Dropbox Paper", "Coda", "Quip", "Notion"],
+    "sources": ["https://clickup.com/blog/google-docs-alternatives/"]
+  },
+  {
+    "productName": "Google Maps",
+    "productType": "GPS App",
+    "company": "Google",
+    "alternatives": ["Waze", "HERE WeGo", "MagicEarth", "CityMapper"],
+    "sources": ["https://www.geeksforgeeks.org/google-maps-alternatives/"]
+  },
+  {
+    "productName": "Google Photos",
+    "productType": "Photo Cloud Storage",
+    "company": "Google",
+    "alternatives": [
+      "IDrive",
+      "Flickr",
+      "pCloud",
+      "Adobe Creative Cloud Photography"
+    ],
+    "sources": [
+      "https://www.techradar.com/how-to/best-google-photos-alternatives"
+    ]
+  },
+  {
+    "productName": "Google Play",
+    "productType": "Phone App Store",
+    "company": "Google",
+    "alternatives": ["F-Droid", "APKMirror", "TapTap", "Itch.io"],
+    "sources": [
+      "https://www.androidpolice.com/best-google-play-store-alternatives/"
+    ]
+  },
+  {
+    "productName": "Youtube",
+    "productType": "Video Platform",
+    "company": "Google",
+    "alternatives": ["Vimeo", "Dailymotion", "Snapchat Spotlight", "Rumble"],
+    "sources": ["https://www.geeksforgeeks.org/best-youtube-alternatives/"]
   }
 ]
