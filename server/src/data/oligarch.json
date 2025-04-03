@@ -193,5 +193,89 @@
       "https://www.forbes.com/forbes-400",
       "https://abc.xyz/investor/board-and-governance/"
     ]
+  },
+  {
+    "name": "Jim Walton",
+    "companies": ["Walmart"],
+    "oligarchRating": null,
+    "description": "Lynne Walton, who is married to Jim Walton, gave almost $12.5 million to primarily conservative causes and candidates.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Alice Walton",
+    "companies": ["Walmart"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": []
+  },
+  {
+    "name": "Rob Walton",
+    "companies": ["Walmart"],
+    "oligarchRating": null,
+    "description": "Rob Walton gave $17 million to super PACs and other outside groups.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Steve Wynn",
+    "companies": ["Wynn Resorts"],
+    "oligarchRating": null,
+    "description": "Founder Steve Wynn contributed $1.1 million to Trump.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "J. Joe Ricketts",
+    "companies": ["TD Ameritrade"],
+    "oligarchRating": null,
+    "description": "Founder J. Joe Ricketts contributed $2 million to Trump.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Richard Uihlein",
+    "companies": ["Uline"],
+    "oligarchRating": null,
+    "description": "Uline is a private company that sells shipping, packaging, and industrial supplies. The company is owned by Liz and Richard Uihlein, Republican mega-donors. The pair donated $10 million to Trump’s campaign.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Liz Uihlein",
+    "companies": ["Uline"],
+    "oligarchRating": null,
+    "description": "Uline is a private company that sells shipping, packaging, and industrial supplies. The company is owned by Liz and Richard Uihlein, Republican mega-donors. The pair donated $10 million to Trump’s campaign.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Dara Khosrowshahi",
+    "companies": ["Uber"],
+    "oligarchRating": null,
+    "description": "Uber CEO Dara Khosrowshahi is a real peach. He personally gave $1 million to Trump’s inauguration personally plus another million from Uber. If that’s not enough, the company has long been anti-worker and is renowned for skirting local laws and regulations.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Sam Altman",
+    "companies": ["Open AI"],
+    "oligarchRating": null,
+    "description": "Open AI, parent company of ChatGPT, gave $1 million to Trump’s inauguration. You might have noticed their founder and CEO Sam Altman sitting with the rest of the billionaires at the main event. If that isn’t enough to have disdain for Altman, you should know that his sister is suing him for regularly sexually abusing her from 1997 and 2006. Use DeepSeek instead.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Woody Johnson",
+    "companies": ["Johnson & Johnson", "NY Jets"],
+    "oligarchRating": null,
+    "description": "The pharmaceutical and consumer products giant have $1 million to Trump. Additionally, Johnson & Johnson heir and owner of the NY Jets Robert “Woody” Johnson contributed an additional $2.7 million. Major Johnson & Johnson consumer brands include Bandaid, Listerine, Neutrogena, Aveeno, Acuvue, Tylenol and Splenda.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Jimmy Liautaud ",
+    "companies": ["Jimmy John's"],
+    "oligarchRating": null,
+    "description": "Founder Jimmy Liautaud contributed $3.1 million to Trump.",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "JBernie Marcus ",
+    "companies": ["Home Depot"],
+    "oligarchRating": null,
+    "description": "Home Depot’s late co-founder Bernie Marcus donated $2.7 million to Donald Trump. The company has its own PAC which mainly contributes to Republicans - 62% per Goods Unite Us. ",
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
   }
 ]

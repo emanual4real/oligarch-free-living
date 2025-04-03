@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "productName": "Facebook",
     "productType": "Social Media",
     "company": "Meta",
@@ -16,7 +15,6 @@
     "sources": ["https://smartblogger.com/facebook-alternatives/"]
   },
   {
-    "id": 2,
     "productName": "Instagram",
     "productType": "Social Media",
     "company": "Meta",
@@ -32,7 +30,6 @@
     "sources": ["https://petapixel.com/best-instagram-alternatives/"]
   },
   {
-    "id": 3,
     "productName": "Whatsapp",
     "productType": "Messaging app",
     "company": "Meta",
@@ -40,7 +37,6 @@
     "sources": ["https://www.tomsguide.com/news/best-whatsapp-alternatives"]
   },
   {
-    "id": 4,
     "productName": "Messenger",
     "productType": "Messaging app",
     "company": "Meta",
@@ -57,7 +53,6 @@
     ]
   },
   {
-    "id": 5,
     "productName": "Threads",
     "productType": "Social Media",
     "company": "Meta",
@@ -72,7 +67,6 @@
     "sources": ["https://alternativeto.net/software/threads-from-instagram/"]
   },
   {
-    "id": 6,
     "productName": "Amazon.com",
     "productType": "Online Shopping",
     "company": "Amazon",
@@ -92,7 +86,20 @@
     ]
   },
   {
-    "id": 7,
+    "productName": "Audible",
+    "productType": "Audio Books",
+    "company": "Amazon",
+    "alternatives": [
+      "Audiobooks.com",
+      "Chirp",
+      "Everand",
+      "Kobo",
+      "Libro.fm",
+      "Libby"
+    ],
+    "sources": ["https://audiobookaddicts.com/best-alternatives-audible/"]
+  },
+  {
     "productName": "Whole Foods",
     "productType": "Grocery",
     "company": "Whole Foods",
@@ -110,7 +117,6 @@
     ]
   },
   {
-    "id": 7,
     "productName": "Washington Post",
     "productType": "News",
     "company": "Washington Post",
@@ -128,7 +134,6 @@
     ]
   },
   {
-    "id": 8,
     "productName": "AWS",
     "productType": "Cloud",
     "company": "AWS",
@@ -146,7 +151,6 @@
     "sources": ["https://www.cloudzero.com/blog/aws-alternatives/"]
   },
   {
-    "id": 9,
     "productName": "CyberTruck",
     "productType": "Electric Cars",
     "company": "Tesla",
@@ -167,7 +171,6 @@
     ]
   },
   {
-    "id": 10,
     "productName": "X",
     "productType": "Social Media",
     "company": "X",
@@ -183,7 +186,6 @@
     "sources": ["https://smartblogger.com/twitter-alternatives/"]
   },
   {
-    "id": 11,
     "productName": "Starlink",
     "productType": "Internet",
     "company": "Starlink",
@@ -195,27 +197,6 @@
       "Kuiper Systems"
     ],
     "sources": ["https://starlinkinsider.com/starlink-competitors/"]
-  },
-  {
-    "id": 12,
-    "productName": "ABC",
-    "productType": "TV",
-    "company": "Disney",
-    "alternatives": [
-      "Sling TV",
-      "DirecTV",
-      "Philo",
-      "fuboTV",
-      "NBC",
-      "CW",
-      "PBS",
-      "Plex",
-      "Pluto TV",
-      "AcornTV"
-    ],
-    "sources": [
-      "https://www.lifewire.com/cable-tv-alternatives-save-money-4138322"
-    ]
   },
   {
     "id": 13,
@@ -312,7 +293,7 @@
     "id": 21,
     "productName": "Acuvue",
     "productType": "Contact Lenses",
-    "company": "Acuvue",
+    "company": "Johnson & Johnson",
     "alternatives": [
       "Biofinity toric",
       "AIR OPTIX",
@@ -361,7 +342,7 @@
   {
     "id": 26,
     "productName": "Prime Video",
-    "productType": "TV",
+    "productType": "Television Network",
     "company": "Amazon",
     "alternatives": ["Stremio", "Pluto TV", "Tubi"],
     "sources": ["https://alternativeto.net/software/amazon-video/"]
@@ -371,18 +352,16 @@
     "productName": "AT&T",
     "productType": "Cellular Service",
     "company": "AT&T",
-    "alternatives": ["Boost Mobile"],
-    "sources": ["https://www.boostmobile.com/our-network"],
-    "disclaimer": "I used to work for them and I own some stock, but as far as I know there are no other providers with towers."
+    "alternatives": ["Boost Mobile", "Mint Mobile", "Honest Mobile"],
+    "sources": ["https://www.boostmobile.com/our-network"]
   },
   {
     "id": 28,
     "productName": "Verizon",
     "productType": "Cellular Service",
     "company": "Verizon",
-    "alternatives": ["Boost Mobile"],
-    "sources": ["https://www.boostmobile.com/our-network"],
-    "disclaimer": "I used to work for them and I own some stock, but as far as I know there are no other providers with towers."
+    "alternatives": ["Boost Mobile", "Mint Mobile", "Honest Mobile"],
+    "sources": ["https://www.boostmobile.com/our-network"]
   },
   {
     "id": 29,
@@ -390,14 +369,13 @@
     "productType": "Cellular Service",
     "company": "T-Mobile",
     "alternatives": ["Boost Mobile"],
-    "sources": ["https://www.boostmobile.com/our-network"],
-    "disclaimer": "I used to work for them and I own some stock, but as far as I know there are no other providers with towers."
+    "sources": ["https://www.boostmobile.com/our-network"]
   },
   {
     "id": 30,
     "productName": "Aveeno",
     "productType": "Beauty Products",
-    "company": "Aveeno",
+    "company": "Johnson & Johnson",
     "alternatives": [
       "SUPERDRUG’S OWN BRAND OAT & COCONUT RANGE",
       "Dream Cream by Lush"
@@ -532,7 +510,7 @@
   {
     "id": 43,
     "productName": "CBS",
-    "productType": "TV",
+    "productType": "Television Network",
     "company": "CBS",
     "alternatives": [
       "Sling TV",
@@ -553,7 +531,7 @@
   {
     "id": 44,
     "productName": "Paramount+",
-    "productType": "TV",
+    "productType": "Streaming Platform",
     "company": "CBS",
     "alternatives": [
       "Sling TV",
@@ -739,9 +717,600 @@
   },
   {
     "productName": "Youtube",
-    "productType": "Video Platform",
+    "productType": "Streaming Platform",
     "company": "Google",
     "alternatives": ["Vimeo", "Dailymotion", "Snapchat Spotlight", "Rumble"],
     "sources": ["https://www.geeksforgeeks.org/best-youtube-alternatives/"]
+  },
+  {
+    "productName": "ESPN",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+    ]
+  },
+  {
+    "productName": "Pixar",
+    "productType": "Animation Studio",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+    ]
+  },
+  {
+    "productName": "Marvel",
+    "productType": "Intellectual Property",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+    ]
+  },
+  {
+    "productName": "Lucasfilms",
+    "productType": "Intellectual Property",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+    ]
+  },
+  {
+    "productName": "BAMTech",
+    "productType": "Streaming Platform",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+    ]
+  },
+  {
+    "productName": "Fox Entertainment Assets",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+    ]
+  },
+  {
+    "productName": "Hulu",
+    "productType": "Streaming Platform",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+    ]
+  },
+  {
+    "productName": "Disney Enterprises, Inc.",
+    "productType": "Intellectual Property",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Earth Star, Inc.",
+    "productType": "Airline",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "20th Century Studios",
+    "productType": "Film Production",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Searchlight Pictures",
+    "productType": "Film Production",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Buena Vista International",
+    "productType": "Film Distribution",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Disney Music Publishing",
+    "productType": "Music Publisher",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Disney+",
+    "productType": "Streaming Platform",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "ESPN+",
+    "productType": "Streaming Platform",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "FuboTV",
+    "productType": "Streaming Platform",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "NHL.tv",
+    "productType": "Streaming Platform",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "A&E",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Crime & Investigation",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "History",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Lifetime",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "LMN",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Disney Channel",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Disney Jr.",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Disney XD",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "ABC",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [
+      "Sling TV",
+      "DirecTV",
+      "Philo",
+      "fuboTV",
+      "NBC",
+      "CW",
+      "PBS",
+      "Plex",
+      "Pluto TV",
+      "AcornTV"
+    ],
+    "sources": [
+      "https://www.lifewire.com/cable-tv-alternatives-save-money-4138322"
+    ]
+  },
+  {
+    "productName": "Freeform",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "FX",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "FXX",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "FX Movie Channel",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "National Geographic",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Nat Geo Wild",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Nat Geo Mundo",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "ABC News",
+    "productType": "News",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "KFSN-TV",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "KABC-TV",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "KGO-TV",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "WLS-TV",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "WABC-TV",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "WTVD",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "WPVI-TV",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "KTRK-TV",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Localish",
+    "productType": "Television Station",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Baby TV",
+    "productType": "Television Network",
+    "company": "Disney",
+    "alternatives": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_assets_owned_by_the_Walt_Disney_Company"
+    ]
+  },
+  {
+    "productName": "Turbo Tax",
+    "productType": "Tax Software",
+    "company": "Intuit Inc",
+    "alternatives": ["Free Tax USA"],
+    "sources": [
+      "https://247wallst.com/special-report/2023/04/02/these-companies-control-over-50-of-their-industry/"
+    ]
+  },
+  {
+    "productName": "Sam's Club",
+    "productType": "Bulk Retail",
+    "company": "Walmart",
+    "alternatives": ["Costco"],
+    "sources": []
+  },
+  {
+    "productName": "Walmart",
+    "productType": "General Retail",
+    "company": "Walmart",
+    "alternatives": ["Costco"],
+    "sources": []
+  },
+  {
+    "productName": "Bonobos",
+    "productType": "Men's Clothing",
+    "company": "Walmart",
+    "alternatives": [],
+    "sources": []
+  },
+  {
+    "productName": "Wynn Las Vegas",
+    "productType": "Hospitality",
+    "company": "Wynn Resorts",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Encore Las Vegas",
+    "productType": "Hospitality",
+    "company": "Wynn Resorts",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Encore Boston Harbor",
+    "productType": "Hospitality",
+    "company": "Wynn Resorts",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "United Airlines",
+    "productType": "Airline",
+    "company": "United Airlines",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "TD Ameritrade",
+    "productType": "Stock Broker",
+    "company": "TD Ameritrade",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Target",
+    "productType": "General Retail",
+    "company": "Target",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Uline",
+    "productType": "Shipping Supplies",
+    "company": "Uline",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Uber",
+    "productType": "Rideshare",
+    "company": "Uber",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Paypal",
+    "productType": "Banking",
+    "company": "Paypal",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Venmo",
+    "productType": "Banking",
+    "company": "Paypal",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Open AI",
+    "productType": "Artifical Intelligence",
+    "company": "Open AI",
+    "alternatives": ["DeepSeek"],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Bandaid",
+    "productType": "Pharmaceutical",
+    "company": "Johnson & Johnson",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Listerine",
+    "productType": "Pharmaceutical",
+    "company": "Johnson & Johnson",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Neutrogena",
+    "productType": "Pharmaceutical",
+    "company": "Johnson & Johnson",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Tylenol",
+    "productType": "Pharmaceutical",
+    "company": "Johnson & Johnson",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Splenda",
+    "productType": "Pharmaceutical",
+    "company": "Johnson & Johnson",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "NY Jets",
+    "productType": "Sports Team",
+    "company": "NY Jets",
+    "alternatives": ["NY Giants"],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Jimmy John's",
+    "productType": "Restaurant",
+    "company": "Jimmy John's",
+    "alternatives": ["Jersey Mike's"],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Instacart",
+    "productType": "Delivery",
+    "company": "Instacart",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Home Depot",
+    "productType": "Hardware Retail",
+    "company": "Home Depot",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Comcast",
+    "productType": "Telecommunications",
+    "company": "Comcast",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Coke",
+    "productType": "Food & Drink",
+    "company": "Coca-Cola",
+    "alternatives": [],
+    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
   }
 ]
