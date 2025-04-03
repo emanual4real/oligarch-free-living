@@ -17,7 +17,7 @@
       </tr>
     </ng-template>
     <ng-template #body let-data>
-      <tr>
+      <tr [id]="data._id">
         <td>{{ data.productName }}</td>
         <td>{{ data.productType }}</td>
         <td>{{ data.company.companyName }}</td>

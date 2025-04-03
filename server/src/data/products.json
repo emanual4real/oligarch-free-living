@@ -95,7 +95,7 @@
     "id": 7,
     "productName": "Whole Foods",
     "productType": "Grocery",
-    "company": "Amazon",
+    "company": "Whole Foods",
     "alternatives": [
       "Sprouts Farmers Market",
       "Trader Joe's",
@@ -113,7 +113,7 @@
     "id": 7,
     "productName": "Washington Post",
     "productType": "News",
-    "company": "Amazon",
+    "company": "Washington Post",
     "alternatives": [
       "AP News",
       "Reuters",
@@ -131,7 +131,7 @@
     "id": 8,
     "productName": "AWS",
     "productType": "Cloud",
-    "company": "Amazon",
+    "company": "AWS",
     "alternatives": [
       "Digital Ocean",
       "Kamatera",
