@@ -388,7 +388,7 @@
     "id": 31,
     "productName": "Bandaid",
     "productType": "Medical Products",
-    "company": "Bandaid",
+    "company": "Johnson & Johnson",
     "alternatives": [
       "PATCH Bamboo Bandages ",
       "All Terrain Bandages",
@@ -1234,13 +1234,6 @@
     "productType": "Artifical Intelligence",
     "company": "Open AI",
     "alternatives": ["DeepSeek"],
-    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
-  },
-  {
-    "productName": "Bandaid",
-    "productType": "Pharmaceutical",
-    "company": "Johnson & Johnson",
-    "alternatives": [],
     "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
   },
   {
