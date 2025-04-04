@@ -12,7 +12,9 @@
         <td>
           @for (product of data.products; track $index) {
             <li>
-              {{ product.productName }}
+              <a [routerLink]="['/products']" [fragment]="product._id">
+                {{ product.productName }}
+              </a>
             </li>
           }
         </td>

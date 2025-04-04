@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { DataService } from '@services';
 import { ButtonModule } from 'primeng/button';
 import { TableModule, TableRowCollapseEvent, TableRowExpandEvent } from 'primeng/table';
@@ -8,7 +9,7 @@ import { map, take } from 'rxjs';
 
 @Component({
   selector: 'app-products',
-  imports: [TableModule, ToastModule, ButtonModule, CommonModule],
+  imports: [TableModule, ToastModule, ButtonModule, CommonModule, RouterLink],
   templateUrl: './products.component.html',
   styleUrl: './products.component.css',
 })

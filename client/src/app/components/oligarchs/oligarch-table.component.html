@@ -39,7 +39,11 @@
         <td>
           <ul>
             @for (company of data.companies; track $index) {
-              <li>{{ company.companyName }}</li>
+              <li>
+                <a [routerLink]="['/companies']" [fragment]="company._id">
+                  {{ company.companyName }}
+                </a>
+              </li>
             }
           </ul>
         </td>
@@ -47,12 +51,12 @@
         <td>{{ data.description }}</td>
       </tr>
     </ng-template>
-    <ng-template #expandedrow let-product>
+    <ng-template #expandedrow let-oligarch>
       <tr>
         <td colspan="7">
           <div class="p-4">
             <ul>
-              @for (source of product.sources; track $index) {
+              @for (source of oligarch.sources; track $index) {
                 <li>
                   <a [href]="source" target="_blank">{{ source }}</a>
                 </li>

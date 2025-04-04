@@ -20,7 +20,11 @@
       <tr [id]="data._id">
         <td>{{ data.productName }}</td>
         <td>{{ data.productType }}</td>
-        <td>{{ data.company.companyName }}</td>
+        <td>
+          <a [routerLink]="['/companies']" [fragment]="data.company._id">
+            {{ data.company.companyName }}
+          </a>
+        </td>
         <td>
           <ul>
             @for (alt of data.alternatives; track $index) {
