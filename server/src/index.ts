@@ -3,13 +3,13 @@ import express, { Request, Response } from "express";
 import helmet from "helmet";
 import mongoose from "mongoose";
 import { config } from "./config";
+import { seedDatabase } from "./db/seed-database";
 import {
   companyRouter,
   oligarchRouter,
   productRouter,
   project2025Router,
 } from "./routes";
-import { seedDatabase } from "./seed-database";
 import { searchRouter } from "./routes/search.routes";
 
 // mongoose connection

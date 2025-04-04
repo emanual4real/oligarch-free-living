@@ -1,7 +1,7 @@
-import oligarchJson from "./data/oligarch.json";
-import productJson from "./data/products.json";
-import project2025Json from "./data/project2025.json";
-import { Company, Oligarch, Product, Project2025 } from "./db/models";
+import oligarchJson from "../data/oligarch.json";
+import productJson from "../data/products.json";
+import project2025Json from "../data/project2025.json";
+import { Company, Oligarch, Product, Project2025 } from "./models";
 
 const deleteAllOligarchs = async () => {
   await Oligarch.deleteMany({}).exec();

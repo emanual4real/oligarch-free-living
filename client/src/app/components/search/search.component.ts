@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { DataService } from '@services';
-import { Company, Product } from '@types';
 import { AutoCompleteCompleteEvent, AutoCompleteModule, AutoCompleteSelectEvent } from 'primeng/autocomplete';
 import { IconField } from 'primeng/iconfield';
 import { InputIcon } from 'primeng/inputicon';
@@ -50,19 +49,9 @@ export class SearchComponent {
           .map((row) => {
             switch (row.type) {
               case 'oligarch':
-                return [
-                  `Oligarch - ${row.name}`,
-                  ...row.companies
-                    .filter((company): company is Company => company !== null)
-                    .map((company) => `Company - ${company.companyName}`),
-                ];
+                return `Oligarch - ${row.name}`;
               case 'company':
-                return [
-                  `Company - ${row.companyName}`,
-                  ...row.products
-                    .filter((product): product is Product => product !== null)
-                    .map((product) => `Product - ${product.productName}`),
-                ];
+                return `Company - ${row.companyName}`;
               case 'product':
                 return `Product: - ${row.productName}`;
               case 'project2025':
