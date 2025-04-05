@@ -1305,5 +1305,968 @@
     "company": "Coca-Cola",
     "alternatives": [],
     "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "productName": "Gerber",
+    "productType": "Baby Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Nancare",
+    "productType": "Baby Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Cerelac",
+    "productType": "Baby Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Nestum",
+    "productType": "Baby Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Nido",
+    "productType": "Baby Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Ceravita",
+    "productType": "Food & Drink",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Golden Morn",
+    "productType": "Food & Drink",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Bear Brand",
+    "productType": "Food & Drink",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Materna",
+    "productType": "Food & Drink",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Molico",
+    "productType": "Food & Drink",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Yiyang",
+    "productType": "Food & Drink",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Perrier",
+    "productType": "Water",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "S.Pellegrino",
+    "productType": "Water",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "PureLife",
+    "productType": "Water",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Aqua Panna",
+    "productType": "Water",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Sanpellegrino",
+    "productType": "Water",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+    ]
+  },
+  {
+    "productName": "Fitness",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Nestlé Cheerios",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Lion Cereals",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Cini Minis",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "KitKat Cereal",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Nesquik Cereal",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Chocapic",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Koko Krunch",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Shreddies",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Shredded Wheat Original",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Nestlé Corn Flakes",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "Trix Cereal",
+    "productType": "Cereal",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.Nestlé-cereals.com/global/cereals"
+    ]
+  },
+  {
+    "productName": "KitKat",
+    "productType": "Candy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/chocolate-confectionery"
+    ]
+  },
+  {
+    "productName": "Nestlé Smarties",
+    "productType": "Candy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/chocolate-confectionery"
+    ]
+  },
+  {
+    "productName": "Aero",
+    "productType": "Candy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/chocolate-confectionery"
+    ]
+  },
+  {
+    "productName": "Milkybar",
+    "productType": "Candy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/chocolate-confectionery"
+    ]
+  },
+  {
+    "productName": "Baci Perugina",
+    "productType": "Candy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/chocolate-confectionery"
+    ]
+  },
+  {
+    "productName": "Nescafé",
+    "productType": "Coffee",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/coffee"
+    ]
+  },
+  {
+    "productName": "Nespresso",
+    "productType": "Coffee",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/coffee"
+    ]
+  },
+  {
+    "productName": "Nescafé Dolce Gusto",
+    "productType": "Coffee",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/coffee"
+    ]
+  },
+  {
+    "productName": "Starbucks Coffee At Home",
+    "productType": "Coffee",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/coffee"
+    ]
+  },
+  {
+    "productName": "Blue Bottle Coffee",
+    "productType": "Coffee",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/coffee"
+    ]
+  },
+  {
+    "productName": "Maggi",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/culinary-chilled-frozen"
+    ]
+  },
+  {
+    "productName": "DiGiorno",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/culinary-chilled-frozen"
+    ]
+  },
+  {
+    "productName": "Thomy",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/culinary-chilled-frozen"
+    ]
+  },
+  {
+    "productName": "Garden Gourmet",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/culinary-chilled-frozen"
+    ]
+  },
+  {
+    "productName": "Carnation",
+    "productType": "Dairy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/dairy"
+    ]
+  },
+  {
+    "productName": "La Laitière",
+    "productType": "Dairy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/dairy"
+    ]
+  },
+  {
+    "productName": "Coffee-Mate",
+    "productType": "Dairy",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/dairy"
+    ]
+  },
+  {
+    "productName": "Nesquik",
+    "productType": "Drinks",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/drinks"
+    ]
+  },
+  {
+    "productName": "Nestea",
+    "productType": "Drinks",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/drinks"
+    ]
+  },
+  {
+    "productName": "Milo",
+    "productType": "Drinks",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/drinks"
+    ]
+  },
+  {
+    "productName": "Garden of Life",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Nature's Bounty",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Vital Proteins",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Solgar",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Boost",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Compleat",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Impact",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Peptamen",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Vitaflo",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Resource",
+    "productType": "Nutrition",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/healthcare-nutrition/active-lifestyle-nutrition"
+    ]
+  },
+  {
+    "productName": "Häagen-Dazs",
+    "productType": "Icecream",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/ice-cream"
+    ]
+  },
+  {
+    "productName": "Mövenpick",
+    "productType": "Icecream",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/ice-cream"
+    ]
+  },
+  {
+    "productName": "Extrême",
+    "productType": "Icecream",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/ice-cream"
+    ]
+  },
+  {
+    "productName": "Drumstick",
+    "productType": "Icecream",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/ice-cream"
+    ]
+  },
+  {
+    "productName": "Maxibon",
+    "productType": "Icecream",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/ice-cream"
+    ]
+  },
+  {
+    "productName": "Antica Gelateria Del Corso",
+    "productType": "Icecream",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/ice-cream"
+    ]
+  },
+  {
+    "productName": "Purina",
+    "productType": "Pet Care",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.nestle.com/brands/petcare"
+    ]
+  },
+  {
+    "productName": "Hot Pockets",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-foods/"
+    ]
+  },
+  {
+    "productName": "Lean Cuisine",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-foods/"
+    ]
+  },
+  {
+    "productName": "Life Cuisine",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-foods/"
+    ]
+  },
+  {
+    "productName": "Stouffer's",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-foods/"
+    ]
+  },
+  {
+    "productName": "Sweet Earth",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-foods/"
+    ]
+  },
+  {
+    "productName": "California Pizza Kitchen",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-pizza/"
+    ]
+  },
+  {
+    "productName": "Jack's",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-pizza/"
+    ]
+  },
+  {
+    "productName": "Tombstone",
+    "productType": "Frozen Food",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/frozen-pizza/"
+    ]
+  },
+  {
+    "productName": "La Lechera",
+    "productType": "Baking",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/baking/"
+    ]
+  },
+  {
+    "productName": "Libby's",
+    "productType": "Baking",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/baking/"
+    ]
+  },
+  {
+    "productName": "Media Crema",
+    "productType": "Baking",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/baking/"
+    ]
+  },
+  {
+    "productName": "Toll House",
+    "productType": "Baking",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/baking/"
+    ]
+  },
+  {
+    "productName": "Seattle's Best",
+    "productType": "Coffee",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/seattlesbest/"
+    ]
+  },
+  {
+    "productName": "Vital Persuit",
+    "productType": "Coffee",
+    "company": "Nestlé",
+    "alternatives": [],
+    "sources": [
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
+      "https://www.goodnes.com/vital-pursuit/"
+    ]
+  },
+  {
+    "productName": "The Wall Street Journal",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "HarperCollins publishing",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "New York Post",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "MarketWatch",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "Barron's",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "Austrailan News Channel",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "The Sun (British tabloid)",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "The Times (Britain daily newspaper)",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "Investor's Business Daily",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "Realtor.com",
+    "productType": "News",
+    "company": "News Corp",
+    "alternatives": [],
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+  },
+  {
+    "productName": "FOX News Channel",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX Business Network",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX News Digital",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX News Audio",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX News Books",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX Nation",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX News International",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FS1",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FS2",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX Soccer Plus",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "FOX Deportes",
+    "productType": "Television Network",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "TMZ",
+    "productType": "Streaming Platform",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "Tubi",
+    "productType": "Streaming Platform",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "Credible",
+    "productType": "Credit",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "OutKick",
+    "productType": "Media",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "Bento Box",
+    "productType": "Film Production",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+  },
+  {
+    "productName": "MarVista Entertainment",
+    "productType": "Film Production",
+    "company": "Fox Corporation",
+    "alternatives": [],
+    "sources": ["https://www.foxcorporation.com/all-businesses/"]
   }
 ]

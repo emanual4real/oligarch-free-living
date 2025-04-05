@@ -199,21 +199,27 @@
     "companies": ["Walmart"],
     "oligarchRating": null,
     "description": "Lynne Walton, who is married to Jim Walton, gave almost $12.5 million to primarily conservative causes and candidates.",
-    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+    "sources": [
+      "https://bridgestoburn.substack.com/p/wall-of-shame",
+      "https://worthly.com/richest/hated-billionaires-world/"
+    ]
   },
   {
     "name": "Alice Walton",
     "companies": ["Walmart"],
     "oligarchRating": null,
-    "description": "",
-    "sources": []
+    "description": "We are going to group the next people on our list into one collective, the Walton family. The Walton’s are comprised of Christy, Jim, Rob, and Alice and they are all the children of Sam Walton, the founder of Walmart. They are collectively worth billions and never had to work for their money. The reason we include them is due to the numerous criticisms that Walmart gets like how they take advantage of the poor, don’t pay their employees a livable ways, and how they purposefully limit employees hours so they can not provide them benefits and pay them less. There’s a whole documentary out there on why Walmart is so bad, and that can shed a better light as to why the Walton family is hated.",
+    "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
   },
   {
     "name": "Rob Walton",
     "companies": ["Walmart"],
     "oligarchRating": null,
     "description": "Rob Walton gave $17 million to super PACs and other outside groups.",
-    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+    "sources": [
+      "https://bridgestoburn.substack.com/p/wall-of-shame",
+      "https://worthly.com/richest/hated-billionaires-world/"
+    ]
   },
   {
     "name": "Steve Wynn",
@@ -272,10 +278,83 @@
     "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
   },
   {
-    "name": "JBernie Marcus ",
+    "name": "J Bernie Marcus",
     "companies": ["Home Depot"],
     "oligarchRating": null,
     "description": "Home Depot’s late co-founder Bernie Marcus donated $2.7 million to Donald Trump. The company has its own PAC which mainly contributes to Republicans - 62% per Goods Unite Us. ",
     "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+  },
+  {
+    "name": "Stephen Schwarzman",
+    "companies": ["Blackstone"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.cbsnews.com/news/blackstone-group-is-making-u-s-housing-crisis-worse-the-un-says/",
+      "https://truthout.org/articles/three-reasons-to-be-worried-about-the-blackstone-group-and-their-friend-hillary-clinton/"
+    ]
+  },
+  {
+    "name": "Jonathan Gray",
+    "companies": ["Blackstone"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.cbsnews.com/news/blackstone-group-is-making-u-s-housing-crisis-worse-the-un-says/",
+      "https://truthout.org/articles/three-reasons-to-be-worried-about-the-blackstone-group-and-their-friend-hillary-clinton/"
+    ]
+  },
+  {
+    "name": "Peter Peterson",
+    "companies": ["Blackstone"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.cbsnews.com/news/blackstone-group-is-making-u-s-housing-crisis-worse-the-un-says/",
+      "https://truthout.org/articles/three-reasons-to-be-worried-about-the-blackstone-group-and-their-friend-hillary-clinton/",
+      "https://worthly.com/richest/hated-billionaires-world/"
+    ]
+  },
+  {
+    "name": "Sheldon Adelson",
+    "companies": ["Las Vegas Sands Corporation"],
+    "oligarchRating": null,
+    "description": "Sheldon Adelson is an American businessman, investor, and casino mogul who is well known as the CEO of the Las Vegas Sands Corporation. He was born into poverty, but through hard work, he eventually amassed around $31 billion dollars over the course of his life. Adelson has donated to a variety of different charities and organizations over the years, so why don’t people like him? Well most likely because he spent millions of dollars to fight, combat, and sue his employees and the unions that kept his businesses afloat. He is also aggressively against the legalization of medical cannabis, equating it to cocaine use. Regardless of your personal views on that subject, it’s a bit ironic, seeing that you can easily argue that gambling is a drug and I’m sure plenty of people have bankrupted themselves and ruined their lives gambling at his casinos. He thinks an organic compound that has been scientifically proven as an effective treatment for AIDS and cancer patients is bad, but it’s okay for him to take peoples money at his casinos. That seems a bit hypocritical to me.",
+    "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
+  },
+  {
+    "name": "Gina Rinehart",
+    "companies": ["Hancock Prospecting"],
+    "oligarchRating": null,
+    "description": "Gina Rinehart is an Australian woman who is the chairman of Hancock Prospecting, a mining company. She’s the 6th richest woman in the world and is the richest person in all of Australia. So why don’t people like her? Well she essentially seems to hate poor people and the middle class. In a self-published book that she worked on, she argued that people in Australia should only make $2 dollars a day. She also donates millions of dollars to pro-fossil fuel groups, gives money to climate change deniers, and lobbies governments to ensure that they give tax breaks to her company and other fossil fuel groups. While that’s enough alone to get people to hate you, the ironic thing is that she inherited pretty much all of her fortune and her company from her father. So she criticizes hardworking individuals, yet she was born into her massive fortune. How convenient for her.",
+    "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
+  },
+  {
+    "name": "Donald Trump",
+    "companies": [],
+    "oligarchRating": null,
+    "description": "",
+    "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
+  },
+  {
+    "name": "Rupert Murdoch",
+    "companies": ["News Corp", "Fox Corporation"],
+    "oligarchRating": null,
+    "description": "Rupert Murdoch is an Australian/American businessman who inherited the news and media company known as News Limited from his father. His “news” organization has always been well known to be sensationalist, paparazzi-esque, shady, and have often printed misinformation. Murdoch also likes to medal in political affairs, spending massive amounts of money to further his personal interests. He’s been tied to a numerous scandals and lawsuits that include bribery of political figures and that well-known scandal where his employees and company hacked into the phones of celebrities, public figures, and other people, among a few other things.",
+    "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
+  },
+  {
+    "name": "Vladamir Putin",
+    "companies": [],
+    "oligarchRating": null,
+    "description": "Vladamir Putin is the current president of Russia whose net worth is thought to be around $70 billion dollars. So where to begin as to why Putin is hated? He’s a former KGB official, his foreign policy is extremely aggressive, he’s been accused of vote rigging and corruption, critics of Putin have been imprisoned, fled the country, or have even been found dead, he’s implemented harsh policies against the LBGT community, he likes to use censorship and propaganda, in addition to a host of other questionable practices. Then there was that whole thing where he invaded Ukraine and then annexed a part of their country that caused a war. Oh yeah, let’s not forget when those “pro-Russian separatists” shot down a civilian aircraft with a weapon that came from Russia. And those are just a few reasons as to why people dislike Putin.",
+    "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
+  },
+  {
+    "name": "Kim Jong-un",
+    "companies": [],
+    "oligarchRating": null,
+    "description": "Finally we get to the most hated billionaire, and probably the most hated man currently alive, Kim Jong-un. Kim is the “ultimate supreme leader” of the Democratic (good joke) People’s Republic of North Korea. I mean where do I even begin with this guy? Officials believe that he sits on a fortune of about $5 billion dollars, but regardless if that’s accurate or not, he’s still the richest person in North Korea. Kim and his ruling party (when they aren’t threatening the world with nuclear attacks) just pull the worst stuff ever. Sure the other people on our list might be bad folks, but they aren’t tied to widespread corruption, the starvation of millions of people, not letting any citizen leave the country, brainwashing, killing who knows how many people, and setting up legitimate death and concentration camps. It’s incredible to think that a country like North Korea exists in todays world, and it’s probably the worst place ever. Just read up on some stories about people who managed to escape the death camps and North Korea to learn about the horrors from within (we’re talking about rape, cannibalism, flogging of children, torture, forcing people to work until they die, etc). Apparently if you’re found guilty of a “crime”, specifically crimes that relate to “insulting” Kim’s name, the government not only arrests you, but your entire family. They’ll even put your cousins and uncles into death camps if you’re arrested. So yeah, I would say Kim Jong-un is probably the most hated billionaire ever.",
+    "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
   }
 ]
