@@ -5,3 +5,5 @@ DO_NOT_SAVE.txt
 droplet.sh
 ecosystem.config.js
 nginx.conf
+id_ed25519
+id_ed25519.pub
