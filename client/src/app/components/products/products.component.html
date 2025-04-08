@@ -12,6 +12,7 @@
         <th pSortableColumn="productName">Product Name <p-sortIcon field="productName" /></th>
         <th pSortableColumn="productType">Product Type <p-sortIcon field="productType" /></th>
         <th pSortableColumn="company">Company <p-sortIcon field="company" /></th>
+        <th>Oligarch Free</th>
         <th>Alternatives</th>
         <th>Sources</th>
       </tr>
@@ -24,6 +25,13 @@
           <a [routerLink]="['/companies']" [fragment]="data.company._id">
             {{ data.company.companyName }}
           </a>
+        </td>
+        <td>
+          @if (data.isOligarchFree) {
+            <i class="pi pi-check" style="color: green"></i>
+          } @else {
+            <i class="pi pi-times" style="color: red"></i>
+          }
         </td>
         <td>
           <ul>

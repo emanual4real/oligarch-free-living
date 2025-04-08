@@ -356,5 +356,105 @@
     "oligarchRating": null,
     "description": "Finally we get to the most hated billionaire, and probably the most hated man currently alive, Kim Jong-un. Kim is the “ultimate supreme leader” of the Democratic (good joke) People’s Republic of North Korea. I mean where do I even begin with this guy? Officials believe that he sits on a fortune of about $5 billion dollars, but regardless if that’s accurate or not, he’s still the richest person in North Korea. Kim and his ruling party (when they aren’t threatening the world with nuclear attacks) just pull the worst stuff ever. Sure the other people on our list might be bad folks, but they aren’t tied to widespread corruption, the starvation of millions of people, not letting any citizen leave the country, brainwashing, killing who knows how many people, and setting up legitimate death and concentration camps. It’s incredible to think that a country like North Korea exists in todays world, and it’s probably the worst place ever. Just read up on some stories about people who managed to escape the death camps and North Korea to learn about the horrors from within (we’re talking about rape, cannibalism, flogging of children, torture, forcing people to work until they die, etc). Apparently if you’re found guilty of a “crime”, specifically crimes that relate to “insulting” Kim’s name, the government not only arrests you, but your entire family. They’ll even put your cousins and uncles into death camps if you’re arrested. So yeah, I would say Kim Jong-un is probably the most hated billionaire ever.",
     "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
+  },
+  {
+    "name": "Ayman Hariri",
+    "companies": ["Vero"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": ["https://time.com/5178976/vero-app-ceo/"]
+  },
+  {
+    "name": "Patrick Byrnes",
+    "companies": ["Overstock.com", "Minds"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Patrick_M._Byrne#January_2021_attack_on_the_Capitol",
+      "https://www.griffitts.co/insights-news/bill-ottman-co-founder-ceo-of-minds-talks-about-transparent-private-and-decentralized-social-media-on-blockchain/"
+    ]
+  },
+  {
+    "name": "David Smith",
+    "companies": ["Sinclair Broadcast Group"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.npr.org/2018/04/02/598916366/sinclair-broadcast-group-forces-nearly-200-station-anchors-to-read-same-script"
+    ]
+  },
+  {
+    "name": "Farris Wilks",
+    "companies": ["The Daily Wire", "PragerU"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.usatoday.com/story/opinion/2021/09/08/tracking-media-owners-political-donations/5719743001/",
+      "https://en.wikipedia.org/wiki/Dan_and_Farris_Wilks#Political_activity"
+    ]
+  },
+  {
+    "name": "Dan Wilks",
+    "companies": ["The Daily Wire", "PragerU"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.usatoday.com/story/opinion/2021/09/08/tracking-media-owners-political-donations/5719743001/",
+      "https://en.wikipedia.org/wiki/Dan_and_Farris_Wilks#Political_activity"
+    ]
+  },
+  {
+    "name": "Philip Anschutz",
+    "companies": [
+      "Los Angeles Kings",
+      "Los Angeles Galaxy",
+      "Crypto.com Arena",
+      "Anschutz Entertainment Group",
+      "Washington Examiner"
+    ],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.usatoday.com/story/opinion/2021/09/08/tracking-media-owners-political-donations/5719743001/",
+      "https://www.forbes.com/profile/philip-anschutz/"
+    ]
+  },
+  {
+    "name": "Marc Rowan",
+    "companies": ["Apollo Global Management"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.usatoday.com/story/opinion/2021/09/08/tracking-media-owners-political-donations/5719743001/"
+    ]
+  },
+  {
+    "name": "Paul Singer",
+    "companies": ["Elliott Management"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.usatoday.com/story/opinion/2021/09/08/tracking-media-owners-political-donations/5719743001/",
+      "https://www.forbes.com/profile/paul-singer/"
+    ]
+  },
+  {
+    "name": "Chris Ruddy",
+    "companies": ["Newsmax"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.usatoday.com/story/opinion/2021/09/08/tracking-media-owners-political-donations/5719743001/",
+      "https://www.forbes.com/profile/chris-ruddy/"
+    ]
+  },
+  {
+    "name": "Bill Gates",
+    "companies": ["Microsoft"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://newrepublic.com/article/162598/bill-gates-oligarch-month-vaccines"
+    ]
   }
 ]

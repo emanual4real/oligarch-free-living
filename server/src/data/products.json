@@ -3,16 +3,8 @@
     "productName": "Facebook",
     "productType": "Social Media",
     "company": "Meta",
-    "alternatives": [
-      "Mastodon",
-      "Diaspora",
-      "Vero",
-      "Minds",
-      "WT.Social",
-      "MeWe",
-      "Ello"
-    ],
-    "sources": ["https://smartblogger.com/facebook-alternatives/"]
+    "alternatives": ["Mastodon", "Diaspora", "MeWe", "Ello", "Bluesky"],
+    "sources": ["https://smartblogger.com/facebook-alternatives"]
   },
   {
     "productName": "Instagram",
@@ -27,7 +19,7 @@
       "vsco",
       "500px"
     ],
-    "sources": ["https://petapixel.com/best-instagram-alternatives/"]
+    "sources": ["https://petapixel.com/best-instagram-alternatives"]
   },
   {
     "productName": "Whatsapp",
@@ -40,16 +32,9 @@
     "productName": "Messenger",
     "productType": "Messaging app",
     "company": "Meta",
-    "alternatives": [
-      "Signal",
-      "Snapchat",
-      "Discord",
-      "Viber",
-      "Marco Polo",
-      "GroupMe"
-    ],
+    "alternatives": ["Signal", "Snapchat", "Discord", "Viber", "Marco Polo"],
     "sources": [
-      "https://www.slashgear.com/1569247/best-messenger-app-alternatives-2024/"
+      "https://www.slashgear.com/1569247/best-messenger-app-alternatives-2024"
     ]
   },
   {
@@ -64,7 +49,7 @@
       "Pleroma",
       "Friendica"
     ],
-    "sources": ["https://alternativeto.net/software/threads-from-instagram/"]
+    "sources": ["https://alternativeto.net/software/threads-from-instagram"]
   },
   {
     "productName": "Amazon.com",
@@ -82,7 +67,7 @@
       "Uncommon Goods"
     ],
     "sources": [
-      "https://www.rollingstone.com/product-recommendations/lifestyle/best-amazon-alternatives-1136987/"
+      "https://www.rollingstone.com/product-recommendations/lifestyle/best-amazon-alternatives-1136987"
     ]
   },
   {
@@ -97,7 +82,7 @@
       "Libro.fm",
       "Libby"
     ],
-    "sources": ["https://audiobookaddicts.com/best-alternatives-audible/"]
+    "sources": ["https://audiobookaddicts.com/best-alternatives-audible"]
   },
   {
     "productName": "Whole Foods",
@@ -112,9 +97,7 @@
       "Natural Grocers",
       "Earth Fare"
     ],
-    "sources": [
-      "https://bstrategyhub.com/whole-foods-competitors-alternatives/"
-    ]
+    "sources": ["https://bstrategyhub.com/whole-foods-competitors-alternatives"]
   },
   {
     "productName": "Washington Post",
@@ -148,7 +131,7 @@
       "Microsoft Azure",
       "Oracle Cloud"
     ],
-    "sources": ["https://www.cloudzero.com/blog/aws-alternatives/"]
+    "sources": ["https://www.cloudzero.com/blog/aws-alternatives"]
   },
   {
     "productName": "CyberTruck",
@@ -183,7 +166,7 @@
       "Counter Social",
       "Hive"
     ],
-    "sources": ["https://smartblogger.com/twitter-alternatives/"]
+    "sources": ["https://smartblogger.com/twitter-alternatives"]
   },
   {
     "productName": "Starlink",
@@ -196,7 +179,7 @@
       "Telesat",
       "Kuiper Systems"
     ],
-    "sources": ["https://starlinkinsider.com/starlink-competitors/"]
+    "sources": ["https://starlinkinsider.com/starlink-competitors"]
   },
   {
     "id": 13,
@@ -213,7 +196,7 @@
     "company": "Abbot Laboratories",
     "alternatives": ["Smoothies", "Real Food"],
     "sources": [
-      "https://www.100daysofrealfood.com/natural-alternative-pediasure/"
+      "https://www.100daysofrealfood.com/natural-alternative-pediasure"
     ]
   },
   {
@@ -229,7 +212,7 @@
       "Berri Lyte"
     ],
     "sources": [
-      "https://www.sheknows.com/health-and-wellness/articles/2780018/best-low-sugar-pedialyte-alternatives/"
+      "https://www.sheknows.com/health-and-wellness/articles/2780018/best-low-sugar-pedialyte-alternatives"
     ]
   },
   {
@@ -243,7 +226,7 @@
       "Hipp Ha Stage 2",
       "Bobbie Organic Gental Infant Formula"
     ],
-    "sources": ["https://pickyeaterblog.com/best-hypoallergenic-baby-formulas/"]
+    "sources": ["https://pickyeaterblog.com/best-hypoallergenic-baby-formulas"]
   },
   {
     "id": 17,
@@ -256,7 +239,7 @@
       "Labcorp Pixel and Quest Diagnostics",
       "Cue"
     ],
-    "sources": ["https://www.popsci.com/story/health/covid-19-at-home-tests/"]
+    "sources": ["https://www.popsci.com/story/health/covid-19-at-home-tests"]
   },
   {
     "id": 18,
@@ -264,7 +247,7 @@
     "productType": "Nutritional Supplement",
     "company": "Abbot Laboratories",
     "alternatives": ["Kiito", "Huel", "Soylent", "Orgain", "Owyn"],
-    "sources": ["https://ensure.knoji.com/alternatives/"]
+    "sources": ["https://ensure.knoji.com/alternatives"]
   },
   {
     "id": 19,
@@ -287,7 +270,7 @@
     "productType": "Glucose Nutrition",
     "company": "Abbot Laboratories",
     "alternatives": ["Hims", "Weight Watchers", "Mounjarno", "PlushCare"],
-    "sources": ["https://glucerna.knoji.com/alternatives/"]
+    "sources": ["https://glucerna.knoji.com/alternatives"]
   },
   {
     "id": 21,
@@ -302,7 +285,7 @@
       "Proclear toric"
     ],
     "sources": [
-      "https://www.lens.com/eyestyle/featured/5-best-alternatives-to-acuvue-oasys-for-astigmatism/"
+      "https://www.lens.com/eyestyle/featured/5-best-alternatives-to-acuvue-oasys-for-astigmatism"
     ]
   },
   {
@@ -345,7 +328,7 @@
     "productType": "Television Network",
     "company": "Amazon",
     "alternatives": ["Stremio", "Pluto TV", "Tubi"],
-    "sources": ["https://alternativeto.net/software/amazon-video/"]
+    "sources": ["https://alternativeto.net/software/amazon-video"]
   },
   {
     "id": 27,
@@ -381,7 +364,7 @@
       "Dream Cream by Lush"
     ],
     "sources": [
-      "https://www.veganbeautygirl.co.uk/aveeno-isnt-cruelty-free-but-these-alternatives-are/"
+      "https://www.veganbeautygirl.co.uk/aveeno-isnt-cruelty-free-but-these-alternatives-are"
     ]
   },
   {
@@ -396,7 +379,7 @@
       "Eco-Bandages",
       "FEBU Bamboo Bandages"
     ],
-    "sources": ["https://www.theskinnyconfidential.com/non-toxic-bandaids/"]
+    "sources": ["https://www.theskinnyconfidential.com/non-toxic-bandaids"]
   },
   {
     "id": 32,
@@ -433,7 +416,7 @@
     "productType": "Tobacco Products",
     "company": "British American Tobacco (BAT)",
     "alternatives": ["Killa", "Cuba White Line", "Iceberg Medium", "Ice"],
-    "sources": ["https://snusboys.co.uk/best-velo-alternatives/"]
+    "sources": ["https://snusboys.co.uk/best-velo-alternatives"]
   },
   {
     "id": 36,
@@ -447,7 +430,7 @@
       "NEAFS TEO"
     ],
     "sources": [
-      "https://vaping360.com/best-quit-vaping-non-vape-alternatives/heated-tobacco-products/"
+      "https://vaping360.com/best-quit-vaping-non-vape-alternatives/heated-tobacco-products"
     ]
   },
   {
@@ -504,7 +487,7 @@
       "Juicy Juice Splashers Organic Fruit Punch"
     ],
     "sources": [
-      "https://www.thedailymeal.com/1398086/healthiest-juice-boxes-for-kids/"
+      "https://www.thedailymeal.com/1398086/healthiest-juice-boxes-for-kids"
     ]
   },
   {
@@ -591,42 +574,42 @@
     "productType": "Bath Tissue",
     "company": "Georgia-Pacific",
     "alternatives": [],
-    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+    "sources": ["https://www.gp.com/product-overview/consumer-products"]
   },
   {
     "productName": "Quilted Northern",
     "productType": "Bath Tissue",
     "company": "Georgia-Pacific",
     "alternatives": [],
-    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+    "sources": ["https://www.gp.com/product-overview/consumer-products"]
   },
   {
     "productName": "Brawny",
     "productType": "Paper Towels",
     "company": "Georgia-Pacific",
     "alternatives": [],
-    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+    "sources": ["https://www.gp.com/product-overview/consumer-products"]
   },
   {
     "productName": "Sparkle",
     "productType": "Paper Towels",
     "company": "Georgia-Pacific",
     "alternatives": [],
-    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+    "sources": ["https://www.gp.com/product-overview/consumer-products"]
   },
   {
     "productName": "Dixie",
     "productType": "Livingware",
     "company": "Georgia-Pacific",
     "alternatives": [],
-    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+    "sources": ["https://www.gp.com/product-overview/consumer-products"]
   },
   {
     "productName": "Vanity Fair",
     "productType": "Livingware",
     "company": "Georgia-Pacific",
     "alternatives": [],
-    "sources": ["https://www.gp.com/product-overview/consumer-products/"]
+    "sources": ["https://www.gp.com/product-overview/consumer-products"]
   },
   {
     "productName": "Google Search",
@@ -656,7 +639,7 @@
     "productType": "Phone OS",
     "company": "Google",
     "alternatives": ["iOS", "GrapheneOS", "KaiOS", "Sailfish OS"],
-    "sources": ["https://beebom.com/android-alternative/"]
+    "sources": ["https://beebom.com/android-alternative"]
   },
   {
     "productName": "Gmail",
@@ -683,14 +666,14 @@
     "productType": "Rich Text Format Editor",
     "company": "Google",
     "alternatives": ["ClickUp", "Dropbox Paper", "Coda", "Quip", "Notion"],
-    "sources": ["https://clickup.com/blog/google-docs-alternatives/"]
+    "sources": ["https://clickup.com/blog/google-docs-alternatives"]
   },
   {
     "productName": "Google Maps",
     "productType": "GPS App",
     "company": "Google",
     "alternatives": ["Waze", "HERE WeGo", "MagicEarth", "CityMapper"],
-    "sources": ["https://www.geeksforgeeks.org/google-maps-alternatives/"]
+    "sources": ["https://www.geeksforgeeks.org/google-maps-alternatives"]
   },
   {
     "productName": "Google Photos",
@@ -712,7 +695,7 @@
     "company": "Google",
     "alternatives": ["F-Droid", "APKMirror", "TapTap", "Itch.io"],
     "sources": [
-      "https://www.androidpolice.com/best-google-play-store-alternatives/"
+      "https://www.androidpolice.com/best-google-play-store-alternatives"
     ]
   },
   {
@@ -720,7 +703,7 @@
     "productType": "Streaming Platform",
     "company": "Google",
     "alternatives": ["Vimeo", "Dailymotion", "Snapchat Spotlight", "Rumble"],
-    "sources": ["https://www.geeksforgeeks.org/best-youtube-alternatives/"]
+    "sources": ["https://www.geeksforgeeks.org/best-youtube-alternatives"]
   },
   {
     "productName": "ESPN",
@@ -728,7 +711,7 @@
     "company": "Disney",
     "alternatives": [],
     "sources": [
-      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own"
     ]
   },
   {
@@ -737,7 +720,7 @@
     "company": "Disney",
     "alternatives": [],
     "sources": [
-      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own"
     ]
   },
   {
@@ -746,7 +729,7 @@
     "company": "Disney",
     "alternatives": [],
     "sources": [
-      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own"
     ]
   },
   {
@@ -755,7 +738,7 @@
     "company": "Disney",
     "alternatives": [],
     "sources": [
-      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own"
     ]
   },
   {
@@ -764,7 +747,7 @@
     "company": "Disney",
     "alternatives": [],
     "sources": [
-      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own"
     ]
   },
   {
@@ -773,7 +756,7 @@
     "company": "Disney",
     "alternatives": [],
     "sources": [
-      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own"
     ]
   },
   {
@@ -782,7 +765,7 @@
     "company": "Disney",
     "alternatives": [],
     "sources": [
-      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own/"
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-disney-own"
     ]
   },
   {
@@ -1135,7 +1118,7 @@
     "company": "Intuit Inc",
     "alternatives": ["Free Tax USA"],
     "sources": [
-      "https://247wallst.com/special-report/2023/04/02/these-companies-control-over-50-of-their-industry/"
+      "https://247wallst.com/special-report/2023/04/02/these-companies-control-over-50-of-their-industry"
     ]
   },
   {
@@ -1312,7 +1295,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1321,7 +1304,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1330,7 +1313,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1339,7 +1322,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1348,7 +1331,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1357,7 +1340,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1366,7 +1349,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1375,7 +1358,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1384,7 +1367,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1393,7 +1376,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1402,7 +1385,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1411,7 +1394,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1420,7 +1403,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1429,7 +1412,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1438,7 +1421,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1447,7 +1430,7 @@
     "company": "Nestlé",
     "alternatives": [],
     "sources": [
-      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained/"
+      "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained"
     ]
   },
   {
@@ -1947,7 +1930,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-foods/"
+      "https://www.goodnes.com/frozen-foods"
     ]
   },
   {
@@ -1957,7 +1940,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-foods/"
+      "https://www.goodnes.com/frozen-foods"
     ]
   },
   {
@@ -1967,7 +1950,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-foods/"
+      "https://www.goodnes.com/frozen-foods"
     ]
   },
   {
@@ -1977,7 +1960,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-foods/"
+      "https://www.goodnes.com/frozen-foods"
     ]
   },
   {
@@ -1987,7 +1970,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-foods/"
+      "https://www.goodnes.com/frozen-foods"
     ]
   },
   {
@@ -1997,7 +1980,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-pizza/"
+      "https://www.goodnes.com/frozen-pizza"
     ]
   },
   {
@@ -2007,7 +1990,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-pizza/"
+      "https://www.goodnes.com/frozen-pizza"
     ]
   },
   {
@@ -2017,7 +2000,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/frozen-pizza/"
+      "https://www.goodnes.com/frozen-pizza"
     ]
   },
   {
@@ -2027,7 +2010,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/baking/"
+      "https://www.goodnes.com/baking"
     ]
   },
   {
@@ -2037,7 +2020,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/baking/"
+      "https://www.goodnes.com/baking"
     ]
   },
   {
@@ -2047,7 +2030,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/baking/"
+      "https://www.goodnes.com/baking"
     ]
   },
   {
@@ -2057,7 +2040,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/baking/"
+      "https://www.goodnes.com/baking"
     ]
   },
   {
@@ -2067,7 +2050,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/seattlesbest/"
+      "https://www.goodnes.com/seattlesbest"
     ]
   },
   {
@@ -2077,7 +2060,7 @@
     "alternatives": [],
     "sources": [
       "https://utopia.org/guide/crime-controversy-Nestlés-5-biggest-scandals-explained",
-      "https://www.goodnes.com/vital-pursuit/"
+      "https://www.goodnes.com/vital-pursuit"
     ]
   },
   {
@@ -2085,188 +2068,414 @@
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "HarperCollins publishing",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "New York Post",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "MarketWatch",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "Barron's",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "Austrailan News Channel",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "The Sun (British tabloid)",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "The Times (Britain daily newspaper)",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "Investor's Business Daily",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "Realtor.com",
     "productType": "News",
     "company": "News Corp",
     "alternatives": [],
-    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own/"]
+    "sources": ["https://marketrealist.com/p/what-does-rupert-murdoch-own"]
   },
   {
     "productName": "FOX News Channel",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX Business Network",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX News Digital",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX News Audio",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX News Books",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX Nation",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX News International",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FS1",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FS2",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX Soccer Plus",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "FOX Deportes",
     "productType": "Television Network",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "TMZ",
     "productType": "Streaming Platform",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "Tubi",
     "productType": "Streaming Platform",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "Credible",
     "productType": "Credit",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "OutKick",
     "productType": "Media",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "Bento Box",
     "productType": "Film Production",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
   },
   {
     "productName": "MarVista Entertainment",
     "productType": "Film Production",
     "company": "Fox Corporation",
     "alternatives": [],
-    "sources": ["https://www.foxcorporation.com/all-businesses/"]
+    "sources": ["https://www.foxcorporation.com/all-businesses"]
+  },
+  {
+    "productName": "Mastodon",
+    "productType": "Social Media",
+    "company": "",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://blog.joinmastodon.org/2025/01/the-people-should-own-the-town-square",
+      "https://joinmastodon.org"
+    ]
+  },
+  {
+    "productName": "Diaspora",
+    "productType": "Social Media",
+    "company": "diasporafoundation.org",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://diasporafoundation.org"]
+  },
+  {
+    "productName": "Vero",
+    "productType": "Social Media",
+    "company": "Vero",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://vero.co", "https://time.com/5178976/vero-app-ceo"]
+  },
+  {
+    "productName": "Minds",
+    "productType": "Social Media",
+    "company": "Minds",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.minds.com"]
+  },
+  {
+    "productName": "MeWe",
+    "productType": "Social Media",
+    "company": "MeWe",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://mewe.com"]
+  },
+  {
+    "productName": "Ello",
+    "productType": "Social Media",
+    "company": "Ello",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://www.tomsguide.com/us/what-is-ello-how-to,news-19633.html"
+    ]
+  },
+  {
+    "productName": "Bluesky",
+    "productType": "Social Media",
+    "company": "Bluesky",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://www.bbc.com/news/articles/c8dm0ljg4y6o",
+      "https://thesportsgrail.com/who-is-jay-graber-owner-and-ceo-of-bluesky-bio-age-parents-education-salary-and-net-worth",
+      "https://bsky.app"
+    ]
+  },
+  {
+    "productName": "BeReal",
+    "productType": "Social Media",
+    "company": "Voodoo.io",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://voodoo.io/news/voodoo-acquires-bereal",
+      "https://bereal.com"
+    ]
+  },
+  {
+    "productName": "Flickr",
+    "productType": "Social Media",
+    "company": "SmugMug",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://www.geekwire.com/2018/smugmug-acquires-flickr-hopeful-picture-emerges-pioneering-photo-platform",
+      "https://www.flickr.com",
+      "https://www.forbes.com/companies/smugmug"
+    ]
+  },
+  {
+    "productName": "Tumblr",
+    "productType": "Social Media",
+    "company": "Automattic Inc",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://www.opensecrets.org/orgs/automattic-inc/summary?id=D000088323",
+      "https://themarketingheaven.com/who-owns-tumblr/",
+      "https://www.tumblr.com/"
+    ]
+  },
+  {
+    "productName": "Grainery",
+    "productType": "Social Media",
+    "company": "Grainery",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://grainery.app/login",
+      "https://www.35mmc.com/01/07/2022/grainery-the-story-of-a-new-social-app-for-film-photographers-by-molly-kate/"
+    ]
+  },
+  {
+    "productName": "Glass",
+    "productType": "Social Media",
+    "company": "Glass",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://glass.photo/", "https://glass.photo/about"]
+  },
+  {
+    "productName": "vsco",
+    "productType": "Social Media",
+    "company": "VSCO",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://www.vsco.co/"]
+  },
+  {
+    "productName": "500px",
+    "productType": "Social Media",
+    "company": "Visual China Group",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://500px.com/"]
+  },
+  {
+    "productName": "Signal",
+    "productType": "Messaging app",
+    "company": "Signal Foundation",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://signal.org/download/",
+      "https://www.desertsun.com/story/news/nation/california/2025/03/27/what-is-signal-where-is-signals-headquarters/82688618007/"
+    ]
+  },
+  {
+    "productName": "Threema",
+    "productType": "Messaging app",
+    "company": "Threema GmbH",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://threema.ch/en",
+      "https://cyberinsider.com/secure-encrypted-messaging-apps/threema/"
+    ]
+  },
+  {
+    "productName": "Wire",
+    "productType": "Messaging app",
+    "company": "Wire",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://wire.com/en/"]
+  },
+  {
+    "productName": "Viber",
+    "productType": "Messaging app",
+    "company": "Rakuten",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://www.viber.com/en/download/"]
+  },
+  {
+    "productName": "Snapchat",
+    "productType": "Messaging app",
+    "company": "Snap Inc",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://www.snapchat.com/",
+      "https://screenrant.com/who-owns-snapchat-snap-inc-explained/"
+    ]
+  },
+  {
+    "productName": "Discord",
+    "productType": "Messaging app",
+    "company": "Discord Inc",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": [
+      "https://discord.com/",
+      "https://www.opensecrets.org/search?q=Jason+Citron&type=donors"
+    ]
+  },
+  {
+    "productName": "Marco Polo",
+    "productType": "Messaging app",
+    "company": "Joya Communications Inc.",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://www.marcopolo.me/"]
+  },
+  {
+    "productName": "GroupMe",
+    "productType": "Messaging app",
+    "company": "Microsoft",
+    "alternatives": [],
+    "sources": []
+  },
+  {
+    "productName": "Pleroma",
+    "productType": "Social Media",
+    "company": "",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://pleroma.social/"]
+  },
+  {
+    "productName": "Friendica",
+    "productType": "Social Media",
+    "company": "",
+    "alternatives": [],
+    "isOligarchFree": true,
+    "sources": ["https://friendi.ca/"]
   }
 ]

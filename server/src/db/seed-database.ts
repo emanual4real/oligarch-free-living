@@ -71,6 +71,7 @@ const createProductsAndCompaniesFromJson = async () => {
     company: row.company,
     alternatives: row.alternatives,
     sources: row.sources,
+    isOligarchFree: row.isOligarchFree,
   }));
 
   for (let i = 0; i < seedData.length; i++) {
@@ -81,6 +82,7 @@ const createProductsAndCompaniesFromJson = async () => {
       productType: row.productType,
       alternatives: row.alternatives,
       sources: row.sources,
+      isOligarchFree: row.isOligarchFree,
     });
 
     let company = await Company.findOne({ companyName: row.company }).exec();

@@ -25,6 +25,7 @@ export interface Product {
   alternatives: string[];
   sources: string[];
   company: Company;
+  isOligarchFree: boolean;
 }
 
 export interface Company {
