@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "server",
+      "problemMatcher": [],
+      "label": "start server",
+      "detail": "tsx --env-file=.env --watch  src/index.ts",
+      "group": "build"
+    },
+    {
+      "type": "npm",
+      "script": "start:prod",
+      "path": "server",
+      "problemMatcher": [],
+      "label": "start prod server",
+      "detail": "tsx --env-file=.env.prod --watch  src/index.ts",
+      "group": "build"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "client",
+      "problemMatcher": [],
+      "label": "start client",
+      "detail": "ng",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
