@@ -1,0 +1,9 @@
+[
+  {
+    "productName": "Facebook",
+    "productType": "Social Media",
+    "company": "Meta",
+    "alternatives": ["Mastodon", "Diaspora", "MeWe", "Ello", "Bluesky"],
+    "sources": ["https://smartblogger.com/facebook-alternatives"]
+  }
+]
