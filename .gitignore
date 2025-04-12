@@ -1,5 +1,6 @@
 .ssh
 .token
+.vs
 /db
 DO_NOT_SAVE.txt
 droplet.sh

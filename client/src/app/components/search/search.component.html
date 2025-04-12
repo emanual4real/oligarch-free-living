@@ -1,9 +1,11 @@
-<p-iconfield iconPosition="left">
-  <p-inputicon styleClass="pi pi-search" />
+<p-iconfield iconPosition="left" class="w-full inline-flex">
+  <p-inputicon styleClass="pi pi-search" class="w-full inline-flex" />
   <p-autocomplete
     [(ngModel)]="value"
     placeholder="Search"
+    class="w-full inline-flex"
     [suggestions]="items"
+    [fluid]="true"
     (completeMethod)="search($event)"
     (onSelect)="onSelect($event)"
   />
