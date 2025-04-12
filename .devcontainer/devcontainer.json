@@ -41,7 +41,8 @@
         "mongodb.mongodb-vscode",
         "Postman.postman-for-vscode",
         "firsttris.vscode-jest-runner",
-        "github.vscode-github-actions"
+        "github.vscode-github-actions",
+        "franklinteixeira205.primeflex"
       ]
     }
   }
