@@ -1,9 +1,11 @@
+{{ this.currentBreakpoint }}
 <h1>Know your enemy</h1>
 
 <div class="card">
   <p-table
+    [columns]="cols"
     [value]="(data$ | async) ?? []"
-    dataKey="id"
+    dataKey="_id"
     [tableStyle]="{ 'min-width': '60rem' }"
     [expandedRowKeys]="expandedRows"
   >
@@ -13,16 +15,29 @@
         <p-button label="Collapse All" icon="pi pi-minus" text (onClick)="collapseAll()" />
       </div>
     </ng-template>
-    <ng-template #header>
+    <ng-template #header let-columns>
       <tr>
         <th style="width: 5rem"></th>
-        <th pSortableColumn="name">Name <p-sortIcon field="name" /></th>
-        <th>Companies</th>
-        <th pSortableColumn="oligarchRating">Oligarch Rating<p-sortIcon field="oligarchRating" /></th>
-        <th>Description</th>
+        @for (col of columns; track $index) {
+          @if (!col.breakpoint) {
+            <th [pSortableColumn]="col.field">
+              {{ col.header }}
+              @if (col.sort) {
+                <p-sortIcon [field]="col.field" />
+              }
+            </th>
+          } @else if (col.breakpoint && col.breakpoint.includes(currentBreakpoint)) {
+            <th [pSortableColumn]="col.field">
+              {{ col.header }}
+              @if (col.sort) {
+                <p-sortIcon [field]="col.field" />
+              }
+            </th>
+          }
+        }
       </tr>
     </ng-template>
-    <ng-template #body let-data let-expanded="expanded">
+    <ng-template #body let-data let-columns="columns" let-expanded="expanded">
       <tr>
         <td>
           <p-button
@@ -35,7 +50,12 @@
             [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
           />
         </td>
-        <td>{{ data.name }}</td>
+        @for (col of columns; track $index) {
+          @if (col.type === 'array') {}
+
+          <td>{{ data[col.field] }}</td>
+        }
+
         <td>
           <ul>
             @for (company of data.companies; track $index) {
@@ -47,12 +67,17 @@
             }
           </ul>
         </td>
-        <td>{{ data.oligarchRating }}</td>
-        <td>{{ data.description }}</td>
+        <!-- <td>{{ data.oligarchRating }}</td> -->
+        @if (currentBreakpoint !== Breakpoints.XSmall) {
+          <td>{{ data.description }}</td>
+        }
       </tr>
     </ng-template>
     <ng-template #expandedrow let-oligarch>
       <tr>
+        @if (currentBreakpoint === Breakpoints.XSmall) {
+          <td>{{ oligarch.description }}</td>
+        }
         <td colspan="7">
           <div class="p-4">
             <ul>
