@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
+import { CardModule } from 'primeng/card';
 import { CheckboxModule } from 'primeng/checkbox';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { SearchComponent } from '../search';
 @Component({
   selector: 'app-home',
-  imports: [ButtonModule, CheckboxModule, MultiSelectModule, SearchComponent],
+  imports: [ButtonModule, CheckboxModule, MultiSelectModule, SearchComponent, CardModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })

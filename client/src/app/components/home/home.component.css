@@ -18,7 +18,15 @@
   height: 100%;
   width: 20%;
 }
-.SearchFilters p-multiselect * {
-  height: 100%;
-  width: 80%;
+
+p-checkbox,
+p-checkbox * {
+  --p-checkbox-height: 100%;
+  --p-checkbox-width: 100%;
+}
+.bg-red-700 .p-card {
+  background-color: #c62828 !important;
+}
+.bg-blue-700 .p-card {
+  background-color: #1976d2 !important;
 }
