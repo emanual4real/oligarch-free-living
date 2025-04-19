@@ -456,5 +456,14 @@
     "sources": [
       "https://newrepublic.com/article/162598/bill-gates-oligarch-month-vaccines"
     ]
+  },
+  {
+    "name": "Alex Karp",
+    "companies": ["Palantir"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.vice.com/en/article/palantirs-ceo-is-fine-with-the-horrible-things-his-company-does/"
+    ]
   }
 ]

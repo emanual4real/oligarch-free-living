@@ -2385,7 +2385,10 @@
     "company": "Visual China Group",
     "alternatives": [],
     "isOligarchFree": true,
-    "sources": ["https://500px.com/"]
+    "sources": [
+      "https://500px.com/",
+      "https://petapixel.com/2019/12/19/500px-updates-terms-sparks-fresh-outrage-among-photographers/"
+    ]
   },
   {
     "productName": "Signal",
@@ -2477,5 +2480,106 @@
     "alternatives": [],
     "isOligarchFree": true,
     "sources": ["https://friendi.ca/"]
+  },
+  {
+    "productName": "Paul, Weis",
+    "productType": "Law firm",
+    "company": "Paul, Weis",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Skadden Arps",
+    "productType": "Law firm",
+    "company": "Skadden Arps",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Wilkie",
+    "productType": "Law firm",
+    "company": "Wilkie",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Milbank",
+    "productType": "Law firm",
+    "company": "Milbank",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Latham & Watkins",
+    "productType": "Law firm",
+    "company": "Latham & Watkins",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Simpson Thacher",
+    "productType": "Law firm",
+    "company": "Simpson Thacher",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Kirkland & Ellis",
+    "productType": "Law firm",
+    "company": "Kirkland & Ellis",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "A & O Shearman",
+    "productType": "Law firm",
+    "company": "A & O Shearman",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Cadwalader",
+    "productType": "Law firm",
+    "company": "Cadwalader",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.axios.com/2025/04/12/big-law-pro-bono-legal-work-trump"
+    ]
+  },
+  {
+    "productName": "Palantir",
+    "productType": "Analytics",
+    "company": "Palantir",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://candor.co/articles/tech-careers/is-palantir-controversial-enough-to-boycott",
+      "https://www.yahoo.com/news/ice-just-ordered-30-million-212445164.html"
+    ]
   }
 ]
