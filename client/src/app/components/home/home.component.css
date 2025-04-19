@@ -24,9 +24,17 @@ p-checkbox * {
   --p-checkbox-height: 100%;
   --p-checkbox-width: 100%;
 }
-.bg-red-700 .p-card {
-  background-color: #c62828 !important;
+
+p-card,
+p-card * {
+  --p-card-background: #c62828;
+  background-color: #c62828;
 }
-.bg-blue-700 .p-card {
-  background-color: #1976d2 !important;
+p-card,
+p-card * {
+  --p-card-background: #1976d2;
+  background-color: #1976d2;
+}
+p-card {
+  margin: auto;
 }
