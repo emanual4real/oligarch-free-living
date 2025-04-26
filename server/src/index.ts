@@ -9,6 +9,7 @@ import {
   oligarchRouter,
   productRouter,
   project2025Router,
+  userRouter,
 } from "./routes";
 import { searchRouter } from "./routes/search.routes";
 
@@ -46,6 +47,7 @@ const corsOptions: CorsOptions = {
 
 app.use(cors(corsOptions));
 app.use(helmet());
+app.use(express.json());
 
 // Set the network port
 const port = config.port || 3000;
@@ -59,6 +61,7 @@ app.use("/companies", companyRouter);
 app.use("/products", productRouter);
 app.use("/project2025", project2025Router);
 app.use("/search", searchRouter);
+app.use("/users", userRouter);
 
 // Start the Express server
 app.listen(port, () => {
