@@ -2,9 +2,11 @@ import cors, { CorsOptions } from "cors";
 import express, { Request, Response } from "express";
 import helmet from "helmet";
 import mongoose from "mongoose";
+import { authenticated } from "./auth";
 import { config } from "./config";
 import { seedDatabase } from "./db/seed-database";
 import {
+  authRouter,
   companyRouter,
   oligarchRouter,
   productRouter,
@@ -56,12 +58,14 @@ const port = config.port || 3000;
 app.get("/", (req: Request, res: Response) => {
   res.json({ message: "Welcome to the Express + TypeScript Server!" });
 });
+
+app.use("/auth", authRouter);
 app.use("/oligarchs", oligarchRouter);
 app.use("/companies", companyRouter);
 app.use("/products", productRouter);
 app.use("/project2025", project2025Router);
 app.use("/search", searchRouter);
-app.use("/users", userRouter);
+app.use("/users", authenticated, userRouter);
 
 // Start the Express server
 app.listen(port, () => {
