@@ -69,7 +69,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
-          EXCLUDE: "/dist/, /node_modules/"
+          EXCLUDE: "/dist/"
   deploy-server:
     runs-on: ubuntu-latest
     needs: build-server
@@ -88,4 +88,4 @@ jobs:
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: /home/server
-          EXCLUDE: "/dist/, /node_modules/"
+          EXCLUDE: "/dist/"
