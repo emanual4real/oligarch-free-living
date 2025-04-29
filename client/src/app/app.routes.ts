@@ -7,6 +7,7 @@ import {
   PoliticiansComponent,
   ProductsComponent,
 } from '@components';
+import { LoginComponent } from './components/login';
 import { Project2025Component } from './components/project2025/project2025.component';
 
 export const routes: Routes = [
@@ -17,4 +18,5 @@ export const routes: Routes = [
   { path: 'politicians', component: PoliticiansComponent },
   { path: 'project2025', component: Project2025Component },
   { path: 'about', component: AboutComponent },
+  { path: 'admin', component: LoginComponent },
 ];
