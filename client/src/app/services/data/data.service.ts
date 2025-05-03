@@ -8,6 +8,7 @@ interface DataCache {
   oligarchs: Oligarch[];
   products: Product[];
   companies: Company[];
+  'companies/list': Partial<Company>[];
   project2025: Project2025[];
   search: (Oligarch | Product | Company | Project2025)[];
 }
@@ -22,6 +23,7 @@ export class DataService {
     oligarchs: [],
     products: [],
     companies: [],
+    'companies/list': [],
     project2025: [],
     search: [],
   };
@@ -55,6 +57,10 @@ export class DataService {
 
   getCompanies() {
     return this.cacheOrFetchData<Company>('companies');
+  }
+
+  getCompanyList() {
+    return this.cacheOrFetchData<Partial<Company>>('companies/list');
   }
 
   getProject2025Data() {

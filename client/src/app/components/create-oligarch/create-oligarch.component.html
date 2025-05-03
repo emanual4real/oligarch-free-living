@@ -1,0 +1,22 @@
+<p-button icon="pi pi-plus" (click)="showDialog()" />
+<p-dialog header="Add Oligarch" [modal]="true" [(visible)]="visible" [style]="{ width: '30rem' }">
+  <form [formGroup]="formGroup">
+    <app-text-input [props]="oligarchNameProps"></app-text-input>
+    <app-text-area [props]="descriptionProps"></app-text-area>
+    <app-select-array
+      [props]="companyProps"
+      [options]="(companyList$ | async) ?? []"
+      (addControl)="addCompany()"
+      (removeControl)="removeCompany($event)"
+    ></app-select-array>
+    <app-input-array
+      [props]="sourcesProps"
+      (addControl)="addSource()"
+      (removeControl)="removeSource($event)"
+    ></app-input-array>
+  </form>
+  <div class="flex justify-end gap-2">
+    <p-button label="Cancel" severity="secondary" (click)="visible = false" />
+    <p-button label="Save" (click)="visible = false" />
+  </div>
+</p-dialog>

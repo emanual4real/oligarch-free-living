@@ -1,5 +1,9 @@
 <h1>Know your enemy</h1>
 
+@if (isAdmin) {
+  <app-create-oligarch />
+}
+
 <div class="card">
   <p-table
     [value]="(data$ | async) ?? []"
@@ -18,7 +22,7 @@
         <th style="width: 5rem"></th>
         <th pSortableColumn="name">Name <p-sortIcon field="name" /></th>
         <th>Companies</th>
-        <th pSortableColumn="oligarchRating">Oligarch Rating<p-sortIcon field="oligarchRating" /></th>
+        <!-- <th pSortableColumn="oligarchRating">Oligarch Rating<p-sortIcon field="oligarchRating" /></th> -->
         <th>Description</th>
       </tr>
     </ng-template>
@@ -47,7 +51,7 @@
             }
           </ul>
         </td>
-        <td>{{ data.oligarchRating }}</td>
+        <!-- <td>{{ data.oligarchRating }}</td> -->
         <td>{{ data.description }}</td>
       </tr>
     </ng-template>
