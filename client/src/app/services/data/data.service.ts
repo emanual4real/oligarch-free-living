@@ -8,6 +8,7 @@ interface DataCache {
   oligarchs: Oligarch[];
   products: Product[];
   companies: Company[];
+  'companies/list': Partial<Company>[];
   project2025: Project2025[];
   search: (Oligarch | Product | Company | Project2025)[];
 }
@@ -22,6 +23,7 @@ export class DataService {
     oligarchs: [],
     products: [],
     companies: [],
+    'companies/list': [],
     project2025: [],
     search: [],
   };
@@ -57,6 +59,10 @@ export class DataService {
     return this.cacheOrFetchData<Company>('companies');
   }
 
+  getCompanyList() {
+    return this.cacheOrFetchData<Partial<Company>>('companies/list');
+  }
+
   getProject2025Data() {
     return this.cacheOrFetchData<Project2025>('project2025');
   }
@@ -70,5 +76,14 @@ export class DataService {
     return forkJoin([this.getOligarchs(), this.getProducts(), this.getCompanies(), this.getProject2025Data()]).pipe(
       take(1)
     );
+  }
+
+  addOligarch(body: Oligarch) {
+    this.httpClient
+      .post<Oligarch>(`${environment.apiUrl}/oligarch}`, body)
+      .pipe(take(1))
+      .subscribe((data) => {
+        this.cache.oligarchs.push(data);
+      });
   }
 }
