@@ -1,8 +1,9 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '@environment';
 import { Company, Oligarch, Product, Project2025 } from '@types';
 import { forkJoin, map, Observable, of, switchMap, take, tap } from 'rxjs';
+import { AuthService } from '../auth';
 
 interface DataCache {
   oligarchs: Oligarch[];
@@ -28,7 +29,10 @@ export class DataService {
     search: [],
   };
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(
+    private authService: AuthService,
+    private httpClient: HttpClient
+  ) {}
 
   private cacheOrFetchData<T>(key: DataCacheKey, override = false, query?: string) {
     const queryParams = query ? `?${query}` : '';
@@ -79,8 +83,11 @@ export class DataService {
   }
 
   addOligarch(body: Oligarch) {
+    const headers: HttpHeaders = new HttpHeaders({
+      Authorization: `Bearer ${this.authService.getToken}`,
+    });
     this.httpClient
-      .post<Oligarch>(`${environment.apiUrl}/oligarch}`, body)
+      .post<Oligarch>(`${environment.apiUrl}/oligarchs`, body, { headers })
       .pipe(take(1))
       .subscribe((data) => {
         this.cache.oligarchs.push(data);
