@@ -17,7 +17,6 @@ oligarchRouter.post(
   ) => {
     const body = req.body;
 
-    console.log("body", body);
     try {
       const oligarch = await Oligarch.create(body);
       res.status(201).json(oligarch);

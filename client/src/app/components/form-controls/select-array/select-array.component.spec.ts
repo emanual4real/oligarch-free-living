@@ -8,9 +8,8 @@ describe('SelectArrayComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SelectArrayComponent]
-    })
-    .compileComponents();
+      imports: [SelectArrayComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(SelectArrayComponent);
     component = fixture.componentInstance;

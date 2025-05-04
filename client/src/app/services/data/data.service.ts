@@ -77,4 +77,13 @@ export class DataService {
       take(1)
     );
   }
+
+  addOligarch(body: Oligarch) {
+    this.httpClient
+      .post<Oligarch>(`${environment.apiUrl}/oligarch}`, body)
+      .pipe(take(1))
+      .subscribe((data) => {
+        this.cache.oligarchs.push(data);
+      });
+  }
 }

@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormArray, FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { DataService } from '@services';
-import { Options } from '@types';
+import { Oligarch, Options } from '@types';
 import { ButtonModule } from 'primeng/button';
 import { Dialog } from 'primeng/dialog';
 import { map } from 'rxjs';
@@ -118,5 +118,9 @@ export class CreateOligarchComponent {
 
   removeCompany(index: number) {
     this.formGroup.controls.companies.removeAt(index);
+  }
+
+  handleSave() {
+    this.dataService.addOligarch(this.formGroup.value as Oligarch);
   }
 }
