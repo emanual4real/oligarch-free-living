@@ -5,4 +5,6 @@ export const config = {
   mongoUrl: process.env.MONGO_URL,
   authSecret: process.env.AUTH_SECRET ?? "",
   authExp: process.env.AUTH_EXP ?? "300",
+  adminEmail: process.env.ADMIN_EMAIL,
+  adminPassword: process.env.ADMIN_PASSWORD,
 };
