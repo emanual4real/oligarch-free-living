@@ -4,6 +4,7 @@ import helmet from "helmet";
 import mongoose from "mongoose";
 import { authenticated } from "./auth";
 import { config } from "./config";
+import { createDefaultAdmin } from "./db";
 import { seedDatabase } from "./db/seed-database";
 import {
   authRouter,
@@ -27,47 +28,46 @@ async function connectDatabase() {
   }
 }
 
-(() => {
+const main = async () => {
+  // Create a new express application instance
+  const app = express();
   connectDatabase();
-})();
+  createDefaultAdmin();
 
-// Create a new express application instance
-const app = express();
-connectDatabase();
-
-if (config.seed) {
-  (async () => {
+  if (config.seed) {
     console.log("seeding database");
     await seedDatabase();
-  })();
-}
+  }
 
-const corsOptions: CorsOptions = {
-  origin: config.client || "http://localhost:4200",
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  const corsOptions: CorsOptions = {
+    origin: config.client || "http://localhost:4200",
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  };
+
+  app.use(cors(corsOptions));
+  app.use(helmet());
+  app.use(express.json());
+
+  // Set the network port
+  const port = config.port || 3000;
+
+  // Define the root path with a greeting message
+  app.get("/", (req: Request, res: Response) => {
+    res.json({ message: "Welcome to the Express + TypeScript Server!" });
+  });
+
+  app.use("/auth", authRouter);
+  app.use("/oligarchs", oligarchRouter);
+  app.use("/companies", companyRouter);
+  app.use("/products", productRouter);
+  app.use("/project2025", project2025Router);
+  app.use("/search", searchRouter);
+  app.use("/users", authenticated, userRouter);
+
+  // Start the Express server
+  app.listen(port, () => {
+    console.log(`The server is running at http://localhost:${port}`);
+  });
 };
 
-app.use(cors(corsOptions));
-app.use(helmet());
-app.use(express.json());
-
-// Set the network port
-const port = config.port || 3000;
-
-// Define the root path with a greeting message
-app.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Welcome to the Express + TypeScript Server!" });
-});
-
-app.use("/auth", authRouter);
-app.use("/oligarchs", oligarchRouter);
-app.use("/companies", companyRouter);
-app.use("/products", productRouter);
-app.use("/project2025", project2025Router);
-app.use("/search", searchRouter);
-app.use("/users", authenticated, userRouter);
-
-// Start the Express server
-app.listen(port, () => {
-  console.log(`The server is running at http://localhost:${port}`);
-});
+main();

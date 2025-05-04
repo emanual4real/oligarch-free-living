@@ -19,7 +19,10 @@ oligarchRouter.post(
 
     try {
       const oligarch = await Oligarch.create(body);
-      res.status(201).json(oligarch);
+      const populatedOligarch = await Oligarch.find({ _id: oligarch._id })
+        .populate("companies")
+        .exec();
+      res.status(201).json(populatedOligarch);
     } catch (err) {
       console.error(err);
       res.status(400).send("Oligarch already exists");
