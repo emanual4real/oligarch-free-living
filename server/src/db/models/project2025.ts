@@ -4,6 +4,9 @@ export interface IProject2025 {
   _id: string;
   type: "project2025";
   name: string;
+  phone: string[];
+  email: string[];
+  address: string[];
   sources: string[];
 }
 
@@ -20,6 +23,9 @@ export const project2025Schema = new mongoose.Schema<
     index: true,
     unique: true,
   },
+  phone: [String],
+  email: [String],
+  address: [String],
   sources: [String],
 });
 

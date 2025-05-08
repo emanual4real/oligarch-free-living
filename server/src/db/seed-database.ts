@@ -22,7 +22,10 @@ const deleteAllProject2025 = async () => {
 const createProject2025FromJson = async () => {
   const seedData = project2025Json.map((row) => ({
     name: row.name,
-    sources: [row.source],
+    phone: row.phone,
+    email: row.email,
+    address: row.address,
+    sources: row.source,
   }));
 
   await Project2025.insertMany(seedData);
