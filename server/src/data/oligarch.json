@@ -345,14 +345,14 @@
   },
   {
     "name": "Vladamir Putin",
-    "companies": [],
+    "companies": ["Russia"],
     "oligarchRating": null,
     "description": "Vladamir Putin is the current president of Russia whose net worth is thought to be around $70 billion dollars. So where to begin as to why Putin is hated? He’s a former KGB official, his foreign policy is extremely aggressive, he’s been accused of vote rigging and corruption, critics of Putin have been imprisoned, fled the country, or have even been found dead, he’s implemented harsh policies against the LBGT community, he likes to use censorship and propaganda, in addition to a host of other questionable practices. Then there was that whole thing where he invaded Ukraine and then annexed a part of their country that caused a war. Oh yeah, let’s not forget when those “pro-Russian separatists” shot down a civilian aircraft with a weapon that came from Russia. And those are just a few reasons as to why people dislike Putin.",
     "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
   },
   {
     "name": "Kim Jong-un",
-    "companies": [],
+    "companies": ["North Korea"],
     "oligarchRating": null,
     "description": "Finally we get to the most hated billionaire, and probably the most hated man currently alive, Kim Jong-un. Kim is the “ultimate supreme leader” of the Democratic (good joke) People’s Republic of North Korea. I mean where do I even begin with this guy? Officials believe that he sits on a fortune of about $5 billion dollars, but regardless if that’s accurate or not, he’s still the richest person in North Korea. Kim and his ruling party (when they aren’t threatening the world with nuclear attacks) just pull the worst stuff ever. Sure the other people on our list might be bad folks, but they aren’t tied to widespread corruption, the starvation of millions of people, not letting any citizen leave the country, brainwashing, killing who knows how many people, and setting up legitimate death and concentration camps. It’s incredible to think that a country like North Korea exists in todays world, and it’s probably the worst place ever. Just read up on some stories about people who managed to escape the death camps and North Korea to learn about the horrors from within (we’re talking about rape, cannibalism, flogging of children, torture, forcing people to work until they die, etc). Apparently if you’re found guilty of a “crime”, specifically crimes that relate to “insulting” Kim’s name, the government not only arrests you, but your entire family. They’ll even put your cousins and uncles into death camps if you’re arrested. So yeah, I would say Kim Jong-un is probably the most hated billionaire ever.",
     "sources": ["https://worthly.com/richest/hated-billionaires-world/"]
@@ -464,6 +464,80 @@
     "description": "",
     "sources": [
       "https://www.vice.com/en/article/palantirs-ceo-is-fine-with-the-horrible-things-his-company-does/"
+    ]
+  },
+  {
+    "name": "David Donahue",
+    "companies": ["GEO Group"],
+    "oligarchRating": null,
+    "description": "This piece of shit literally said he's excited to be imprisoning people.  This company is in bed with ICE, aka American Gestapo.",
+    "sources": [
+      "https://theappeal.org/geo-group-earnings-may-mass-deportation",
+      "https://www.citizensforethics.org/reports-investigations/crew-investigations/private-prison-behemoth-is-first-corporation-to-max-out-to-trump"
+    ]
+  },
+  {
+    "name": "George Zoley",
+    "companies": ["GEO Group"],
+    "oligarchRating": null,
+    "description": "This piece of shit literally said he's excited to be imprisoning people.  This company is in bed with ICE, aka American Gestapo.",
+    "sources": [
+      "https://theappeal.org/geo-group-earnings-may-mass-deportation",
+      "https://www.citizensforethics.org/reports-investigations/crew-investigations/private-prison-behemoth-is-first-corporation-to-max-out-to-trump"
+    ]
+  },
+  {
+    "name": "Larry Fink",
+    "companies": ["BlackRock"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": ["https://www.newsweek.com/who-went-saudi-arabia-trump-2071467"]
+  },
+  {
+    "name": "Jensen Huang",
+    "companies": ["Nvidia"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://fortune.com/2025/05/14/jensen-huang-net-worth-12-billion-saudi-ai-deal-trump/"
+    ]
+  },
+  {
+    "name": "Jeff Miller",
+    "companies": ["Halliburton"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": ["https://www.newsweek.com/who-went-saudi-arabia-trump-2071467"]
+  },
+  {
+    "name": "Ruth Porat",
+    "companies": ["Alphabet", "Google"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": ["https://www.newsweek.com/who-went-saudi-arabia-trump-2071467"]
+  },
+  {
+    "name": "Andy Jassy",
+    "companies": ["Amazon"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": ["https://www.newsweek.com/who-went-saudi-arabia-trump-2071467"]
+  },
+  {
+    "name": "Mohammed Bin Salman",
+    "companies": ["Saudi Arabia"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": ["https://www.newsweek.com/who-went-saudi-arabia-trump-2071467"]
+  },
+  {
+    "name": "Pam Bondi",
+    "companies": [],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.citizensforethics.org/reports-investigations/crew-investigations/the-trump-foundation-pam-bondi-scandal",
+      "https://www.rollingstone.com/politics/politics-news/pam-bondi-disbands-anti-corruption-task-force-1235259073"
     ]
   }
 ]
