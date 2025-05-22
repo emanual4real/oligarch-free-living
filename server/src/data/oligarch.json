@@ -539,5 +539,15 @@
       "https://www.citizensforethics.org/reports-investigations/crew-investigations/the-trump-foundation-pam-bondi-scandal",
       "https://www.rollingstone.com/politics/politics-news/pam-bondi-disbands-anti-corruption-task-force-1235259073"
     ]
+  },
+  {
+    "name": "Fernando Fernandez",
+    "companies": ["Unilever"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.unilever.com/our-company/our-leadership/",
+      "https://www.cnn.com/2025/03/19/food/ben-and-jerrys-ceo-lawsuit"
+    ]
   }
 ]

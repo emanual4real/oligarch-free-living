@@ -2581,5 +2581,245 @@
       "https://candor.co/articles/tech-careers/is-palantir-controversial-enough-to-boycott",
       "https://www.yahoo.com/news/ice-just-ordered-30-million-212445164.html"
     ]
+  },
+  {
+    "productName": "Dove",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Sunsilk",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Vaseline",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Liquid I.V.",
+    "productType": "Hydration Supplement",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Clear",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Dermalogica",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Nutrafol",
+    "productType": "Nutritional Supplement",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Pond's",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Paula's Choice",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "TRESemmé",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "AXE",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Closeup",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "LUX",
+    "productType": "Beauty Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Lifebuoy",
+    "productType": "Medical Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Pepsodent",
+    "productType": "Medical Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Rexona",
+    "productType": "Medical Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Cif",
+    "productType": "Household Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Comfort",
+    "productType": "Household Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Domestos",
+    "productType": "Household Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "OMO",
+    "productType": "Household Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Radiant",
+    "productType": "Household Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Sunlight",
+    "productType": "Household Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Surf",
+    "productType": "Household Products",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Hellmann's",
+    "productType": "Food & Drink",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Horlicks",
+    "productType": "Food & Drink",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Knorr",
+    "productType": "Food & Drink",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Ben & Jerry's",
+    "productType": "Food & Drink",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Cornetto",
+    "productType": "Food & Drink",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Magnum",
+    "productType": "Food & Drink",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "Wall's",
+    "productType": "Food & Drink",
+    "company": "Unilever",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.unilever.com/brands/all-brands"]
   }
 ]
