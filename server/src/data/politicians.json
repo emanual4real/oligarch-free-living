@@ -34,6 +34,13 @@
     "sources": ["https://nypost.com/us-news/lauren-boebert-worst-moments"]
   },
   {
+    "name": "Nancy Pelosi",
+    "party": "Democrat",
+    "state": "California",
+    "description": "I'm not familiar with any drama or particularly bad political moments.  What I can say is that when there are websites dedicated to a government official's insider trading, you know something is wrong.",
+    "sources": ["https://stockscan.io/nancy-pelosi-stock-tracker"]
+  },
+  {
     "name": "Mike Johnson",
     "party": "Republican",
     "state": "Louisiana",
