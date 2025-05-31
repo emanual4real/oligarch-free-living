@@ -10,6 +10,7 @@ import {
   authRouter,
   companyRouter,
   oligarchRouter,
+  politicianRouter,
   productRouter,
   project2025Router,
   userRouter,
@@ -61,6 +62,7 @@ const main = async () => {
   app.use("/companies", companyRouter);
   app.use("/products", productRouter);
   app.use("/project2025", project2025Router);
+  app.use("/politicians", politicianRouter);
   app.use("/search", searchRouter);
   app.use("/users", authenticated, userRouter);
 

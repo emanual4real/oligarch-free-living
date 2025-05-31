@@ -1,12 +1,13 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '@environment';
-import { Company, Oligarch, Product, Project2025 } from '@types';
+import { Company, Oligarch, Politician, Product, Project2025 } from '@types';
 import { forkJoin, map, Observable, of, switchMap, take, tap } from 'rxjs';
 import { AuthService } from '../auth';
 
 interface DataCache {
   oligarchs: Oligarch[];
+  politicians: Politician[];
   products: Product[];
   companies: Company[];
   'companies/list': Partial<Company>[];
@@ -22,6 +23,7 @@ type DataCacheKey = keyof DataCache;
 export class DataService {
   private cache: DataCache = {
     oligarchs: [],
+    politicians: [],
     products: [],
     companies: [],
     'companies/list': [],
@@ -53,6 +55,10 @@ export class DataService {
 
   getOligarchs() {
     return this.cacheOrFetchData<Oligarch>('oligarchs');
+  }
+
+  getPoliticians() {
+    return this.cacheOrFetchData<Politician>('politicians');
   }
 
   getProducts() {

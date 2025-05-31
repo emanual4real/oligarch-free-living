@@ -1,10 +1,16 @@
 import oligarchJson from "../data/oligarch.json";
+import policitiansJson from "../data/politicians.json";
 import productJson from "../data/products.json";
 import project2025Json from "../data/project2025.json";
 import { Company, Oligarch, Product, Project2025 } from "./models";
+import { Politician } from "./models/politicians";
 
 const deleteAllOligarchs = async () => {
   await Oligarch.deleteMany({}).exec();
+};
+
+const deleteAllPoliticians = async () => {
+  await Politician.deleteMany({}).exec();
 };
 
 const deleteAllCompanies = async () => {
@@ -29,6 +35,18 @@ const createProject2025FromJson = async () => {
   }));
 
   await Project2025.insertMany(seedData);
+};
+
+const createPoliticiansFromJson = async () => {
+  const seedData = policitiansJson.map((row) => ({
+    name: row.name,
+    party: row.party,
+    state: row.state,
+    description: row.description,
+    sources: row.sources,
+  }));
+
+  await Politician.insertMany(seedData);
 };
 
 const createOligarchsFromJson = async () => {
@@ -109,12 +127,14 @@ const createProductsAndCompaniesFromJson = async () => {
 
 export const seedDatabase = async () => {
   await deleteAllOligarchs();
+  await deleteAllPoliticians();
   await deleteAllCompanies();
   await deleteAllProducts();
   await deleteAllProject2025();
 
   await createProductsAndCompaniesFromJson();
   await createOligarchsFromJson();
+  await createPoliticiansFromJson();
   await createProject2025FromJson();
 
   console.log("Seeding database complete");

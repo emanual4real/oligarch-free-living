@@ -17,6 +17,16 @@ export interface Oligarch {
   companies: string[] | Company[];
 }
 
+export interface Politician {
+  _id: string;
+  type: 'politician';
+  name: string;
+  party: string;
+  state: string;
+  description: string;
+  sources: string[];
+}
+
 export interface Product {
   _id: string;
   type: 'product';
