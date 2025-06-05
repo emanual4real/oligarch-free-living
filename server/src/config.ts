@@ -7,4 +7,5 @@ export const config = {
   authExp: process.env.AUTH_EXP ?? "300",
   adminEmail: process.env.ADMIN_EMAIL,
   adminPassword: process.env.ADMIN_PASSWORD,
+  photoPath: process.env.PHOTO_PATH,
 };
