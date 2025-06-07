@@ -5,3 +5,41 @@
   width: 70%;
   font-size: 1.5rem;
 }
+
+@media screen and (min-width: 650px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      'title . search'
+      'text gallery gallery'
+      'text gallery gallery';
+  }
+  .title {
+    grid-area: title;
+  }
+  .search {
+    grid-area: search;
+  }
+  .text {
+    grid-area: text;
+  }
+  .gallery {
+    grid-area: gallery;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .title {
+  }
+  .search {
+  }
+  .text {
+  }
+  .gallery {
+    display: none;
+  }
+}
