@@ -2,7 +2,6 @@ import cors, { CorsOptions } from "cors";
 import express, { Request, Response } from "express";
 import helmet from "helmet";
 import mongoose from "mongoose";
-import path from "path";
 import { authenticated } from "./auth";
 import { config } from "./config";
 import { createDefaultAdmin } from "./db";
@@ -60,12 +59,14 @@ const main = async () => {
   });
 
   app.use(
-    express.static(path.join(__dirname, "public"), {
+    "/images",
+    express.static(config.photoPath ?? "", {
       setHeaders: (res) => {
         res.set("Cross-Origin-Resource-Policy", "cross-origin");
       },
     })
   );
+
   app.use("/auth", authRouter);
   app.use("/oligarchs", oligarchRouter);
   app.use("/companies", companyRouter);
