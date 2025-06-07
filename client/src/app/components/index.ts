@@ -2,6 +2,7 @@ export * from './about';
 export * from './companies';
 export * from './create-oligarch';
 export * from './footer';
+export * from './gallery';
 export * from './home';
 export * from './login';
 export * from './oligarchs';

@@ -2,6 +2,7 @@ import cors, { CorsOptions } from "cors";
 import express, { Request, Response } from "express";
 import helmet from "helmet";
 import mongoose from "mongoose";
+import path from "path";
 import { authenticated } from "./auth";
 import { config } from "./config";
 import { createDefaultAdmin } from "./db";
@@ -10,12 +11,13 @@ import {
   authRouter,
   companyRouter,
   oligarchRouter,
+  photoRouter,
   politicianRouter,
   productRouter,
   project2025Router,
+  searchRouter,
   userRouter,
 } from "./routes";
-import { searchRouter } from "./routes/search.routes";
 
 // mongoose connection
 async function connectDatabase() {
@@ -57,9 +59,17 @@ const main = async () => {
     res.json({ message: "Welcome to the Express + TypeScript Server!" });
   });
 
+  app.use(
+    express.static(path.join(__dirname, "public"), {
+      setHeaders: (res) => {
+        res.set("Cross-Origin-Resource-Policy", "cross-origin");
+      },
+    })
+  );
   app.use("/auth", authRouter);
   app.use("/oligarchs", oligarchRouter);
   app.use("/companies", companyRouter);
+  app.use("/photos", photoRouter);
   app.use("/products", productRouter);
   app.use("/project2025", project2025Router);
   app.use("/politicians", politicianRouter);
