@@ -556,5 +556,14 @@
       "https://www.unilever.com/our-company/our-leadership/",
       "https://www.cnn.com/2025/03/19/food/ben-and-jerrys-ceo-lawsuit"
     ]
+  },
+  {
+    "name": "Shari Redstone",
+    "companies": ["Paramount"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.mediaite.com/media/news/bob-costas-condemns-mainstream-press-for-doing-maga-media-there-really-isnt-two-sides"
+    ]
   }
 ]

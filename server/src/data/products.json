@@ -336,7 +336,10 @@
     "productType": "Cellular Service",
     "company": "AT&T",
     "alternatives": ["Boost Mobile", "Mint Mobile", "Honest Mobile"],
-    "sources": ["https://www.boostmobile.com/our-network"]
+    "sources": [
+      "https://www.boostmobile.com/our-network",
+      "https://www.whitehouse.gov/obbb/endorsements/"
+    ]
   },
   {
     "id": 28,
@@ -1280,7 +1283,10 @@
     "productType": "Telecommunications",
     "company": "Comcast",
     "alternatives": [],
-    "sources": ["https://bridgestoburn.substack.com/p/wall-of-shame"]
+    "sources": [
+      "https://bridgestoburn.substack.com/p/wall-of-shame",
+      "https://www.whitehouse.gov/obbb/endorsements/"
+    ]
   },
   {
     "productName": "Coke",
@@ -2849,5 +2855,37 @@
     "alternatives": [],
     "isOligarchFree": false,
     "sources": ["https://www.unilever.com/brands/all-brands"]
+  },
+  {
+    "productName": "American Airlines",
+    "productType": "Airline",
+    "company": "American Airlines",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.whitehouse.gov/obbb/endorsements"]
+  },
+  {
+    "productName": "Delta",
+    "productType": "Airline",
+    "company": "Delta",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.whitehouse.gov/obbb/endorsements"]
+  },
+  {
+    "productName": "3M",
+    "productType": "Unknown",
+    "company": "3M",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.whitehouse.gov/obbb/endorsements/"]
+  },
+  {
+    "productName": "Finseca",
+    "productType": "Finance",
+    "company": "Finseca",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://www.whitehouse.gov/obbb/endorsements/"]
   }
 ]
