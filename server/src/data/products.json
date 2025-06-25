@@ -2887,5 +2887,45 @@
     "alternatives": [],
     "isOligarchFree": false,
     "sources": ["https://www.whitehouse.gov/obbb/endorsements/"]
+  },
+  {
+    "productName": "Instapot",
+    "productType": "Home Goods",
+    "company": "Instant Pot Brands",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.semafor.com/article/06/16/2025/home-goods-companies-prepare-new-trump-linked-products/"
+    ]
+  },
+  {
+    "productName": "Tableware products",
+    "productType": "Tableware",
+    "company": "Lenox Corporation",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.semafor.com/article/06/16/2025/home-goods-companies-prepare-new-trump-linked-products/"
+    ]
+  },
+  {
+    "productName": "LLFlex Products",
+    "productType": "Industrial",
+    "company": "LLFlex",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.semafor.com/article/06/16/2025/home-goods-companies-prepare-new-trump-linked-products/"
+    ]
+  },
+  {
+    "productName": "Anchor Glassware Containers",
+    "productType": "Glassware",
+    "company": "Anchor Hocking",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": [
+      "https://www.semafor.com/article/06/16/2025/home-goods-companies-prepare-new-trump-linked-products/"
+    ]
   }
 ]
