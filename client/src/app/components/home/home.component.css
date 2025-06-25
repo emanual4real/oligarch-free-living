@@ -39,6 +39,9 @@
   }
   .text {
   }
+  .flyer {
+    width: 100%;
+  }
   .gallery {
     display: none;
   }
