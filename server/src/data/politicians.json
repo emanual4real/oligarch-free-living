@@ -9,47 +9,11 @@
     ]
   },
   {
-    "name": "Marjorie Taylor Greene (MGT or Bad Built Butch Body)",
-    "party": "Republican",
-    "state": "Georgia",
-    "description": "This woman is just unbelievably dumb.  The only people dumber are her voters.  From 'Gazpacho Police' to Jewish Space lasers",
-    "sources": [
-      "https://www.newsweek.com/marjorie-taylor-greenes-10-most-outrageous-quotes-this-year-1769407",
-      "https://www.thealtmedia.com/p/mtg-caught-buying-the-dip-as-aoc"
-    ]
-  },
-  {
-    "name": "Ted Cruz",
-    "party": "Republican",
-    "state": "Texas",
-    "description": "I'll always remember this coward as the guy who fled to cancun while his voters froze during the blackouts.",
-    "sources": [
-      "https://www.dallasobserver.com/arts/the-worst-ted-cruz-moments-in-history-11990723"
-    ]
-  },
-  {
-    "name": "Lauren Boebert",
-    "party": "Republican",
-    "state": "Colorado",
-    "description": "Woman's entire family is a shit show thanks to her and she's the worst of them all.  I don't use the c word lightly, but she's a grade A cunt.",
-    "sources": ["https://nypost.com/us-news/lauren-boebert-worst-moments"]
-  },
-  {
     "name": "Nancy Pelosi",
     "party": "Democrat",
     "state": "California",
     "description": "I'm not familiar with any drama or particularly bad political moments.  What I can say is that when there are websites dedicated to a government official's insider trading, you know something is wrong.",
     "sources": ["https://stockscan.io/nancy-pelosi-stock-tracker"]
-  },
-  {
-    "name": "Mike Johnson",
-    "party": "Republican",
-    "state": "Louisiana",
-    "description": "Aside from leading the worst congress in history, this man is just creepy.  He's a faux-Christian who talks about porn monitoring with his son.  Included a youtube video of him denying 'diddling' kids for fun.",
-    "sources": [
-      "https://www.rollingstone.com/politics/politics-news/mike-johnson-son-monitor-porn-intake-covenant-eyes-1234870634",
-      "https://www.youtube.com/watch?v=_YmDcCpD1gc"
-    ]
   },
   {
     "name": "Chuck Schumer",
@@ -735,5 +699,2167 @@
     "sources": [
       "https://www.msn.com/en-us/news/politics/75-democrats-express-gratitude-to-ice-in-antisemitism-vote-amid-la-riots/ar-AA1GoYn7"
     ]
+  },
+  {
+    "name": "Moore, Barry",
+    "party": "R",
+    "state": "Alabama",
+    "district": "AL-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Rogers, Mike",
+    "party": "R",
+    "state": "Alabama",
+    "district": "AL-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Aderholt, Robert",
+    "party": "R",
+    "state": "Alabama",
+    "district": "AL-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Strong, Dale",
+    "party": "R",
+    "state": "Alabama",
+    "district": "AL-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Palmer, Gary",
+    "party": "R",
+    "state": "Alabama",
+    "district": "AL-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Begich, Nicholas",
+    "party": "R",
+    "state": "Alaska",
+    "district": "AK",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Schweikert, David",
+    "party": "R",
+    "state": "Arizona",
+    "district": "AZ-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Crane, Eli",
+    "party": "R",
+    "state": "Arizona",
+    "district": "AZ-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Biggs, Andy",
+    "party": "R",
+    "state": "Arizona",
+    "district": "AZ-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Ciscomani, Juan",
+    "party": "R",
+    "state": "Arizona",
+    "district": "AZ-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hamadeh, Abraham",
+    "party": "R",
+    "state": "Arizona",
+    "district": "AZ-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Gosar, Paul",
+    "party": "R",
+    "state": "Arizona",
+    "district": "AZ-9",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Crawford, Eric",
+    "party": "R",
+    "state": "Arkansas",
+    "district": "AR-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hill, French",
+    "party": "R",
+    "state": "Arkansas",
+    "district": "AR-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Womack, Steve",
+    "party": "R",
+    "state": "Arkansas",
+    "district": "AR-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Westerman, Bruce",
+    "party": "R",
+    "state": "Arkansas",
+    "district": "AR-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "LaMalfa, Doug",
+    "party": "R",
+    "state": "California",
+    "district": "CA-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kiley, Kevin",
+    "party": "R",
+    "state": "California",
+    "district": "CA-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McClintock, Tom",
+    "party": "R",
+    "state": "California",
+    "district": "CA-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fong, Vince",
+    "party": "R",
+    "state": "California",
+    "district": "CA-20",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Valadao, David",
+    "party": "R",
+    "state": "California",
+    "district": "CA-22",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Obernolte, Jay",
+    "party": "R",
+    "state": "California",
+    "district": "CA-23",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kim, Young",
+    "party": "R",
+    "state": "California",
+    "district": "CA-40",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Calvert, Ken",
+    "party": "R",
+    "state": "California",
+    "district": "CA-41",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Issa, Darrell",
+    "party": "R",
+    "state": "California",
+    "district": "CA-48",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hurd, Jeff",
+    "party": "R",
+    "state": "Colorado",
+    "district": "CO-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Boebert, Lauren",
+    "party": "R",
+    "state": "Colorado",
+    "district": "CO-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": [
+      "https://www.govtrack.us/congress/votes/119-2025/h190",
+      "https://nypost.com/us-news/lauren-boebert-worst-moments"
+    ]
+  },
+  {
+    "name": "Crank, Jeff",
+    "party": "R",
+    "state": "Colorado",
+    "district": "CO-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Evans, Gabe",
+    "party": "R",
+    "state": "Colorado",
+    "district": "CO-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Patronis, Jimmy",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Dunn, Neal",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cammack, Kat",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bean, Aaron",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Rutherford, John",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fine, Randy",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Mills, Cory",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Haridopolos, Mike",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Webster, Daniel",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-11",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bilirakis, Gus",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-12",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Luna, Anna",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-13",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Lee, Laurel",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-15",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Buchanan, Vern",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-16",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Steube, Gregory",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-17",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Franklin, Scott",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-18",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Donalds, Byron",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-19",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Mast, Brian",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-21",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Diaz-Balart, Mario",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-26",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Salazar, Maria",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-27",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Gimenez, Carlos",
+    "party": "R",
+    "state": "Florida",
+    "district": "FL-28",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Carter, Earl",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Jack, Brian",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McCormick, Rich",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Scott, Austin",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Clyde, Andrew",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-9",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Collins, Mike",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-10",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Loudermilk, Barry",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-11",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Allen, Rick",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-12",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Greene, Marjorie",
+    "party": "R",
+    "state": "Georgia",
+    "district": "GA-14",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": [
+      "https://www.govtrack.us/congress/votes/119-2025/h190",
+      "https://www.newsweek.com/marjorie-taylor-greenes-10-most-outrageous-quotes-this-year-1769407",
+      "https://www.thealtmedia.com/p/mtg-caught-buying-the-dip-as-aoc"
+    ]
+  },
+  {
+    "name": "Fulcher, Russ",
+    "party": "R",
+    "state": "Idaho",
+    "district": "ID-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Simpson, Mike",
+    "party": "R",
+    "state": "Idaho",
+    "district": "ID-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bost, Mike",
+    "party": "R",
+    "state": "Illinois",
+    "district": "IL-12",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Miller, Mary",
+    "party": "R",
+    "state": "Illinois",
+    "district": "IL-15",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "LaHood, Darin",
+    "party": "R",
+    "state": "Illinois",
+    "district": "IL-16",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Yakym, Rudy",
+    "party": "R",
+    "state": "Indiana",
+    "district": "IN-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Stutzman, Marlin",
+    "party": "R",
+    "state": "Indiana",
+    "district": "IN-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Baird, James",
+    "party": "R",
+    "state": "Indiana",
+    "district": "IN-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Spartz, Victoria",
+    "party": "R",
+    "state": "Indiana",
+    "district": "IN-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Shreve, Jefferson",
+    "party": "R",
+    "state": "Indiana",
+    "district": "IN-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Messmer, Mark",
+    "party": "R",
+    "state": "Indiana",
+    "district": "IN-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Houchin, Erin",
+    "party": "R",
+    "state": "Indiana",
+    "district": "IN-9",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Miller-Meeks, Mariannette",
+    "party": "R",
+    "state": "Iowa",
+    "district": "IA-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hinson, Ashley",
+    "party": "R",
+    "state": "Iowa",
+    "district": "IA-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Nunn, Zachary (Zach)",
+    "party": "R",
+    "state": "Iowa",
+    "district": "IA-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Feenstra, Randy",
+    "party": "R",
+    "state": "Iowa",
+    "district": "IA-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Mann, Tracey",
+    "party": "R",
+    "state": "Kansas",
+    "district": "KS-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Schmidt, Derek",
+    "party": "R",
+    "state": "Kansas",
+    "district": "KS-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Estes, Ron",
+    "party": "R",
+    "state": "Kansas",
+    "district": "KS-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Comer, James",
+    "party": "R",
+    "state": "Kentucky",
+    "district": "KY-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Guthrie, Brett",
+    "party": "R",
+    "state": "Kentucky",
+    "district": "KY-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Rogers, Hal",
+    "party": "R",
+    "state": "Kentucky",
+    "district": "KY-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Barr, Andy",
+    "party": "R",
+    "state": "Kentucky",
+    "district": "KY-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Scalise, Steve",
+    "party": "R",
+    "state": "Louisiana",
+    "district": "LA-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Higgins, Clay",
+    "party": "R",
+    "state": "Louisiana",
+    "district": "LA-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Johnson, Mike",
+    "party": "R",
+    "state": "Louisiana",
+    "district": "LA-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": [
+      "https://www.govtrack.us/congress/votes/119-2025/h190",
+      "https://www.rollingstone.com/politics/politics-news/mike-johnson-son-monitor-porn-intake-covenant-eyes-1234870634"
+    ]
+  },
+  {
+    "name": "Letlow, Julia",
+    "party": "R",
+    "state": "Louisiana",
+    "district": "LA-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Harris, Andy",
+    "party": "R",
+    "state": "Maryland",
+    "district": "MD-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bergman, Jack",
+    "party": "R",
+    "state": "Michigan",
+    "district": "MI-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moolenaar, John",
+    "party": "R",
+    "state": "Michigan",
+    "district": "MI-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Huizenga, Bill",
+    "party": "R",
+    "state": "Michigan",
+    "district": "MI-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Walberg, Tim",
+    "party": "R",
+    "state": "Michigan",
+    "district": "MI-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Barrett, Tom",
+    "party": "R",
+    "state": "Michigan",
+    "district": "MI-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McClain, Lisa",
+    "party": "R",
+    "state": "Michigan",
+    "district": "MI-9",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "James, John",
+    "party": "R",
+    "state": "Michigan",
+    "district": "MI-10",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Finstad, Brad",
+    "party": "R",
+    "state": "Minnesota",
+    "district": "MN-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Emmer, Tom",
+    "party": "R",
+    "state": "Minnesota",
+    "district": "MN-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fischbach, Michelle",
+    "party": "R",
+    "state": "Minnesota",
+    "district": "MN-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Stauber, Pete",
+    "party": "R",
+    "state": "Minnesota",
+    "district": "MN-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kelly, Trent",
+    "party": "R",
+    "state": "Mississippi",
+    "district": "MS-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Guest, Michael",
+    "party": "R",
+    "state": "Mississippi",
+    "district": "MS-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Ezell, Mike",
+    "party": "R",
+    "state": "Mississippi",
+    "district": "MS-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Wagner, Ann",
+    "party": "R",
+    "state": "Missouri",
+    "district": "MO-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Onder, Robert",
+    "party": "R",
+    "state": "Missouri",
+    "district": "MO-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Alford, Mark",
+    "party": "R",
+    "state": "Missouri",
+    "district": "MO-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Graves, Sam",
+    "party": "R",
+    "state": "Missouri",
+    "district": "MO-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Burlison, Eric",
+    "party": "R",
+    "state": "Missouri",
+    "district": "MO-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Smith, Jason",
+    "party": "R",
+    "state": "Missouri",
+    "district": "MO-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Zinke, Ryan",
+    "party": "R",
+    "state": "Montana",
+    "district": "MT-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Downing, Troy",
+    "party": "R",
+    "state": "Montana",
+    "district": "MT-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Flood, Mike",
+    "party": "R",
+    "state": "Nebraska",
+    "district": "NE-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bacon, Don",
+    "party": "R",
+    "state": "Nebraska",
+    "district": "NE-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Smith, Adrian",
+    "party": "R",
+    "state": "Nebraska",
+    "district": "NE-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Amodei, Mark",
+    "party": "R",
+    "state": "Nevada",
+    "district": "NV-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Van Drew, Jefferson",
+    "party": "R",
+    "state": "New Jersey",
+    "district": "NJ-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Smith, Chris",
+    "party": "R",
+    "state": "New Jersey",
+    "district": "NJ-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kean, Thomas",
+    "party": "R",
+    "state": "New Jersey",
+    "district": "NJ-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "LaLota, Nicolas",
+    "party": "R",
+    "state": "New York",
+    "district": "NY-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Garbarino, Andrew",
+    "party": "R",
+    "state": "New York",
+    "district": "NY-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Malliotakis, Nicole",
+    "party": "R",
+    "state": "New York",
+    "district": "NY-11",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Lawler, Michael",
+    "party": "R",
+    "state": "New York",
+    "district": "NY-17",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Stefanik, Elise",
+    "party": "R",
+    "state": "New York",
+    "district": "NY-21",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Langworthy, Nicholas",
+    "party": "R",
+    "state": "New York",
+    "district": "NY-23",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Tenney, Claudia",
+    "party": "R",
+    "state": "New York",
+    "district": "NY-24",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Murphy, Gregory",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Foxx, Virginia",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McDowell, Addison",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Rouzer, David",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Harris, Mark Everette",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hudson, Richard",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-9",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Harrigan, Pat",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-10",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Edwards, Charles (Chuck)",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-11",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Knott, Brad",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-13",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moore, Tim",
+    "party": "R",
+    "state": "North Carolina",
+    "district": "NC-14",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fedorchak, Julie",
+    "party": "R",
+    "state": "North Dakota",
+    "district": "ND",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Taylor, David",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Jordan, Jim",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Latta, Robert",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Rulli, Michael",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Miller, Max",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Davidson, Warren",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Turner, Michael",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-10",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Balderson, Troy",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-12",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Joyce, David",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-14",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Carey, Mike",
+    "party": "R",
+    "state": "Ohio",
+    "district": "OH-15",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hern, Kevin",
+    "party": "R",
+    "state": "Oklahoma",
+    "district": "OK-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Brecheen, Josh",
+    "party": "R",
+    "state": "Oklahoma",
+    "district": "OK-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Lucas, Frank",
+    "party": "R",
+    "state": "Oklahoma",
+    "district": "OK-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cole, Tom",
+    "party": "R",
+    "state": "Oklahoma",
+    "district": "OK-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bice, Stephanie",
+    "party": "R",
+    "state": "Oklahoma",
+    "district": "OK-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bentz, Cliff",
+    "party": "R",
+    "state": "Oregon",
+    "district": "OR-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Mackenzie, Ryan",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Bresnahan, Robert",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Meuser, Daniel",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-9",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Perry, Scott",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-10",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Smucker, Lloyd",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-11",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Joyce, John",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-13",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Reschenthaler, Guy",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-14",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Thompson, Glenn",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-15",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kelly, Mike",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": "PA-16",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Mace, Nancy",
+    "party": "R",
+    "state": "South Carolina",
+    "district": "SC-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Wilson, Joe",
+    "party": "R",
+    "state": "South Carolina",
+    "district": "SC-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Biggs, Sheri",
+    "party": "R",
+    "state": "South Carolina",
+    "district": "SC-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Timmons, William",
+    "party": "R",
+    "state": "South Carolina",
+    "district": "SC-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Norman, Ralph",
+    "party": "R",
+    "state": "South Carolina",
+    "district": "SC-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fry, Russell",
+    "party": "R",
+    "state": "South Carolina",
+    "district": "SC-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Johnson, Dusty",
+    "party": "R",
+    "state": "South Dakota",
+    "district": "SD",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Harshbarger, Diana",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Burchett, Tim",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fleischmann, Chuck",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "DesJarlais, Scott",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Ogles, Andrew",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Rose, John W.",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Green, Mark E.",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kustoff, David",
+    "party": "R",
+    "state": "Tennessee",
+    "district": "TN-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moran, Nathaniel",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Crenshaw, Dan",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Self, Keith",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fallon, Pat",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Gooden, Lance",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Ellzey, Jake",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Luttrell, Morgan",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McCaul, Michael",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-10",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Pfluger, August",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-11",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Goldman, Craig",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-12",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Jackson, Ronny",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-13",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Weber, Randy",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-14",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "De La Cruz, Mónica",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-15",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Sessions, Pete",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-17",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Arrington, Jodey",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-19",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Roy, Chip",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-21",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Nehls, Troy",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-22",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Gonzales, Tony",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-23",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Van Duyne, Beth",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-24",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Williams, Roger",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-25",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Gill, Brandon",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-26",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cloud, Michael",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-27",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Carter, John R.",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-31",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Babin, Brian",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-36",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hunt, Wesley",
+    "party": "R",
+    "state": "Texas",
+    "district": "TX-38",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moore, Blake",
+    "party": "R",
+    "state": "Utah",
+    "district": "UT-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Maloy, Celeste",
+    "party": "R",
+    "state": "Utah",
+    "district": "UT-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kennedy, Mike",
+    "party": "R",
+    "state": "Utah",
+    "district": "UT-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Owens, Burgess",
+    "party": "R",
+    "state": "Utah",
+    "district": "UT-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Wittman, Robert",
+    "party": "R",
+    "state": "Virginia",
+    "district": "VA-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kiggans, Jennifer",
+    "party": "R",
+    "state": "Virginia",
+    "district": "VA-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McGuire, John J.",
+    "party": "R",
+    "state": "Virginia",
+    "district": "VA-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cline, Ben",
+    "party": "R",
+    "state": "Virginia",
+    "district": "VA-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Griffith, Morgan",
+    "party": "R",
+    "state": "Virginia",
+    "district": "VA-9",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Newhouse, Dan",
+    "party": "R",
+    "state": "Washington",
+    "district": "WA-4",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Baumgartner, Michael",
+    "party": "R",
+    "state": "Washington",
+    "district": "WA-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Miller, Carol",
+    "party": "R",
+    "state": "West Virginia",
+    "district": "WV-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moore, Riley",
+    "party": "R",
+    "state": "West Virginia",
+    "district": "WV-2",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Steil, Bryan",
+    "party": "R",
+    "state": "Wisconsin",
+    "district": "WI-1",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Van Orden, Derrick",
+    "party": "R",
+    "state": "Wisconsin",
+    "district": "WI-3",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fitzgerald, Scott",
+    "party": "R",
+    "state": "Wisconsin",
+    "district": "WI-5",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Grothman, Glenn",
+    "party": "R",
+    "state": "Wisconsin",
+    "district": "WI-6",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Tiffany, Thomas",
+    "party": "R",
+    "state": "Wisconsin",
+    "district": "WI-7",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Wied, Tony",
+    "party": "R",
+    "state": "Wisconsin",
+    "district": "WI-8",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hageman, Harriet",
+    "party": "R",
+    "state": "Wyoming",
+    "district": "WY",
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Vance, J.D.",
+    "party": "Vice President",
+    "state": null,
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Britt, Katie",
+    "party": "R",
+    "state": "Alabama",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Tuberville, Tommy",
+    "party": "R",
+    "state": "Alabama",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Murkowski, Lisa",
+    "party": "R",
+    "state": "Alaska",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Sullivan, Dan",
+    "party": "R",
+    "state": "Alaska",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Boozman, John",
+    "party": "R",
+    "state": "Arkansas",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cotton, Tom",
+    "party": "R",
+    "state": "Arkansas",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moody, Ashley",
+    "party": "R",
+    "state": "Florida",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Scott, Rick",
+    "party": "R",
+    "state": "Florida",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Crapo, Mike",
+    "party": "R",
+    "state": "Idaho",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Risch, James",
+    "party": "R",
+    "state": "Idaho",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Banks, Jim",
+    "party": "R",
+    "state": "Indiana",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Young, Todd",
+    "party": "R",
+    "state": "Indiana",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Ernst, Joni",
+    "party": "R",
+    "state": "Iowa",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Grassley, Chuck",
+    "party": "R",
+    "state": "Iowa",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Marshall, Roger",
+    "party": "R",
+    "state": "Kansas",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moran, Jerry",
+    "party": "R",
+    "state": "Kansas",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McConnell, Mitch",
+    "party": "R",
+    "state": "Kentucky",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cassidy, Bill",
+    "party": "R",
+    "state": "Louisiana",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Kennedy, John Neely",
+    "party": "R",
+    "state": "Louisiana",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hyde-Smith, Cindy",
+    "party": "R",
+    "state": "Mississippi",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Wicker, Roger",
+    "party": "R",
+    "state": "Mississippi",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hawley, Josh",
+    "party": "R",
+    "state": "Missouri",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Schmitt, Eric",
+    "party": "R",
+    "state": "Missouri",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Daines, Steve",
+    "party": "R",
+    "state": "Montana",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Sheehy, Tim",
+    "party": "R",
+    "state": "Montana",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Fischer, Deb",
+    "party": "R",
+    "state": "Nebraska",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Ricketts, Pete",
+    "party": "R",
+    "state": "Nebraska",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Budd, Ted",
+    "party": "R",
+    "state": "North Carolina",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cramer, Kevin",
+    "party": "R",
+    "state": "North Dakota",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hoeven, John",
+    "party": "R",
+    "state": "North Dakota",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Husted, Jon",
+    "party": "R",
+    "state": "Ohio",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Moreno, Bernie",
+    "party": "R",
+    "state": "Ohio",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Lankford, James",
+    "party": "R",
+    "state": "Oklahoma",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Mullin, Markwayne",
+    "party": "R",
+    "state": "Oklahoma",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "McCormick, Dave",
+    "party": "R",
+    "state": "Pennsylvania",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Graham, Lindsey",
+    "party": "R",
+    "state": "South Carolina",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Scott, Tim",
+    "party": "R",
+    "state": "South Carolina",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Rounds, Mike",
+    "party": "R",
+    "state": "South Dakota",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Thune, John",
+    "party": "R",
+    "state": "South Dakota",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Blackburn, Marsha",
+    "party": "R",
+    "state": "Tennessee",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Hagerty, Bill",
+    "party": "R",
+    "state": "Tennessee",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cornyn, John",
+    "party": "R",
+    "state": "Texas",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Cruz, Ted",
+    "party": "R",
+    "state": "Texas",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Curtis, John",
+    "party": "R",
+    "state": "Utah",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Lee, Mike",
+    "party": "R",
+    "state": "Utah",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Capito, Shelley",
+    "party": "R",
+    "state": "West Virginia",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Justice, Jim",
+    "party": "R",
+    "state": "West Virginia",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Johnson, Ron",
+    "party": "R",
+    "state": "Wisconsin",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Barrasso, John",
+    "party": "R",
+    "state": "Wyoming",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+  },
+  {
+    "name": "Lummis, Cynthia",
+    "party": "R",
+    "state": "Wyoming",
+    "district": null,
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
+    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
   }
 ]

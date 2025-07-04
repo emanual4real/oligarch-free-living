@@ -6,6 +6,7 @@ export interface IPolitician {
   name: string;
   party: string;
   state: string;
+  district: string;
   description: string;
   sources: string[];
 }
@@ -25,6 +26,7 @@ export const politicianSchema = new mongoose.Schema<
   },
   party: String,
   state: String,
+  district: String,
   description: String,
   sources: [String],
 });

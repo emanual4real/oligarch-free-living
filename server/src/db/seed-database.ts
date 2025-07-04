@@ -42,6 +42,7 @@ const createPoliticiansFromJson = async () => {
     name: row.name,
     party: row.party,
     state: row.state,
+    district: row.district,
     description: row.description,
     sources: row.sources,
   }));
