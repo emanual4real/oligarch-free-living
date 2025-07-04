@@ -79,7 +79,7 @@ export class DataService {
 
   search(text: string) {
     const queryParam = `text=${text}`;
-    return this.cacheOrFetchData<Oligarch | Product | Company | Project2025>('search', true, queryParam);
+    return this.cacheOrFetchData<Oligarch | Product | Company | Project2025 | Politician>('search', true, queryParam);
   }
 
   fetchAll() {

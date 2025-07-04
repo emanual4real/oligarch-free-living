@@ -8,6 +8,7 @@ import {
   Product,
   Project2025,
 } from "../db/models";
+import { Politician } from "../db/models/politicians";
 import { distinctModelList } from "../utils";
 export const searchRouter = express.Router();
 
@@ -92,6 +93,12 @@ const searchProject2025 = async (text: string) => {
   }).exec();
 };
 
+const searchPoliticians = async (text: string) => {
+  return await Politician.find({
+    $or: [{ name: { $regex: `.*${text}.*`, $options: "i" } }],
+  }).exec();
+};
+
 searchRouter.get("/", async (req: Request, res: Response) => {
   const {
     query: { text },
@@ -101,12 +108,14 @@ searchRouter.get("/", async (req: Request, res: Response) => {
     const allCompanies = await searchCompanies(text);
     const allOligarchs = await searchOligarchs(text);
     const allProject2025 = await searchProject2025(text);
+    const allPoliticians = await searchPoliticians(text);
 
     const allItems = [
       ...allProducts,
       ...allCompanies,
       ...allOligarchs,
       ...allProject2025,
+      ...allPoliticians,
     ] as { _id: mongo.ObjectId }[];
 
     const uniqueList = distinctModelList(allItems);

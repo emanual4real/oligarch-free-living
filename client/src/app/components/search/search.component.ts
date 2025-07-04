@@ -38,6 +38,9 @@ export class SearchComponent {
     if (value.includes('project2025')) {
       this.router.navigate(['project2025']);
     }
+    if (value.includes('politician')) {
+      this.router.navigate(['politicians']);
+    }
   }
 
   search(event: AutoCompleteCompleteEvent) {
@@ -56,6 +59,8 @@ export class SearchComponent {
                 return `Product: - ${row.productName}`;
               case 'project2025':
                 return `Project2025: - ${row.name}`;
+              case 'politician':
+                return `Politician: - ${row.name}`;
               default:
                 return '';
             }
