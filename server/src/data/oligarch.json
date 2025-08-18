@@ -151,7 +151,17 @@
     "sources": [
       "https://www.independent.co.uk/news/world/americas/us-politics/larry-ellison-trump-2020-call-b2084757.html",
       "https://nypost.com/2025/01/22/business/larry-ellisons-backing-of-trumps-500b-ai-project-could-help-save-paramount-merger-sources",
-      "https://www.thomasnet.com/insights/larry-ellison-companies/"
+      "https://www.thomasnet.com/insights/larry-ellison-companies/",
+      "https://www.latimes.com/entertainment-arts/tv/story/2025-07-18/stephen-colbert-cancellation-cbs-paramount-the-late-show"
+    ]
+  },
+  {
+    "name": "David Ellison",
+    "companies": ["Skydance"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.latimes.com/entertainment-arts/tv/story/2025-07-18/stephen-colbert-cancellation-cbs-paramount-the-late-show"
     ]
   },
   {

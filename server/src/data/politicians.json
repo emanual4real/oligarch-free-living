@@ -1,14 +1,5 @@
 [
   {
-    "name": "Joni Ernst",
-    "party": "Republican",
-    "state": "Iowa",
-    "description": "Cold bitch responded 'We're all going to die' in response to SNAP and Medicaid cuts.",
-    "sources": [
-      "https://www.yahoo.com/news/well-going-die-joni-ernst-195130674.html"
-    ]
-  },
-  {
     "name": "Nancy Pelosi",
     "party": "Democrat",
     "state": "California",
@@ -1915,8 +1906,11 @@
     "party": "R",
     "state": "Pennsylvania",
     "district": "PA-8",
-    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
-    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+    "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.  This guy also got caught unloading medicaid related stocks after the vote.",
+    "sources": [
+      "https://www.govtrack.us/congress/votes/119-2025/h190",
+      "https://www.commondreams.org/news/republican-congressman-medicaid-stock-trade"
+    ]
   },
   {
     "name": "Meuser, Daniel",
@@ -2564,7 +2558,10 @@
     "state": "Iowa",
     "district": null,
     "description": "Voted to defund American Healthcare, food assistance, and fund Trump's personal army.",
-    "sources": ["https://www.govtrack.us/congress/votes/119-2025/h190"]
+    "sources": [
+      "https://www.govtrack.us/congress/votes/119-2025/h190",
+      "https://www.yahoo.com/news/well-going-die-joni-ernst-195130674.html"
+    ]
   },
   {
     "name": "Grassley, Chuck",
