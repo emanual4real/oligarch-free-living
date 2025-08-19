@@ -53,7 +53,7 @@
     ]
   },
   {
-    "name": "Charles & David Koch",
+    "name": "David Koch",
     "companies": [
       "Koch Industries",
       "Flint Hills Resources",
@@ -79,7 +79,40 @@
     ]
   },
   {
-    "name": "Vince & Linda McMahon",
+    "name": "Charles Koch",
+    "companies": [
+      "Koch Industries",
+      "Flint Hills Resources",
+      "Georgia-Pacific",
+      "Guardian Industries",
+      "Infor",
+      "Invista",
+      "KBX Logistics",
+      "Koch Ag & Energy Solutions",
+      "Koch Disruptive Technologies",
+      "Koch Engineered Solutions",
+      "Koch Investment Companies",
+      "Koch Minerals and Trading",
+      "Molex"
+    ],
+    "oligarchRating": 10,
+    "description": "The Koch's secretive right-wing fundraising network is cutting out the middlemen and stepping up their attack with more directed and aggressive messaging. The shadowy middlemen have been deemed an unnecessary inefficiency and the Kochs are practically doing the job themselves. Why bother even hiding the money anymore? And why even call it 'dark' money anymore? The money's there and it's being spent however the Kochs want.",
+    "sources": [
+      "https://www.rollingstone.com/politics/politics-news/inside-the-koch-brothers-toxic-empire-164403",
+      "https://www.forbes.com/sites/danielfisher/2012/12/05/inside-the-koch-empire-how-the-brothers-plan-to-reshape-america",
+      "https://www.mic.com/articles/88073/here-s-how-dangerous-the-koch-brothers-really-are-by-the-numbers",
+      "https://www.kochinc.com/companies"
+    ]
+  },
+  {
+    "name": "Vince McMahon",
+    "companies": ["Alpha Entertainment"],
+    "oligarchRating": 5,
+    "description": "",
+    "sources": []
+  },
+  {
+    "name": "Linda McMahon",
     "companies": ["Alpha Entertainment"],
     "oligarchRating": 5,
     "description": "",
