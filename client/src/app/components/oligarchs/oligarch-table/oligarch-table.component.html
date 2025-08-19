@@ -1,16 +1,9 @@
-<h1>Know your enemy</h1>
-
 @if (isAdmin) {
   <app-create-oligarch />
 }
 
 <div class="card">
-  <p-table
-    [value]="(data$ | async) ?? []"
-    dataKey="_id"
-    [tableStyle]="{ 'min-width': '60rem' }"
-    [expandedRowKeys]="expandedRows"
-  >
+  <p-table [value]="data()" dataKey="_id" [tableStyle]="{ 'min-width': '60rem' }" [expandedRowKeys]="expandedRows">
     <ng-template #caption>
       <div class="flex flex-wrap justify-end gap-2">
         <p-button label="Expand All" icon="pi pi-plus" text (onClick)="expandAll()" />
@@ -22,7 +15,6 @@
         <th style="width: 5rem"></th>
         <th pSortableColumn="name">Name <p-sortIcon field="name" /></th>
         <th>Companies</th>
-        <!-- <th pSortableColumn="oligarchRating">Oligarch Rating<p-sortIcon field="oligarchRating" /></th> -->
         <th>Description</th>
       </tr>
     </ng-template>
@@ -51,7 +43,6 @@
             }
           </ul>
         </td>
-        <!-- <td>{{ data.oligarchRating }}</td> -->
         <td>{{ data.description }}</td>
       </tr>
     </ng-template>

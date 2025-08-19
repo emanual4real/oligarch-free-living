@@ -1,0 +1,35 @@
+@if (data(); as data) {
+  <p-card [style]="{ width: '25rem', overflow: 'hidden', backgroundColor: '#444444' }">
+    @if (src) {
+      <ng-template #header>
+        <div class="flex flex-row justify-content-between align-items-center m-4">
+          <img alt="Picture" [ngSrc]="src" width="100" height="100" priority class="mr-2" />
+          <h2>{{ data.name }}</h2>
+        </div>
+      </ng-template>
+    }
+    <p>
+      {{ data.description }}
+    </p>
+    <div class="grid">
+      @for (company of data.companies; track $index) {
+        <div class="col-6">
+          <a [routerLink]="['/companies']" [fragment]="company._id">
+            {{ company.companyName }}
+          </a>
+        </div>
+      }
+    </div>
+    <ng-template #footer>
+      <hr />
+      Sources
+      <ul>
+        @for (source of data.sources; track $index) {
+          <li>
+            <a [href]="source">{{ source }}</a>
+          </li>
+        }
+      </ul>
+    </ng-template>
+  </p-card>
+}
