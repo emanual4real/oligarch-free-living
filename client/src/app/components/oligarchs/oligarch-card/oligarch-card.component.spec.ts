@@ -8,9 +8,8 @@ describe('OligarchCardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [OligarchCardComponent]
-    })
-    .compileComponents();
+      imports: [OligarchCardComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(OligarchCardComponent);
     component = fixture.componentInstance;
