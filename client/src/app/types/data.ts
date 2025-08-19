@@ -14,7 +14,7 @@ export interface Oligarch {
   oligarchRating: number;
   description: string;
   sources: string[];
-  companies: string[] | Company[];
+  companies: Company[];
 }
 
 export interface Politician {
@@ -42,5 +42,6 @@ export interface Company {
   _id: string;
   type: 'company';
   companyName: string;
+  isOligarchFree: boolean;
   products: string[] | Product[];
 }

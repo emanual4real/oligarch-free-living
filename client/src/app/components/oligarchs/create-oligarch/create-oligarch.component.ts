@@ -15,7 +15,7 @@ import {
   TextAreaProps,
   TextInputComponent,
   TextInputProps,
-} from '../form-controls';
+} from '../../form-controls';
 
 interface OligarchForm {
   name: FormControl<string>;
@@ -121,6 +121,6 @@ export class CreateOligarchComponent {
   }
 
   handleSave() {
-    this.dataService.addOligarch(this.formGroup.value as Oligarch);
+    this.dataService.addOligarch(this.formGroup.value as unknown as Oligarch);
   }
 }

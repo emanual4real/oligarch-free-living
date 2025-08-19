@@ -1,0 +1,27 @@
+<h1>Know your enemy</h1>
+<div class="mb-2">
+  <p-togglebutton [(ngModel)]="showTable" name="table_toggle" onLabel="Table View" offLabel="Card View" class="mr-2" />
+  @if (!showTable) {
+    <p-multiselect
+      [options]="data"
+      [(ngModel)]="selectedOligarchs"
+      optionLabel="name"
+      optionValue="_id"
+      placeholder="Select Oligarchs"
+      [maxSelectedLabels]="2"
+      (onChange)="handleOnSelect()"
+    />
+  }
+</div>
+
+@if (showTable) {
+  <app-oligarch-table [data]="data" />
+} @else {
+  <div>
+    <div class="flex flex-row flex-wrap gap-7 test">
+      @for (oligarch of filteredData; track $index) {
+        <app-oligarch-card [data]="oligarch" />
+      }
+    </div>
+  </div>
+}

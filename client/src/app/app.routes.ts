@@ -3,7 +3,7 @@ import {
   AboutComponent,
   CompaniesComponent,
   HomeComponent,
-  OligarchTableComponent,
+  OligarchComponent,
   PoliticiansComponent,
   ProductsComponent,
 } from '@components';
@@ -12,7 +12,7 @@ import { Project2025Component } from './components/project2025/project2025.compo
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'oligarchs', component: OligarchTableComponent },
+  { path: 'oligarchs', component: OligarchComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'companies', component: CompaniesComponent },
   { path: 'politicians', component: PoliticiansComponent },
