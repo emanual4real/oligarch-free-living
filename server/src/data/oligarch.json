@@ -670,5 +670,23 @@
     "sources": [
       "https://www.mediaite.com/media/news/bob-costas-condemns-mainstream-press-for-doing-maga-media-there-really-isnt-two-sides"
     ]
+  },
+  {
+    "name": "Joseph Coors",
+    "companies": ["Molson Coors Beverage Company"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.philanthropyroundtable.org/almanac/joe-coors-brews-up-the-heritage-foundation/"
+    ]
+  },
+  {
+    "name": "Perry Sook",
+    "companies": ["Nexstar Media Group"],
+    "oligarchRating": null,
+    "description": "",
+    "sources": [
+      "https://www.forbes.com/sites/tylerroush/2025/09/19/what-to-know-about-nexstar-and-founder-perry-sook-after-local-media-giant-pulls-kimmel-show/"
+    ]
   }
 ]
