@@ -7,16 +7,6 @@ export interface Project2025 {
   source: string;
 }
 
-export interface Oligarch {
-  _id: string;
-  type: 'oligarch';
-  name: string;
-  oligarchRating: number;
-  description: string;
-  sources: string[];
-  companies: Company[];
-}
-
 export interface Politician {
   _id: string;
   type: 'politician';

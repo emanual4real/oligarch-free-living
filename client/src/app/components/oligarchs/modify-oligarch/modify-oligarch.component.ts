@@ -2,10 +2,9 @@ import { CommonModule } from '@angular/common';
 import { Component, input, OnInit } from '@angular/core';
 import { FormArray, FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { DataService } from '@services';
-import { Oligarch, Options } from '@types';
+import { Oligarch, OligarchPatch, Options } from '@types';
 import { ButtonModule } from 'primeng/button';
 import { Dialog } from 'primeng/dialog';
-import { map } from 'rxjs';
 import {
   InputArrayComponent,
   InputArrayProps,
@@ -43,15 +42,8 @@ interface OligarchForm {
 })
 export class ModifyOligarchComponent implements OnInit {
   data = input<Oligarch | undefined>();
+  companyList = input<Options[]>([]);
   visible: boolean = false;
-  companyList$ = this.dataService.getCompanyList().pipe(
-    map((data) => {
-      const options = data
-        .filter((row) => row._id && row.companyName)
-        .map((row) => ({ id: row._id, label: row.companyName })) as Options[];
-      return options;
-    })
-  );
 
   formGroup: FormGroup<OligarchForm> = new FormGroup({
     id: new FormControl(''),
@@ -103,25 +95,42 @@ export class ModifyOligarchComponent implements OnInit {
 
   constructor(private dataService: DataService) {}
 
-  private loadOligarchIntoForm() {
-    const data = this.data();
+  private loadOligarchIntoForm(data: Oligarch) {
+    this.formGroup.patchValue({
+      id: data._id,
+      name: data.name,
+      description: data.description,
+      sources: data.sources,
+    });
 
-    if (data) {
-      this.formGroup.patchValue({
-        id: data._id,
-        name: data.name,
-        description: data.description,
-        sources: data.sources,
-      });
-    }
     this.removeCompany(0);
     data?.companies.forEach((company) => {
       this.addCompany(company._id);
     });
   }
 
+  private handlePost() {
+    this.dataService.addOligarch(this.formGroup.value as unknown as Oligarch);
+  }
+  private handlePatch(id: string) {
+    const formValues = this.formGroup.value;
+    if (formValues.name) {
+      const patchValue: OligarchPatch = {
+        name: formValues.name,
+        description: formValues.description,
+        companies: formValues.companies ?? [],
+        oligarchRating: formValues.oligarchRating,
+        sources: formValues.sources ?? [],
+      };
+      this.dataService.modifyOligarch(id, patchValue);
+    }
+  }
+
   ngOnInit(): void {
-    this.loadOligarchIntoForm();
+    const data = this.data();
+    if (data) {
+      this.loadOligarchIntoForm(data);
+    }
   }
 
   showDialog() {
@@ -145,6 +154,10 @@ export class ModifyOligarchComponent implements OnInit {
   }
 
   handleSave() {
-    this.dataService.addOligarch(this.formGroup.value as unknown as Oligarch);
+    if (!this.data()) {
+      this.handlePost();
+    } else if (this.formGroup.controls.id.value) {
+      this.handlePatch(this.formGroup.controls.id.value);
+    }
   }
 }

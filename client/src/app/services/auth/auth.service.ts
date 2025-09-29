@@ -17,7 +17,21 @@ export class AuthService {
     return this.token;
   }
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient) {
+    this.fetchToken();
+  }
+
+  // TODO: need to check if the token is still valid
+  private fetchToken() {
+    const token = sessionStorage.getItem('token');
+    this.token = token;
+  }
+
+  private saveToken() {
+    if (this.token) {
+      sessionStorage.setItem('token', this.token);
+    }
+  }
 
   login(emailAddress: string, password: string) {
     this.httpClient
@@ -25,6 +39,7 @@ export class AuthService {
       .pipe(take(1))
       .subscribe((response) => {
         this.token = response.token;
+        this.saveToken();
       });
   }
 }

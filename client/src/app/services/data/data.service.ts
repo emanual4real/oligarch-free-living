@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from '@environment';
-import { Company, Oligarch, Politician, Product, Project2025 } from '@types';
+import { Company, Oligarch, OligarchPatch, Politician, Product, Project2025 } from '@types';
 import { forkJoin, map, Observable, of, switchMap, take, tap } from 'rxjs';
 import { AuthService } from '../auth';
 
@@ -97,6 +97,20 @@ export class DataService {
       .pipe(take(1))
       .subscribe((data) => {
         this.cache.oligarchs.push(data);
+      });
+  }
+
+  modifyOligarch(id: string, body: OligarchPatch) {
+    const headers: HttpHeaders = new HttpHeaders({
+      Authorization: `Bearer ${this.authService.getToken}`,
+    });
+    this.httpClient
+      .patch<Oligarch>(`${environment.apiUrl}/oligarchs/${id}`, body, { headers })
+      .pipe(take(1))
+      .subscribe((data) => {
+        const index = this.cache.oligarchs.findIndex((row) => row._id === id);
+
+        this.cache.oligarchs[index] = data;
       });
   }
 }

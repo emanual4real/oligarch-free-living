@@ -1,4 +1,4 @@
-<p-button [icon]="data() ? 'pi pi-pencil' : 'pi pi-plus'" (click)="showDialog()" />
+<p-button [icon]="this.data() ? 'pi pi-pencil' : 'pi pi-plus'" (click)="showDialog()" />
 
 <p-dialog header="Add Oligarch" [modal]="true" [(visible)]="visible" [style]="{ width: '30rem' }">
   <form [formGroup]="formGroup">
@@ -6,7 +6,7 @@
     <app-text-area [props]="descriptionProps"></app-text-area>
     <app-select-array
       [props]="companyProps"
-      [options]="(companyList$ | async) ?? []"
+      [options]="companyList()"
       (addControl)="addCompany()"
       (removeControl)="removeCompany($event)"
     ></app-select-array>

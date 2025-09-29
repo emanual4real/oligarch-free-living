@@ -1,5 +1,5 @@
 @if (isAdmin) {
-  <app-modify-oligarch />
+  <app-modify-oligarch [companyList]="(companyList$ | async) ?? []" />
 }
 
 <div class="card">
@@ -49,7 +49,7 @@
         <td>{{ data.description }}</td>
         @if (isAdmin) {
           <td>
-            <app-modify-oligarch [data]="data" />
+            <app-modify-oligarch [data]="data" [companyList]="(companyList$ | async) ?? []" />
           </td>
         }
       </tr>
