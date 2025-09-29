@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, input, OnInit } from '@angular/core';
 import { FormArray, FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { DataService } from '@services';
 import { Oligarch, Options } from '@types';
@@ -18,6 +18,7 @@ import {
 } from '../../form-controls';
 
 interface OligarchForm {
+  id: FormControl<string | null>;
   name: FormControl<string>;
   oligarchRating?: FormControl<number>;
   description: FormControl<string>;
@@ -26,7 +27,7 @@ interface OligarchForm {
 }
 
 @Component({
-  selector: 'app-create-oligarch',
+  selector: 'app-modify-oligarch',
   imports: [
     ButtonModule,
     CommonModule,
@@ -37,10 +38,11 @@ interface OligarchForm {
     InputArrayComponent,
     SelectArrayComponent,
   ],
-  templateUrl: './create-oligarch.component.html',
-  styleUrl: './create-oligarch.component.css',
+  templateUrl: './modify-oligarch.component.html',
+  styleUrl: './modify-oligarch.component.css',
 })
-export class CreateOligarchComponent {
+export class ModifyOligarchComponent implements OnInit {
+  data = input<Oligarch | undefined>();
   visible: boolean = false;
   companyList$ = this.dataService.getCompanyList().pipe(
     map((data) => {
@@ -52,6 +54,7 @@ export class CreateOligarchComponent {
   );
 
   formGroup: FormGroup<OligarchForm> = new FormGroup({
+    id: new FormControl(''),
     name: new FormControl('', { nonNullable: true }),
     description: new FormControl('', { nonNullable: true }),
     sources: new FormArray<FormControl>([new FormControl('', { nonNullable: true })]),
@@ -100,6 +103,27 @@ export class CreateOligarchComponent {
 
   constructor(private dataService: DataService) {}
 
+  private loadOligarchIntoForm() {
+    const data = this.data();
+
+    if (data) {
+      this.formGroup.patchValue({
+        id: data._id,
+        name: data.name,
+        description: data.description,
+        sources: data.sources,
+      });
+    }
+    this.removeCompany(0);
+    data?.companies.forEach((company) => {
+      this.addCompany(company._id);
+    });
+  }
+
+  ngOnInit(): void {
+    this.loadOligarchIntoForm();
+  }
+
   showDialog() {
     this.visible = true;
   }
@@ -112,8 +136,8 @@ export class CreateOligarchComponent {
     this.formGroup.controls.sources.removeAt(index);
   }
 
-  addCompany() {
-    this.formGroup.controls.companies.push(new FormControl('', { nonNullable: true }));
+  addCompany(id?: string) {
+    this.formGroup.controls.companies.push(new FormControl(id ?? '', { nonNullable: true }));
   }
 
   removeCompany(index: number) {

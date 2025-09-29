@@ -5,7 +5,7 @@ export * from './gallery';
 export * from './home';
 export * from './login';
 export * from './oligarchs';
-export * from './oligarchs/create-oligarch';
+export * from './oligarchs/modify-oligarch';
 export * from './politicians';
 export * from './products';
 export * from './search';

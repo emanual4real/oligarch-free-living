@@ -3,7 +3,7 @@
     <div class="flex flex-column">
       <label [for]="props.placeholder">{{ props.title }}</label>
       @for (control of props.formArray.controls; track $index) {
-        <div class="flex flex-row">
+        <div class="flex flex-row mb-1">
           <p-inputgroup-addon>
             <i [class]="props.icon"></i>
           </p-inputgroup-addon>
@@ -14,6 +14,7 @@
             optionValue="id"
             [placeholder]="props.placeholder"
             appendTo="body"
+            class="mx-1"
           />
           @if (props.formArray.length - 1 === $index) {
             <p-button icon="pi pi-plus" (click)="handleAddControl()" />

@@ -2,19 +2,19 @@ import { provideHttpClient } from '@angular/common/http';
 import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { DataService } from '@services';
-import { CreateOligarchComponent } from './create-oligarch.component';
+import { ModifyOligarchComponent } from './modify-oligarch.component';
 
 describe('CreateOligarchComponent', () => {
-  let component: CreateOligarchComponent;
-  let fixture: ComponentFixture<CreateOligarchComponent>;
+  let component: ModifyOligarchComponent;
+  let fixture: ComponentFixture<ModifyOligarchComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CreateOligarchComponent],
+      imports: [ModifyOligarchComponent],
       providers: [provideHttpClient(), provideHttpClientTesting(), DataService],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(CreateOligarchComponent);
+    fixture = TestBed.createComponent(ModifyOligarchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

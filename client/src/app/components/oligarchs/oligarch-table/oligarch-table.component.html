@@ -1,5 +1,5 @@
 @if (isAdmin) {
-  <app-create-oligarch />
+  <app-modify-oligarch />
 }
 
 <div class="card">
@@ -16,6 +16,9 @@
         <th pSortableColumn="name">Name <p-sortIcon field="name" /></th>
         <th>Companies</th>
         <th>Description</th>
+        @if (isAdmin) {
+          <th></th>
+        }
       </tr>
     </ng-template>
     <ng-template #body let-data let-expanded="expanded">
@@ -44,6 +47,11 @@
           </ul>
         </td>
         <td>{{ data.description }}</td>
+        @if (isAdmin) {
+          <td>
+            <app-modify-oligarch [data]="data" />
+          </td>
+        }
       </tr>
     </ng-template>
     <ng-template #expandedrow let-oligarch>
