@@ -682,11 +682,20 @@
   },
   {
     "name": "Perry Sook",
-    "companies": ["Nexstar Media Group"],
+    "companies": ["Nexstar Media Group", "The Hill"],
     "oligarchRating": null,
     "description": "",
     "sources": [
       "https://www.forbes.com/sites/tylerroush/2025/09/19/what-to-know-about-nexstar-and-founder-perry-sook-after-local-media-giant-pulls-kimmel-show/"
+    ]
+  },
+  {
+    "name": "Timothy Mellon",
+    "companies": [],
+    "oligarchRating": null,
+    "description": "Billionaire major GOP and Trump donor.",
+    "sources": [
+      "https://www.nytimes.com/2025/10/25/us/politics/timothy-mellon-donation-troops.html?utm_source=firefox-newtab-en-us"
     ]
   }
 ]
