@@ -7,8 +7,8 @@ import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
 import { map } from 'rxjs';
-import { ModifyOligarchComponent } from '../modify-oligarch';
 import { HighlightDirective } from 'src/app/directives';
+import { ModifyOligarchComponent } from '../modify-oligarch';
 
 @Component({
   selector: 'app-oligarch-table',
@@ -40,6 +40,7 @@ export class OligarchTableComponent {
       return options;
     })
   );
+  color = '#FF0000';
 
   constructor(
     private authService: AuthService,
