@@ -10,7 +10,7 @@ import { HighlightDirective } from './highlight.directive';
 class TestComponent {}
 
 describe('HighlightDirective', () => {
-  let component: TestComponent;
+  // let component: TestComponent;
   let fixture: ComponentFixture<TestComponent>;
   let des: DebugElement[];
 
@@ -21,7 +21,7 @@ describe('HighlightDirective', () => {
     }).compileComponents();
 
     fixture = TestBed.createComponent(TestComponent);
-    component = fixture.componentInstance;
+    // component = fixture.componentInstance;
     fixture.detectChanges();
 
     // all elements with an attached HighlightDirective
