@@ -4,11 +4,12 @@ import { TestBed } from '@angular/core/testing';
 import { ActivatedRoute } from '@angular/router';
 import { DataService } from '@services';
 import { AppComponent } from './app.component';
+import { HighlightDirective } from './directives';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent],
+      imports: [AppComponent, HighlightDirective],
       providers: [
         provideHttpClient(),
         provideHttpClientTesting(),

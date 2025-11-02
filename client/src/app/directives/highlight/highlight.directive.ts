@@ -5,7 +5,6 @@ import { Directive, ElementRef, HostListener, inject, input } from '@angular/cor
  */
 @Directive({
   selector: '[appHighlight]',
-  standalone: true,
 })
 export class HighlightDirective {
   @HostListener('mouseenter') onMouseEnter() {
@@ -16,6 +15,7 @@ export class HighlightDirective {
     this.clearHighlight();
   }
   private element = inject(ElementRef);
+
   color = input();
   defaultColor = input('#4c4e32');
 

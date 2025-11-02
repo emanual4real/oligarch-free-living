@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { HighlightDirective } from '@directives';
 import { AuthService, DataService } from '@services';
 import { Oligarch, Options } from '@types';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
 import { map } from 'rxjs';
-import { HighlightDirective } from 'src/app/directives';
 import { ModifyOligarchComponent } from '../modify-oligarch';
 
 @Component({
