@@ -8,10 +8,19 @@ import { TableModule } from 'primeng/table';
 import { ToastModule } from 'primeng/toast';
 import { map } from 'rxjs';
 import { ModifyOligarchComponent } from '../modify-oligarch';
+import { HighlightDirective } from 'src/app/directives';
 
 @Component({
   selector: 'app-oligarch-table',
-  imports: [TableModule, ToastModule, ButtonModule, CommonModule, RouterLink, ModifyOligarchComponent],
+  imports: [
+    TableModule,
+    ToastModule,
+    ButtonModule,
+    CommonModule,
+    RouterLink,
+    ModifyOligarchComponent,
+    HighlightDirective,
+  ],
   templateUrl: './oligarch-table.component.html',
   styleUrl: './oligarch-table.component.css',
 })
