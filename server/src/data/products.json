@@ -7469,5 +7469,181 @@
     "sources": [
       "https://en.wikipedia.org/wiki/List_of_stations_owned_or_operated_by_Sinclair_Broadcast_Group"
     ]
+  },
+  {
+    "productName": "AERIN Beauty",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Bobbi Brown",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Clinique",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "DECIEM by Brandon Truaxe",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Dr. Jart+",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Estée Lauder",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "GLAMGLOW",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "La Mer",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Lab Series",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "MAC Cosmetics",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Origins",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Darphin Paris",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Smashbox",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Too Faced",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Tom Ford Beauty",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Aramis",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Kilian Paris",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Editions de Parfums Frédéric Malle",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Jo Malone London",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Le Labo",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Aveda",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
+  },
+  {
+    "productName": "Bumble and bumble",
+    "productType": "Beauty Products",
+    "company": "The Estée Lauder Companies",
+    "alternatives": [],
+    "isOligarchFree": false,
+    "sources": ["https://en.wikipedia.org/wiki/The_Est%C3%A9e_Lauder_Companies"]
   }
 ]
