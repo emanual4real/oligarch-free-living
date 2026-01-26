@@ -4,7 +4,7 @@ MEAN stack (Mongo, Expressjs, Angular, and Node).
 
 ## Setup
 
-This application uses a VS code devcontainer to handle all dependencies
+This application uses a VS code devcontainer to handle all dependencies. You will need docker installed.
 
 1. Clone repo
 2. Install devcontainer extension in VS Code
@@ -27,7 +27,8 @@ This application uses a VS code devcontainer to handle all dependencies
 3. `npm run start`
 4. Open new terminal
 5. `cd ./server`
-6. `npm run start`
+6. Copy .env.example to .env
+7. `npm run start`
 
 Sources
 https://bridgestoburn.substack.com/p/wall-of-shame
